@@ -1,0 +1,1 @@
+scr_add_item_to_inventory("My Boat", spr_ship, obj_ship, "A good ship",1, 100)
