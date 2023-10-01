@@ -14,6 +14,6 @@ if place_meeting(x,y,obj_ship){
 	
 	if keyboard_check_pressed(ord("E")){
 		instance_destroy()
-		inv_add_item(name,desc , 1, object_index, sprite_index, weight, price)
+		inv_add_item(item_data)
 	}
 }
