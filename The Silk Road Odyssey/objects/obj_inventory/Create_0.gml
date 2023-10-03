@@ -1,6 +1,6 @@
 total_weight = 0;
 
-active = false
+active = true
 
 //set up view x and y
 vx = camera_get_view_x(view_camera[0])

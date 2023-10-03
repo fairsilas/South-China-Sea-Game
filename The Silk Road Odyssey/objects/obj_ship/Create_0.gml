@@ -15,9 +15,9 @@ angle = 0
 turnspeed = 1
 max_speed = 2
 
-acc = 0.025
+acc = 0.01
 rev_acc = -0.01
-momentum = 0.08
+momentum = 0.085
 frict = 0.09
 
 ripple_timer = 0

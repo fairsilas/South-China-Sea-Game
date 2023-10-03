@@ -6,9 +6,12 @@ y = obj_ship.y
 camera_set_view_speed(view_camera[0], distance_to_point(vx+(vw/2), y)/30,distance_to_point(x, vy+(vh/2))/30)
 
 }else if (mode = 1){
-	x = obj_ship.x + choose(-5,5)
-	y = obj_ship.y+ choose(-5,5)
-	camera_set_view_speed(view_camera[0], distance_to_point(vx+(vw/2), y)/9,distance_to_point(x, vy+(vh/2))/9)
+	xsh = choose(-2,2)
+	ysh = choose(-2,2)
+	x = obj_ship.x + choose(-2,2)
+	y = obj_ship.y+ choose(-2,2)
+	camera_set_view_pos(view_camera[0], vx+xsh, vy+ysh)
+	camera_set_view_speed(view_camera[0], distance_to_point(vx+(vw/2), y)/2,distance_to_point(x, vy+(vh/2)))
 	}
 
 if keyboard_check_pressed(vk_space){

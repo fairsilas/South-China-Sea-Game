@@ -27,7 +27,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gui","folderPath":"folders/Sprites/gui.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"on planet","folderPath":"folders/Sprites/on planet.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
@@ -40,6 +39,7 @@
   "resources": [
     {"id":{"name":"spr_map","path":"sprites/spr_map/spr_map.yy",},},
     {"id":{"name":"obj_bolt","path":"objects/obj_bolt/obj_bolt.yy",},},
+    {"id":{"name":"scr_find_collision_point","path":"scripts/scr_find_collision_point/scr_find_collision_point.yy",},},
     {"id":{"name":"spr_debree","path":"sprites/spr_debree/spr_debree.yy",},},
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},},
@@ -77,6 +77,7 @@
     {"id":{"name":"snd_splash","path":"sounds/snd_splash/snd_splash.yy",},},
     {"id":{"name":"spr_item_equipped","path":"sprites/spr_item_equipped/spr_item_equipped.yy",},},
     {"id":{"name":"obj_debree","path":"objects/obj_debree/obj_debree.yy",},},
+    {"id":{"name":"scr_shake_screen","path":"scripts/scr_shake_screen/scr_shake_screen.yy",},},
     {"id":{"name":"snd_sailboat_sound","path":"sounds/snd_sailboat_sound/snd_sailboat_sound.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
