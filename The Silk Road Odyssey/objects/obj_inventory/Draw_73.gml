@@ -1,7 +1,7 @@
 
 if (active = true){
 	draw_sprite(spr_ship_info_panel,0,vx,vy+vh)
-	draw_text(vx-vw+43, vh-40, "lbs:"+ string(total_weight)+" / MAX")
+	draw_text(vx-vw+43, vy+vh-40, "lbs:"+ string(total_weight)+" / MAX")
 	i = 0
 	for (h=0; h< height; h++){
 		for (w=0; w< width; w++){
@@ -42,6 +42,8 @@ if (active = true){
 						if (keyboard_check_pressed(ord("Q"))){
 							inv_drop_item(i)
 						}
+						
+						//select and equip an item
 						if (mouse_check_button_pressed(mb_left)){
 							
 								if equipped_item != ds_list_find_value(inv, i){
@@ -50,6 +52,7 @@ if (active = true){
 									equipped_item = noone
 								}
 						}
+						
 						
 						
 				

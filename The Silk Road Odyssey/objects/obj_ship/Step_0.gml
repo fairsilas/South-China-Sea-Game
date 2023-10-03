@@ -43,6 +43,9 @@ if (right){
 if (up) {
 	motion_add(angle, acc)	
 }
+if (down){
+	motion_add(angle, rev_acc)	
+}
 
 //max speed
 if (speed > max_speed){

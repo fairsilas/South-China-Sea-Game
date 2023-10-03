@@ -13,6 +13,6 @@ audio_emitter_falloff(em, audio_starts_to_drop_at, audio_max_distance_to_be_hear
 
 audio_play_sound_on(em, snd_crash,false, 10)
 
-repeat(8){
+repeat(12){
 	instance_create_depth(x,y,depth-1,obj_debree)
 }

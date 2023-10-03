@@ -15,8 +15,8 @@ cell_size = 35
 xpos = vw/5
 ypos = vh /1.19
 
-xprofile =16
-yprofile = vh -170
+xprofile = 80
+yprofile = vh -200
 
 inv = ds_list_create()
 

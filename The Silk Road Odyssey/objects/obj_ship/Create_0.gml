@@ -1,5 +1,6 @@
 audio_play_sound(snd_seaguls, 1, true,)
 audio_listener_orientation(0,1,0,0,0,1);
+depth = 0
 
 vx = camera_get_view_x(view_camera[0])
 vy = camera_get_view_y(view_camera[0])
@@ -15,8 +16,9 @@ turnspeed = 1
 max_speed = 2
 
 acc = 0.025
-momentum = 0.06
-frict = 0.08
+rev_acc = -0.01
+momentum = 0.08
+frict = 0.09
 
 ripple_timer = 0
 ripple_freq = 20

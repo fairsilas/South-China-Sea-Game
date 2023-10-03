@@ -66,6 +66,7 @@
     {"id":{"name":"obj_player_view","path":"objects/obj_player_view/obj_player_view.yy",},},
     {"id":{"name":"fnt_inv_desc","path":"fonts/fnt_inv_desc/fnt_inv_desc.yy",},},
     {"id":{"name":"spr_item_slot","path":"sprites/spr_item_slot/spr_item_slot.yy",},},
+    {"id":{"name":"scr_boat_physics","path":"scripts/scr_boat_physics/scr_boat_physics.yy",},},
     {"id":{"name":"spr_item_profile","path":"sprites/spr_item_profile/spr_item_profile.yy",},},
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},},
     {"id":{"name":"obj_splash","path":"objects/obj_splash/obj_splash.yy",},},

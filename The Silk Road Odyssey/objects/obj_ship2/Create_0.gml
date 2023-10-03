@@ -3,7 +3,7 @@ em=audio_emitter_create()
 audio_max_distance_to_be_heard = 1000;
 audio_starts_to_drop_at = 100;
 fall_off_rate = 1
-
+depth = 0
 
 // Set audio properties for the emitter
 audio_falloff_set_model(audio_falloff_linear_distance)
