@@ -85,8 +85,8 @@ Historical events influence the player's opportunities and challenges.
 Ship and NPC AI with various states and behaviors.
 Random wandering, following trade routes, and engaging in dynamic interactions with other NPCs.
 
-
-
+Trade and interaction GUI design.
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/50f503b0-2c4c-4130-8219-d74a6c3280c6)
 
 
 Currently in development...
