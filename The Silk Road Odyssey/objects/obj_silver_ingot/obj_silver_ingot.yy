@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bolt",
+  "name": "obj_silver_ingot",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bolt",
-    "path": "sprites/spr_bolt/spr_bolt.yy",
+    "name": "spr_silver_ingot",
+    "path": "sprites/spr_silver_ingot/spr_silver_ingot.yy",
   },
   "spriteMaskId": null,
   "visible": true,

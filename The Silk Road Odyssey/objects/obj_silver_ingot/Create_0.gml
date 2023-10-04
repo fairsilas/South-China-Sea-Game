@@ -1,9 +1,9 @@
 item_data =  {
-	title : "Bolt",
-	desc : "A big metal bolt. Part of an old broken ship.",
-	weight : 1000,
+	title : "A Tael of Silver  一两银)",
+	desc : "A Worth around 1000元. Although prices vary greatly depending on area and demand.(More info needed)",
+	weight : 1,
 	count : 1,
-	price : 5,
+	price : 1000,
 	sprite : sprite_index,
 	scr : function()
         {
@@ -12,4 +12,3 @@ item_data =  {
 			}
         }
 }
-

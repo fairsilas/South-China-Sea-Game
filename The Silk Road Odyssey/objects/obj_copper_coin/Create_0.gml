@@ -1,9 +1,9 @@
 item_data =  {
-	title : "Screw",
-	desc : "A big metal bolt. Part of an old broken ship.",
+	title : "Copper Coin",
+	desc : "Worth 10元. A Qing Dynasty Copper coin. The hole in the middle makes it convenient to carry on a string.",
 	weight : 1000,
 	count : 1,
-	price : 5,
+	price : 10,
 	sprite : sprite_index,
 	scr : function()
         {
@@ -12,3 +12,4 @@ item_data =  {
 			}
         }
 }
+

@@ -22,7 +22,7 @@ if (active = true){
 				draw_sprite(ds_list_find_value(inv, i).sprite, 0, w*cell_size+vx+xpos+16, h*cell_size+vy+ypos+22);
 				draw_set_font(fnt_inv_desc)
 				draw_set_color(c_ltgray)
-				draw_text(w*cell_size+vx+xpos, h*cell_size+vy+ypos, string(ds_list_find_value(inv, i).count));
+				draw_text(w*cell_size+vx+xpos+3, h*cell_size+vy+ypos, string(ds_list_find_value(inv, i).count));
 				
 				//hover with mouse
 				if (mouse_x > w*cell_size+vx+xpos)and (mouse_x < w*cell_size+vx+xpos+cell_size)and(mouse_y > h*cell_size+vy+ypos)and (mouse_y < h*cell_size+ypos+vy+cell_size){
