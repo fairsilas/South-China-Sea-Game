@@ -25,7 +25,7 @@ His tales will be woven into the game as a legendary figure, perhaps influencing
 A fisherman turned pirate, ultimately hanged.
 Players may encounter Mo Guanfu in various ways, perhaps witnessing his trial and hanging, or encountering him as an NPC.
 
-Game Features:
+# Game Features:
 
 ### 1.	Leaderboards:
 Online leaderboards for accumulating wealth and infamy.
