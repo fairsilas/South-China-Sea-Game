@@ -55,7 +55,7 @@ Culturally appropriate responses required for success, reflecting the historical
 ### 7.	Barter System: 
 Barter system for trade in less economically developed areas.
 Items' values influence successful trades, adding complexity to economic interactions.
-Currency:
+
 
 ### 8.	Currency system
 With copper coins, silver ingots, and occasional other forms of currency.
