@@ -32,11 +32,11 @@ while direction < -360{
 
 
 if (left){
-	angle += turnspeed*speed/(speed+1)
+	angle += turnspeed*speed/(speed+2)+0.1
 }
 
 if (right){
-	angle -= turnspeed*speed/(speed+1)
+	angle -= turnspeed*speed/(speed+2)+0.1
 }
 
 //propel

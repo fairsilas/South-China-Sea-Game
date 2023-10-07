@@ -1,4 +1,25 @@
+//ship and player stats
+
 total_weight = 0;
+max_weight = 100*2000 // 100 tons
+current_ship = obj_ship
+
+equipped_item = noone
+
+
+
+
+
+
+
+
+enum InvStates {
+    def,
+    trade
+}
+
+// Initialize the current inventory state
+currentInvState = InvStates.def;
 
 active = true
 
@@ -9,8 +30,8 @@ vw = camera_get_view_width(view_camera[0])
 vh = camera_get_view_height(view_camera[0])
 
 //set up where inventory shows up
-width = 16
-height = 3
+width = 28
+height = 4
 cell_size = 35
 xpos = vw/5
 ypos = vh /1.19
@@ -19,8 +40,14 @@ xprofile = 80
 yprofile = vh -200
 
 inv = ds_list_create()
+trader_inv = ds_list_create()
 
-equipped_item = noone
+trader_trade = ds_list_create()
+inv_trade = ds_list_create()
+
+
+
+
 
 
 

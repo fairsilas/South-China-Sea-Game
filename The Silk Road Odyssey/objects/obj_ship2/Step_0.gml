@@ -11,6 +11,7 @@ if audio_started = false {
 
 if scr_find_collision_point(obj_ship) != noone{
 	
+	//smash ship
 	if (obj_ship.speed > 1){
 		//destroy
 		var xy = scr_find_collision_point(obj_ship)
@@ -20,11 +21,14 @@ if scr_find_collision_point(obj_ship) != noone{
 		scr_shake_screen(2)
 		instance_destroy()
 		obj_ship.speed /=2
-	}else{
+	}
+	//bump lightly
+	else{
 		var xy = scr_find_collision_point(obj_ship)
 		repeat(3){
 			instance_create_depth(xy[0],xy[1],-1, obj_debree)
 		}
+		
 		scr_shake_screen(2)
 		obj_ship.speed = obj_ship.speed=0
 		with (obj_ship){

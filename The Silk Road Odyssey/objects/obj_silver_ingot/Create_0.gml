@@ -1,6 +1,6 @@
 item_data =  {
 	title : "A Tael of Silver  一两银)",
-	desc : "A Worth around 1000元. Although prices vary greatly depending on area and demand.(More info needed)",
+	desc : "A Worth around 1000 yuan. Although prices vary greatly depending on area and demand.(More info needed)",
 	weight : 1,
 	count : 1,
 	price : 1000,
