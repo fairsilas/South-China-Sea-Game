@@ -4,8 +4,6 @@
 function scr_trade(){
 if (active = true){
 	//draw basic GUI
-	draw_sprite(spr_ship_info_panel_trade,0,vx,vy+vh)
-	
 	//draw slots
 	i = 0
 	for (h=0; h< height; h++){
@@ -40,16 +38,13 @@ if (active = true){
 					draw_text(vx+vw-90, vy+vh-40, "Drop Item [Q]")
 					if (keyboard_check_pressed(ord("Q"))){
 						inv_drop_item(i,inv)
-						i = 0
 					}
 						
 					//select item for trading
 					draw_text(vx+vw-100, vy+vh-30, "Trade for item")
 					if mouse_check_button_pressed(mb_left){
-							scr_add_item(ds_list_find_value(inv,i),trader_trade)
+							scr_add_item(ds_list_find_value(inv,i),inv_trade)
 							inv_drop_item(i, inv)
-							
-
 					}
 					
 					}
@@ -61,14 +56,32 @@ if (active = true){
 		}
 		
 		
+		yy = 122
+		xx = 122
 		
+		//draw slots
+		i = 0
+		for (h=0; h< height; h++){
+			for (w=0; w< width; w++){
+				if i <ds_list_size(inv_trade) {
+					draw_sprite(spr_item_slot, 0, w*cell_size+vx+xx, h*cell_size+vy+yy);
+					//draw slots
+					draw_sprite(ds_list_find_value(inv_trade, i).sprite, 0, w*cell_size+vx+xx+16, h*cell_size+vy+yy+22);
+					draw_set_font(fnt_inv_desc)
+					draw_set_color(c_ltgray)
+					draw_text(w*cell_size+vx+xx+3, h*cell_size+vy+yy, string(ds_list_find_value(inv_trade, i).count));
+				}else{
+					return;	
+				}
+				i++
+			}
+		}
 		
-		
-		
-		
+	
 		
 		
 		
 	}
 }
+
 

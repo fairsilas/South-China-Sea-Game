@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function inv_set_item(item_data){
+function inv_set_item(item_data, list){
+	
 		var duplicate_item_ind = -1
 		for(i=0; i<ds_list_size(obj_inventory.inv); i++){
 			 if ds_list_find_value(obj_inventory.inv, i).title == item_data.title{

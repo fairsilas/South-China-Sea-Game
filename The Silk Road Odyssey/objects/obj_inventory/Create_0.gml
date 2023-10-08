@@ -32,7 +32,7 @@ vh = camera_get_view_height(view_camera[0])
 //set up where inventory shows up
 width = 28
 height = 4
-cell_size = 35
+cell_size = 40
 xpos = vw/5
 ypos = vh /1.19
 
