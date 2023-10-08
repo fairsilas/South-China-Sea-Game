@@ -39,8 +39,8 @@ if (active = true){
 					draw_set_color(c_ltgray)
 					draw_text_ext(vx+xprofile+ 20, vy+yprofile-4, ds_list_find_value(inv, i).desc, 12, 180);
 					draw_set_color(c_white)
+					
 					//drop item
-					draw_set_font(fnt_inv_desc)
 					draw_text(vx+vw-90, vy+vh-40, "Drop Item [Q]")
 					if (keyboard_check_pressed(ord("Q"))){
 						inv_drop_item(i,inv)
@@ -49,11 +49,10 @@ if (active = true){
 					//select item for trading
 					draw_text(vx+vw-100, vy+vh-30, "Trade for item")
 					if mouse_check_button_pressed(mb_left){
-						ds_list_copy(inv_copy,inv)
-								scr_add_item(ds_list_find_value(inv_copy,i),inv_trade)
+								scr_add_item(ds_list_find_value(inv,i),inv_trade)
 								inv_drop_item(i,inv)
-								//show_debug_message("Traded items: "+string(ds_list_size(inv_trade)))
-								//show_debug_message("My items: "+string(ds_list_size(inv)))
+								show_debug_message("Traded items: "+string(ds_list_size(inv_trade)))
+								show_debug_message("My items: "+string(ds_list_size(inv)))
 								
 					}
 					
