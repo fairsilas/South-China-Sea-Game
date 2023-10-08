@@ -4,6 +4,14 @@
 function scr_trade(){
 if (active = true){
 	//draw basic GUI
+	draw_sprite(spr_ship_info_panel_trade,0,vx,vy+vh)
+	draw_text(vx-vw+43, vy+vh-40, "lbs:"+ string(total_weight)+" / MAX")
+	draw_set_font(fnt_inv_desc)
+	draw_set_color(c_ltgray)
+
+	
+	
+	
 	//draw slots
 	i = 0
 	for (h=0; h< height; h++){
@@ -12,8 +20,6 @@ if (active = true){
 				draw_sprite(spr_item_slot, 0, w*cell_size+vx+xpos, h*cell_size+vy+ypos);
 				//draw slots
 				draw_sprite(ds_list_find_value(inv, i).sprite, 0, w*cell_size+vx+xpos+16, h*cell_size+vy+ypos+22);
-				draw_set_font(fnt_inv_desc)
-				draw_set_color(c_ltgray)
 				draw_text(w*cell_size+vx+xpos+3, h*cell_size+vy+ypos, string(ds_list_find_value(inv, i).count));
 				
 
@@ -43,8 +49,12 @@ if (active = true){
 					//select item for trading
 					draw_text(vx+vw-100, vy+vh-30, "Trade for item")
 					if mouse_check_button_pressed(mb_left){
-							scr_add_item(ds_list_find_value(inv,i),inv_trade)
-							inv_drop_item(i, inv)
+						ds_list_copy(inv_copy,inv)
+								scr_add_item(ds_list_find_value(inv_copy,i),inv_trade)
+								inv_drop_item(i,inv)
+								//show_debug_message("Traded items: "+string(ds_list_size(inv_trade)))
+								//show_debug_message("My items: "+string(ds_list_size(inv)))
+								
 					}
 					
 					}
@@ -54,31 +64,6 @@ if (active = true){
 				i++
 			}
 		}
-		
-		
-		yy = 122
-		xx = 122
-		
-		//draw slots
-		i = 0
-		for (h=0; h< height; h++){
-			for (w=0; w< width; w++){
-				if i <ds_list_size(inv_trade) {
-					draw_sprite(spr_item_slot, 0, w*cell_size+vx+xx, h*cell_size+vy+yy);
-					//draw slots
-					draw_sprite(ds_list_find_value(inv_trade, i).sprite, 0, w*cell_size+vx+xx+16, h*cell_size+vy+yy+22);
-					draw_set_font(fnt_inv_desc)
-					draw_set_color(c_ltgray)
-					draw_text(w*cell_size+vx+xx+3, h*cell_size+vy+yy, string(ds_list_find_value(inv_trade, i).count));
-				}else{
-					return;	
-				}
-				i++
-			}
-		}
-		
-	
-		
 		
 		
 	}

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_find_title",
+  "name": "scr_add_item2",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
