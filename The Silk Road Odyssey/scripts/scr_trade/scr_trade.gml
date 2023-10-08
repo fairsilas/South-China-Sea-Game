@@ -49,22 +49,31 @@ if (active = true){
 					//select item for trading
 					draw_text(vx+vw-100, vy+vh-30, "Trade for item")
 					if mouse_check_button_pressed(mb_left){
-								scr_add_item(ds_list_find_value(inv,i),inv_trade)
+						
+								scr_add_item(inv[|i], inv_trade)
 								inv_drop_item(i,inv)
 								show_debug_message("Traded items: "+string(ds_list_size(inv_trade)))
 								show_debug_message("My items: "+string(ds_list_size(inv)))
 								
 					}
-					
-					}
-				}else{
-					return;	
 				}
-				i++
+			}else{
+				return;	
 			}
+			i++
 		}
+	}
 		
-		
+
+
+
+
+
+
+
+
+
+
 	}
 }
 

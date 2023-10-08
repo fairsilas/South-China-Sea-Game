@@ -12,6 +12,7 @@ function scr_add_item(item, list) {
     if (duplicate_item_index == -1) { // Use '==' for comparison
         ds_list_add(list, item);
     } else {
+		item.count --
         list[| duplicate_item_index].count ++
     }
 }
