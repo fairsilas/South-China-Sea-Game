@@ -57,6 +57,7 @@
     {"id":{"name":"spr_ripple","path":"sprites/spr_ripple/spr_ripple.yy",},},
     {"id":{"name":"spr_silver_ingot","path":"sprites/spr_silver_ingot/spr_silver_ingot.yy",},},
     {"id":{"name":"inv_set_item","path":"scripts/inv_set_item/inv_set_item.yy",},},
+    {"id":{"name":"scr_copy_struct","path":"scripts/scr_copy_struct/scr_copy_struct.yy",},},
     {"id":{"name":"spr_little_splash","path":"sprites/spr_little_splash/spr_little_splash.yy",},},
     {"id":{"name":"spr_copper_coin","path":"sprites/spr_copper_coin/spr_copper_coin.yy",},},
     {"id":{"name":"obj_trader","path":"objects/obj_trader/obj_trader.yy",},},
