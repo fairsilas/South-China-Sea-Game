@@ -1,6 +1,13 @@
 my_inventory = ds_list_create()
-expensive_list = [1]
-cheap_list = []
+
+// Create a DS map to store the trader's item prices
+my_prices = ds_map_create();
+
+scr_init_default_prices(my_prices)
+// Define item prices for the trader
+my_prices[? "Tael of Silver"] = 1000;
+my_prices[? "Bundle of silk"] = 20;
+// Add more items and their prices
 
 
 item_data =  [{

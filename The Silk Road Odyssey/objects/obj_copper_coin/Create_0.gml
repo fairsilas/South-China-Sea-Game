@@ -1,5 +1,5 @@
 item_data =  {
-	title : "Bolt",
+	title : "Copper Coin",
 	desc : "A big metal bolt. Part of an old broken ship.",
 	weight : 1000,
 	count : 1,

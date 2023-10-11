@@ -8,7 +8,7 @@ your_trade_value = 0
 trader_trade_value = 0
 
 equipped_item = noone
-
+current_prices = ds_map_create()
 
 
 
