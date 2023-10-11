@@ -14,6 +14,6 @@ function scr_add_item(item, list) {
 		ds_list_add(list, item);
 		
     } else {
-        list[| duplicate_item_index].count ++
+        list[| duplicate_item_index].count +=item.count
     }
 }

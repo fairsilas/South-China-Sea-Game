@@ -60,6 +60,7 @@
     {"id":{"name":"scr_copy_struct","path":"scripts/scr_copy_struct/scr_copy_struct.yy",},},
     {"id":{"name":"spr_little_splash","path":"sprites/spr_little_splash/spr_little_splash.yy",},},
     {"id":{"name":"spr_copper_coin","path":"sprites/spr_copper_coin/spr_copper_coin.yy",},},
+    {"id":{"name":"scr_get_value","path":"scripts/scr_get_value/scr_get_value.yy",},},
     {"id":{"name":"obj_trader","path":"objects/obj_trader/obj_trader.yy",},},
     {"id":{"name":"fnt_inv_title","path":"fonts/fnt_inv_title/fnt_inv_title.yy",},},
     {"id":{"name":"snd_seaguls","path":"sounds/snd_seaguls/snd_seaguls.yy",},},

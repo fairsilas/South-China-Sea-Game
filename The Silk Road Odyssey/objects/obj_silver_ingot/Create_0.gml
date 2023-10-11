@@ -3,7 +3,6 @@ item_data =  {
 	desc : "A Worth around 1000 yuan. Although prices vary greatly depending on area and demand.(More info needed)",
 	weight : 1,
 	count : 1,
-	price : 1000,
 	sprite : sprite_index,
 	scr : function()
         {

@@ -4,6 +4,9 @@ total_weight = 0;
 max_weight = 100*2000 // 100 tons
 current_ship = obj_ship
 
+your_trade_value = 0
+trader_trade_value = 0
+
 equipped_item = noone
 
 
@@ -33,8 +36,10 @@ vh = camera_get_view_height(view_camera[0])
 width = 15
 height = 3
 cell_size = 40
+
 xpos = vw/5
 ypos = vh /1.19
+
 
 xprofile = 80
 yprofile = vh -200

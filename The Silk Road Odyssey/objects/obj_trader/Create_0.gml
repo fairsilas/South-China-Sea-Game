@@ -1,11 +1,14 @@
 my_inventory = ds_list_create()
+expensive_list = [1]
+cheap_list = []
+
 
 item_data =  [{
 	title : "Tael of Silver",
 	desc : "A Worth around 1000 yuan. Although prices vary greatly depending on area and demand.(More info needed)",
 	weight : 1,
+	idn : 1,
 	count : 1232,
-	price : 1000,
 	sprite : sprite_index,
 	scr : function()
         {
@@ -18,7 +21,7 @@ item_data =  [{
 	desc : "Beutiful cloth material",
 	weight : 1,
 	count : 1,
-	price : 10,
+	idn : 2,
 	sprite : spr_copper_coin,
 	scr : function()
         {
@@ -31,7 +34,7 @@ item_data =  [{
 	desc : "Beautiful silk robes for the high class folks.",
 	weight : 1,
 	count : 1,
-	price : 1000,
+	idn : 3,
 	sprite : spr_copper_coin,
 	scr : function()
         {

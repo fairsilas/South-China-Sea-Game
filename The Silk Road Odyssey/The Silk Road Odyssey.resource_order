@@ -41,6 +41,7 @@
     {"name":"scr_copy_struct","order":9,"path":"scripts/scr_copy_struct/scr_copy_struct.yy",},
     {"name":"spr_little_splash","order":9,"path":"sprites/spr_little_splash/spr_little_splash.yy",},
     {"name":"spr_copper_coin","order":12,"path":"sprites/spr_copper_coin/spr_copper_coin.yy",},
+    {"name":"scr_get_value","order":10,"path":"scripts/scr_get_value/scr_get_value.yy",},
     {"name":"obj_trader","order":9,"path":"objects/obj_trader/obj_trader.yy",},
     {"name":"fnt_inv_title","order":1,"path":"fonts/fnt_inv_title/fnt_inv_title.yy",},
     {"name":"spr_cam","order":7,"path":"sprites/spr_cam/spr_cam.yy",},
