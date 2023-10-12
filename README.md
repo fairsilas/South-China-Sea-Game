@@ -59,6 +59,14 @@ Items' values influence successful trades, adding complexity to economic interac
 
 ### 8.	Currency system
 With copper coins, silver ingots, and occasional other forms of currency.
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/41cdd268-c2b6-4586-aeda-31a4fa9fb1f9)
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/a77a64bd-2ca0-420e-a785-2f6094067e24)
+
+
+
+
+https://www.nms.ac.uk/media/1161122/an-introduction-and-identification-guide-to-chinese-qing-dynasty-coins-qin-cao.pdf
+
 
 ### 9.	Relationship/Trade Meter:
 Develop alliances and relationships with other merchants or pirates.
