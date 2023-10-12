@@ -54,7 +54,7 @@ if (active = true){
 		}
 	}
 	
-	
+
 	//draw traders items
 	x_trade = 390
 	y_trade = 130
