@@ -16,7 +16,7 @@ item_data =  [{
 	weight : 1,
 	idn : 1,
 	count : 1232,
-	sprite : sprite_index,
+	sprite : spr_silver_ingot,
 	scr : function()
         {
 			if mouse_check_button_pressed(mb_left){

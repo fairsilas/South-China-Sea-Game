@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_get_value",
+  "name": "inv_drop_items",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "inventory operations",
+    "path": "folders/Scripts/inventory operations.yy",
   },
 }

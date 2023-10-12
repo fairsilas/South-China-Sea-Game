@@ -1,6 +1,14 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_inv(){
+	
+	
+	//switch to trade menu
+	if keyboard_check_pressed(vk_tab){
+		currentInvState = InvStates.trade
+	}
+
+
 	if (active = true){
 	draw_sprite(spr_ship_info_panel,0,vx,vy+vh)
 	draw_text(vx-vw-100, vy+vh-100, "lbs:"+ string(total_weight)+" / MAX")

@@ -1,4 +1,4 @@
-function scr_add_item(item, list) {
+function scr_add_items(item, list) {
     var duplicate_item_index = -1;
 
     // Check for duplicates in the inventory
@@ -10,10 +10,9 @@ function scr_add_item(item, list) {
     }
 
     if (duplicate_item_index == -1) { // Use '==' for comparison
-		item.count = 1
 		ds_list_add(list, item);
 		
     } else {
-        list[| duplicate_item_index].count +=1
+        list[| duplicate_item_index].count +=item.count
     }
 }

@@ -8,5 +8,5 @@ vh = camera_get_view_height(view_camera[0])
 
 if place_meeting(x,y,obj_ship){
 	instance_destroy()
-	scr_add_item(item_data,obj_inventory.inv)
+	scr_add_items(item_data,obj_inventory.inv)
 }

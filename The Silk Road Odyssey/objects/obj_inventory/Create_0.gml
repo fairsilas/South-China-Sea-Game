@@ -9,6 +9,7 @@ trader_trade_value = 0
 
 equipped_item = noone
 current_prices = ds_map_create()
+scr_init_default_prices(current_prices, 0.1)
 
 
 

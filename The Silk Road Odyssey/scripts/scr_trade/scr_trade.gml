@@ -2,6 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 function scr_trade(){
+	
+//switch trade on and off
+if keyboard_check_pressed(vk_tab){
+	currentInvState = InvStates.def
+	scr_move_all_items(inv_trade, inv)
+}
+
+	
+//only show inventory if it is active THIS PROBABLY SHOULD BE A STATE 
 if (active = true){
 	equipped_item = noone
 	//draw basic GUI
@@ -47,8 +56,8 @@ if (active = true){
 	
 	
 	//draw traders items
-	x_trade = 140
-	y_trade = 100
+	x_trade = 390
+	y_trade = 130
 	
 	i = 0
 	for (h=0; h< height; h++){
@@ -56,8 +65,17 @@ if (active = true){
 			if i <ds_list_size(trader_inv) {
 				draw_sprite(spr_item_slot, 0, w*cell_size+vx+x_trade, h*cell_size+vy+y_trade);
 				//draw slots
+				draw_set_color(c_ltgray)
 				draw_sprite(ds_list_find_value(trader_inv, i).sprite, 0, w*cell_size+vx+x_trade+16, h*cell_size+vy+y_trade+22);
 				draw_text(w*cell_size+vx+x_trade+3, h*cell_size+vy+y_trade, string(ds_list_find_value(trader_inv, i).count));
+				draw_set_color(c_white)
+				draw_set_font(fnt_inv_price)
+				draw_text(w*cell_size+vx+x_trade+3, h*cell_size+vy+y_trade+20, string(ds_map_find_value(current_prices,ds_list_find_value(trader_inv, i).title)));
+				draw_set_font(fnt_inv_desc)
+				
+				
+				
+				
 				//hover with mouse
 				if (mouse_x > w*cell_size+vx+x_trade)
 				and (mouse_x < w*cell_size+vx+x_trade+cell_size)
@@ -74,15 +92,9 @@ if (active = true){
 					draw_set_color(c_ltgray)
 					draw_text_ext(vx+xprofile+ 20, vy+yprofile-4, ds_list_find_value(trader_inv, i).desc, 12, 180);
 					draw_set_color(c_white)
-					
-					//select item for trading
-					draw_text(vx+vw-100, vy+vh-30, "Trade for item")
-					if mouse_check_button_pressed(mb_left){
-								copy = copy_struct(trader_inv[|i])
-								scr_add_item(copy, trader_trade)
-								inv_drop_item(i,trader_inv)
-								
-					}
+					draw_set_font(fnt_inv_price)
+					draw_text(w*cell_size+vx+x_trade+3, h*cell_size+vy+y_trade+20, string(ds_map_find_value(current_prices,ds_list_find_value(trader_inv, i).title)));
+					draw_set_font(fnt_inv_desc)
 				}
 				
 				
@@ -146,6 +158,7 @@ if (active = true){
 			i++
 		}
 	}
+	
 	
 	
 	

@@ -1,0 +1,8 @@
+SET UP TRADER
+first copy a previous trader for template, then after initializing default prices, 
+manually set prices using the map of prices.
+
+SET UP NEW ITEM
+Add a new item name and default price to scr_init_default_prices script, then add the item info to a trader inv.
+Once that is done items will show up in the inventory of the trader and you will be able to barter for it.
+

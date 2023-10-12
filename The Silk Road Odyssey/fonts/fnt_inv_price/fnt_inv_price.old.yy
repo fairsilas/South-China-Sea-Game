@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "fnt_inv_desc",
+  "name": "fnt_inv_price",
   "AntiAlias": 0,
   "applyKerning": 0,
   "ascender": 10,
