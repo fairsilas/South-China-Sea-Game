@@ -103,6 +103,7 @@
     {"id":{"name":"scr_shake_screen","path":"scripts/scr_shake_screen/scr_shake_screen.yy",},},
     {"id":{"name":"spr_ship_info_panel_trade","path":"sprites/spr_ship_info_panel_trade/spr_ship_info_panel_trade.yy",},},
     {"id":{"name":"snd_sailboat_sound","path":"sounds/snd_sailboat_sound/snd_sailboat_sound.yy",},},
+    {"id":{"name":"scr_trade_button","path":"scripts/scr_trade_button/scr_trade_button.yy",},},
     {"id":{"name":"spr_trade_button","path":"sprites/spr_trade_button/spr_trade_button.yy",},},
     {"id":{"name":"rm_test_boats","path":"rooms/rm_test_boats/rm_test_boats.yy",},},
   ],

@@ -21,6 +21,10 @@ if (active = true){
 	draw_text(vx-vw-43, vy+vh-40, "lbs:"+ string(total_weight)+" / MAX")
 	draw_set_font(fnt_inv_desc)
 	draw_set_color(c_ltgray)
+	//draw trade button
+	x_trade = 432
+	y_trade = 390
+	scr_trade_button(vx+x_trade, vy+y_trade)
 
 	
 	//draw traders selected items
@@ -28,13 +32,17 @@ if (active = true){
 	var y_trade = 400
 	
 	scr_draw_items(x_trade, y_trade, trader_trade, trader_inv, 5, 2)
-	draw_text(x,y,string(scr_get_total_value(trader_trade)))
+	//draw traders selected items total value
+	draw_text(vx+500,vy+470,string(scr_get_total_value(trader_trade)))
+	
 	
 	//draw your selected items
 	var x_trade = 190
 	var y_trade = 400
 	
 	scr_draw_items(x_trade, y_trade, inv_trade, inv, 5, 2)
+	//draw your items total value
+	draw_text(vx+440,vy+470,string(scr_get_total_value(inv_trade)))
 	
 	
 	//draw traders items
@@ -47,6 +55,7 @@ if (active = true){
 	y_trade = ypos
 	x_trade = xpos
 	scr_draw_items(x_trade, y_trade, inv, inv_trade, 6, 3)
+	
 	
 	
 	
