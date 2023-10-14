@@ -1,6 +1,6 @@
 item_data =  {
-	title : "A Tael of Silver  一两银)",
-	desc : "A Worth around 1000 yuan. Although prices vary greatly depending on area and demand.(More info needed)",
+	title : "Tael of Silver",
+	desc : "Valuble ingot of Silver",
 	weight : 1,
 	count : 1,
 	sprite : sprite_index,

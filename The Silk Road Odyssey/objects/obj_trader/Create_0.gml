@@ -52,6 +52,6 @@ item_data =  [{
 }]
 
 for (i=0; i<array_length(item_data); i++){
-	scr_add_item(item_data[i], my_inventory)
+	scr_add_items(item_data[i], my_inventory)
 }
 

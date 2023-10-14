@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "inventory operations",
-    "path": "folders/Scripts/inventory operations.yy",
+    "name": "inventory scripts",
+    "path": "folders/Scripts/inventory scripts.yy",
   },
 }

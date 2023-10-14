@@ -30,11 +30,3 @@ camera_set_view_speed(view_camera[0], distance_to_point(vx+(vw/2), y)/30,distanc
 	camera_set_view_speed(view_camera[0], distance_to_point(vx+(vw/2), y)/2,distance_to_point(x, vy+(vh/2)))
 	}
 
-if keyboard_check_pressed(vk_space){
-	if mode = 1	{
-		mode = 0
-	}else
-	if mode = 0	{
-		mode = 1
-	}
-}
