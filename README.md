@@ -8,12 +8,11 @@ As a player, your overall goal is to accumulate as much wealth as possible and d
 3. **Gameplay Overview:**
 - Start by selecting a starting job. Fisherfolk (You can catch fish to feed your crew), Peddler (Get better deals on land), or Sailor (Less likely to be caught in storm).
 - You start in a port near a market with an inventory full of items depending on your chosen starter job.
-- You can't sell enough to afford place to sleep and eat.
-- Tay Son rebel asks you to join his crew. Say no, go to death screen with message "You spent the night in the alley and the damp seaside air gave you hyperthermia. You died in your sleep." Say yes, you meet him at his junk and set sail. The plan is to plunder a small merchant ship leaving for vietnam. The ship has cannons and doesn't surrender, and your leader gets killed. You must take control and lead the crew.
+- Each day you go trade stuff and get enough food to buy hotel. But it isn't sustainable.
+- If you talk to a Tay Son rebel he you to join his crew. Say no, go to death screen with message like "You got too cold and died in your sleep." Say yes, you meet him at his junk and set sail. The plan is to plunder a small merchant ship leaving for vietnam. The ship has cannons and doesn't surrender, and your leader gets killed. You must take control and lead the crew.
 - Before a sea event happens it will take you to a scene of a lookout shouting down a warning of what they see. This will let you know what to expect when you enter the boat gameplay mode.
 - If you die it will take you to a screen where it says what happened to you and your crew.
-- When you travel, it will give you a report of the sea ahead, and you will start in the open ocean and navigate in a target direction (North, South, East, West). If you go in the wring direction you will end up back where you started. If you go the right way you will end up at the target location.
-- 
+- When you travel, it will give you a report of the sea ahead, and you will start in the open ocean and navigate in a target direction (North, South, East, West). If you go in the wrong direction you will end up back where you started. If you go the right direction eventually you will end up at the target location, which will be displayed on the map.
 
 ## Setting
 The game is set in the South China Sea region, primarily focusing on Canton ports and surrounding areas during the decades around 1800. Events will be chronologically ordered, and dates will change with the game as events happen. 
