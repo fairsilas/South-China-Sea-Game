@@ -12,17 +12,25 @@ camera_set_view_pos(view_camera[0], x+vw/2,y+vh/2)
 
 
 angle = 0
+//turnspeed = 1
+//max_speed = 2
+
+//acc = 0.01
+//rev_acc = -0.01
+//momentum = 0.085
+//frict = 0.09
 turnspeed = 1
-max_speed = 2
+max_speed = 3
 
 acc = 0.01
-rev_acc = -0.01
+rev_acc = 0.01
 momentum = 0.085
 frict = 0.09
+
+
 
 ripple_timer = 0
 ripple_freq = 20
 ripple_rand = 10
 
-wind_dir = 0
 

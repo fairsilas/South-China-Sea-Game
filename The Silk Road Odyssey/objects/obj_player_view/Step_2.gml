@@ -7,8 +7,10 @@ vy = camera_get_view_y(view_camera[0])
 
 p_len = distance_to_point(mouse_x,mouse_y)
 p_dir = point_direction(x,y,mouse_x,mouse_y)
+
 p_len = obj_ship.speed*500
 p_dir =	obj_ship.direction
+
 
 
 x = obj_ship.x+(lengthdir_x(p_len,p_dir)/vw*100)

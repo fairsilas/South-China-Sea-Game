@@ -1,5 +1,6 @@
 //set audio
 audio_listener_position(x,y,0)
+//motion_add(180, 0.01)
 
 //handle view camera
 vx = camera_get_view_x(view_camera[0])
@@ -13,21 +14,6 @@ var left = keyboard_check(vk_left)or keyboard_check(ord("A"))
 var right = keyboard_check(vk_right)or keyboard_check(ord("D"))
 var up = keyboard_check(vk_up)or keyboard_check(ord("W"))
 var down = keyboard_check(vk_down)or keyboard_check(ord("S"))
-
-while angle > 360{
-	angle -=360
-}
-while angle < -360{
-	angle +=360
-}
-
-while direction > 360{
-	direction -=360
-}
-while direction < -360{
-	direction +=360
-}
-
 
 
 
@@ -44,19 +30,10 @@ if (up) {
 	motion_add(angle, acc)	
 }
 if (down){
-	motion_add(angle, rev_acc)	
+	motion_add(angle+180, rev_acc)	
 }
 
-//max speed
-if (speed > max_speed){
-	speed = max_speed
-}
-
-//physics behavior
-if speed > 0 {
-	speed -= frict
-	motion_add(angle, momentum)
-}
+scr_boat_physics()
 
 //create ripple effect
 ripple_timer --

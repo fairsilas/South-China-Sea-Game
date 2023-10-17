@@ -1,4 +1,5 @@
 mode = 0
+battle_camera_mode = true
 
 
 
