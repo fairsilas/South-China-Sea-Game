@@ -1,11 +1,28 @@
+
+
+
 # South China Sea Game
 *An 18th century Canton Pirate Experience*
 
 ## Overview
-As a player, your overall goal is to accumulate as much wealth as possible and deposit it safely in the communal stash. Create a name for yourself during the height of piracy in Chinese waters.
+1. **The Overall Goal:**
+As a player, your goal is to survive and accumulate as much wealth as possible and deposit it safely in the communal stash. Create a name for yourself during the height of piracy in Chinese waters.
+
+
+
+
+3. **Gameplay Overview:**
+- Start by selecting a starting job. Fisherfolk (You can catch fish to feed your crew), Peddler (Get better deals on land), or Sailor (Less likely to be caught in storm).
+- You start in a port near a market with an inventory full of items depending on your chosen starter job.
+- Each day you go trade stuff and get enough food to buy hotel. But it isn't sustainable.
+- If you talk to a Tay Son rebel he you to join his crew. Say no, go to death screen with message like "You got too cold and died in your sleep." Say yes, you meet him at his junk and set sail. The plan is to plunder a small merchant ship leaving for vietnam. The ship has cannons and doesn't surrender, and your leader gets killed. You must take control and lead the crew.
+- Before a sea event happens it will take you to a scene of a lookout shouting down a warning of what they see. This will let you know what to expect when you enter the boat gameplay mode.
+- If you die it will take you to a screen where it says what happened to you and your crew.
+- When you travel, it will give you a report of the sea ahead, and you will start in the open ocean and navigate in a target direction (North, South, East, West). If you go in the wrong direction you will end up back where you started. If you go the right direction eventually you will end up at the target location, which will be displayed on the map.
 
 ## Setting
-The game is set in the South China Sea region, primarily focusing on Canton ports and surrounding areas during the decades around 1800. Events will be chronologically ordered, and dates will change with the game as events happen.
+The game is set in the South China Sea region, primarily focusing on Canton ports and surrounding areas during the decades around 1800. Events will be chronologically ordered, and dates will change with the game as events happen. 
+The player will be able to explore areas, move to new areas using a Node-Based map. To more long distances the Player needs more food and a bigger crew. Each time you travel food supplies are used.
 
 ## Major Historical Figures
 1. **Pirate Queen Cheng I Sao (Ching Shih):**
@@ -29,14 +46,17 @@ The game is set in the South China Sea region, primarily focusing on Canton port
 ### 2. Naval Combat
    - Realistic naval combat with cannons and historically accurate weapons.
    - Emphasis on strategy and historical accuracy of advantages and disadvantages for each ship, for maneuverability, speed, and affordability.
+   - Player can use cannons but they have a random period before gunpowder explodes so aiming can be difficult.
 
 ### 3. Trade System
    - Dynamic trade system reflecting historical trade trends.
    - Prices and goods change based on supply, demand, and other factors.
+   - Sometimes ships can be thretened into selling everything they have for super cheap
+   - Trade with merchants on the ports and markets is also possible.
 
 ### 4. Playable Starter Characters
-   - Choose from three starting roles: Merchant, Fisherman, or Port Worker.
-   - Skillsets and situations from each role contribute to the transition into a pirate's life.
+   - Choose from three starting roles: Peddler, Fisherman, or Sailor.
+   - Starting skills come with each, sailors don't get caught in storms as much, peddlers get better prices, and Fisherman feeds the crew easier by catching fish.
 
 ### 5. Simulation Aspects
    - Engage in port labor, trading, and hauling goods to simulate the life of a seafarer in the region.
@@ -51,15 +71,14 @@ The game is set in the South China Sea region, primarily focusing on Canton port
    - Prices determined by default set of prices for the location you are in.
 
 ### 8. Currency System
-   - Use copper coins, silver ingots, and occasional other forms of currency.
+   - Use copper coins, silver Taels, and occasional other forms of currency. The barter system allows for trade of any items although some traders will only accept coins and silver.
 
 ### 9. Relationship/Trade Meter
-   - Develop alliances and relationships with other merchants or pirates.
-   - Diplomatic choices affect gameplay and trade opportunities.
+   - To open up trade, proper dialog options must be chosen or they will close off to trading or attack your ship.
 
 ### 10. Navigate Qing Dynasty's Maritime Policy
    - Consider and adapt to the Qing Dynasty's strict regulation of international trade.
-   - Player choices influence the level of attention from authorities.
+   - Go up against the Qing navy and wipe out Qing presence in towns
 
 ### 11. Pirate Taxation Systems
    - Enforce or get taxed by pirate taxation systems.
@@ -67,7 +86,7 @@ The game is set in the South China Sea region, primarily focusing on Canton port
 
 ### 12. Gulf of Tonkin as Major Pirate Bases
    - Explore and interact in pirate strongholds in the Gulf of Tonkin.
-   - Navigate the challenges and opportunities presented by these key locations.
+   - Store booty in the communal pirate stash.
 
 ### 13. Tayson Rebellion Impact
    - Understand and navigate the impact of the Tayson Rebellion on pirate activities.
@@ -75,7 +94,7 @@ The game is set in the South China Sea region, primarily focusing on Canton port
 
 ### 14. Ship and NPC AI
    - Ship and NPC AI with various states and behaviors.
-   - Random wandering, following trade routes, and engaging in dynamic interactions with other NPCs.
+   - Random wandering, following trade routes, or hostile, or fleeing.
 
 ## Trade and Interaction GUI Design
 ![Trade and Interaction GUI](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/5a1cd6a0-009a-4b4d-a667-26ba0905f5e8)
@@ -85,10 +104,12 @@ The game is set in the South China Sea region, primarily focusing on Canton port
 [View on Trello](https://trello.com/invite/b/jBClh6PV/ATTI62c029b46cbe234f15bd9bdd77485cb49BF17F04/game-development)
 
 ## Video Devlog
-Currently in development...
 
-### Most Recent Preview
-![Preview](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/1bd1c494-3562-4c8d-98a3-462ce0413b52)
 
-### First Preview
-![Preview](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/834c34c8-e78b-42b3-bdd1-07703b845c25)
+
+https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/df679117-c32d-4c94-aced-fc5279bf53c6
+
+
+
+
+
