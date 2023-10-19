@@ -110,6 +110,12 @@ The player will be able to explore areas, move to new areas using a Node-Based m
 https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/df679117-c32d-4c94-aced-fc5279bf53c6
 
 
+Images for concept art:
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/7d1ff5d2-b2f9-4013-8888-c26e044fb0f7)
+
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/23b54b8e-d282-4c00-a04a-60a49852e55b)
+
+
 
 
 
