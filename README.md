@@ -1,17 +1,15 @@
 
 
 
-# South China Sea Game
-*An 18th century Canton Pirate Experience*
+# South China Sea Pirate Game
+Introduction 
+
 
 ## Overview
 1. **The Overall Goal:**
-As a player, your goal is to survive and accumulate as much wealth as possible and deposit it safely in the communal stash. Create a name for yourself during the height of piracy in Chinese waters.
+As a player, your goal is to survive and accumulate as much wealth as possible and deposit it safely in the communal stash.
 
-
-
-
-3. **Gameplay Overview:**
+2. **Gameplay Overview:**
 - Start by selecting a starting job. Fisherfolk (You can catch fish to feed your crew), Peddler (Get better deals on land), or Sailor (Less likely to be caught in storm).
 - You start in a port near a market with an inventory full of items depending on your chosen starter job.
 - Each day you go trade stuff and get enough food to buy hotel. But it isn't sustainable.
