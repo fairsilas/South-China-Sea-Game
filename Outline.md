@@ -42,7 +42,7 @@ This planning document provides a description of game mechanics with end notes t
 - Top-Down 2d boat mode 
 - Realistic naval combat with cannons and historically accurate weapons.
 - Strategy and maneuverability are essential in battles.
-- Weapons included in the game are wallpieces[^2], fowling pieces [^3]
+- Weapons included in the game are wallpieces[^2], fowling pieces[^3] ...
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
 
   [^2]: "Wallpieces" were swiveling cannons that were mounted to allow for a good range of motion. They were typically used at close ranges and were also known as swivel guns – small cannons affixed to boats.
