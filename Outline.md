@@ -1,4 +1,4 @@
-# Junks & Riches: A game set in the south China Sea during 
+# Junks & Riches: A game set in the south China Sea in the 1800s
 
 ## I. Introduction
 This planning document provides a description of game mechanics with end notes to give historical background for features in the game.
