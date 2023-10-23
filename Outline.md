@@ -1,7 +1,7 @@
 # Junks & Riches: A game set in the south China Sea during 
 
 ## I. Introduction
-This planning document provides a description of game mechanics with end notes to give historical background.
+This planning document provides a description of game mechanics with end notes to give historical background for features in the game.
 
 ### Title Screen
 - Game title: "Junks & Riches"
