@@ -52,6 +52,8 @@ This planning document provides a description of game mechanics with historical 
 
 ### Simulation Aspects
 - Engaging in port labor, trading, and hauling goods to simulate the life of a seafarer.
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/7cd11d37-eff7-4b7c-8d98-98a0e56474fa)
+
 
 ### Character Interaction
 - Dialogue with various characters featuring multiple response choices.
@@ -60,6 +62,8 @@ This planning document provides a description of game mechanics with historical 
 ### Barter and Currency System
 - Barter system for trading items with traders.
 - Use of copper coins, silver Taels, and other forms of currency.
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/1ed2392e-c7fb-441f-93c3-df617ded5220)
+
 
 ### Relationship/Trade Meter
 - Building and maintaining relationships with characters to enable trading or avoid hostility.
