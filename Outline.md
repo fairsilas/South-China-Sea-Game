@@ -1,7 +1,7 @@
 # Game Outline: "South China Sea Game"
 
 ## I. Introduction
-This planning document provides a description of game mechanics with historical documents backing the claims
+This planning document provides a description of game mechanics with end notes to give historical background.
 
 ### Title Screen
 - Game title: "Junks & Riches"
@@ -11,21 +11,23 @@ This planning document provides a description of game mechanics with historical 
 
 
 ### Character Creation
-- Select a starting role: Fisherfolk, Peddler, or Sailor.
+- Select a starting role: Fisherfolk, Peddler, or Sailor. [^1]
 - Choose a character name and family name
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/3a96c1d2-c01e-43cc-adf4-d16c73a7d6ba)
-
+  [^1]: Most of the lower ranked pirates came from poor backgrounds as fisherfolk and Sailors, 70 percent the 1800s. Typically young single men in 20s and rarely over 40. Poverty drove them to commit crimes as a way to survive and escape from the oppressive Qing government. (Antony 45)
+Full Citation needed
 
 ## II. Setting and Background
 
 ### Historical Context
 - Overview of the 18th century South China Sea Coast and piracy in Chinese waters.
-- Historical events like the Tay Son rebelliion and key figures, like Pirate Queen Cheng I Sao and Cui Zhi.
+- Characters will mention events like the Tay Son rebelliion and key figures, like Pirate Queen Cheng I Sao and Cui Zhi.
 - Brief introduction to Macao where you will begin
 
 ### Game World
 - Map of the South China Sea with significant loacations for the game marked.
 - Locations, including pirate strongholds, towns, and sea routes and reasons for choosing each location for the game.
+- At sea, encounter storms, Qing naval vessels, merchants and fisherman. Controlling your ship.
 
 ## III. Gameplay Mechanics
 ### beginning/intro
@@ -34,24 +36,26 @@ This planning document provides a description of game mechanics with historical 
 - Daily activities of trading, acquiring food, and maintaining your crew. In order to progress, you must travel between key trading ports and pirate stashes, overcoming obstacles at sea with each journey and trading goods to increase your wealth, plundering ships, or doing missions for the Qing officials or Confederation of pirates.
 
 ### Pirate Crew Interaction
-- Opportunities to join or interact with different pirate crews.
-- Consequences of your choices, starting a pirate crew will lead to Qing officials going after you if they know who you are.
+- You are given the opportunity to join a crew in the beginning, and the captain dies and you take his place.
+- Consequences of your choices, when you are in the pirate ship you may be stopped by Qing officials to have your identification number checked.
 
 ### Naval Combat
 - Top-Down 2d boat mode 
 - Realistic naval combat with cannons and historically accurate weapons.
 - Strategy and maneuverability are essential in battles.
-- Pirates used cannons tha fired larger ammunition
-- Wallpiecs were small swivelling cannons mounted to the boat that could be used at close range. When equipped they allow full 360 swivel.[^1]
+- Weapons included in the game are wallpieces[^2] or swivel cannons, 
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
 
-  [^1]: MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): 117-118. [Link to Source](http://www.jstor.org/stable/24573942)
+  [^2]: "Wallpieces" were swiveling cannons that were mounted to allow for a good range of motion. They were typically used at close ranges and were also known as swivel guns – small cannons affixed to boats.
+ MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): 117-118. [Link to Source](http://www.jstor.org/stable/24573942)
 
 
 ### Trading System
 - Dynamic trade system influenced by historical trends, supply, and demand.
 - Players can sometimes force ships to sell their cargo at low prices through threats in the complex multiple choice dialogue system.
-
+- Without registration with the Qing officials, you will be hassled by Qing officials
+- Without membership in a fleet of the confederation of pirates, you may be plundered by pirates.
+  
 ### Simulation Aspects
 - Engaging in port labor, trading, and hauling goods to simulate the life of a seafarer.
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/7cd11d37-eff7-4b7c-8d98-98a0e56474fa)
