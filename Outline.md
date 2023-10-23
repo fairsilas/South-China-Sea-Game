@@ -5,7 +5,8 @@
 ### Title Screen
 - Game title: "Junks & Riches"
 - Options to start a new game, or view leaderboards, or exit game.
-- ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/dc75e5e7-d5bf-4389-97c9-d505b83d1afd)
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/91ea0d53-35b1-48d3-93a4-ef7a0a0edfad)
+
 
 
 ### Character Creation
