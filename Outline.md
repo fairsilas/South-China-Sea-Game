@@ -38,11 +38,13 @@ This planning document provides a description of game mechanics with historical 
 - Consequences of your choices, starting a pirate crew will lead to Qing officials going after you if they know who you are.
 
 ### Naval Combat
+- Top-Down 2d boat mode 
 - Realistic naval combat with cannons and historically accurate weapons.
 - Strategy and maneuverability are essential in battles.
 - Pirates used cannons tha fired larger ammunition
 - Wallpiecs were small swivelling cannons mounted to the boat that could be used at close range. When equipped they allow full 360 swivel.[^1]
-- 
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
+
   [^1]: MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): 117-118. [Link to Source](http://www.jstor.org/stable/24573942)
 
 
