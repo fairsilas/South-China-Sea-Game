@@ -9,7 +9,7 @@ This planning document provides a description of game mechanics with end notes t
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/91ea0d53-35b1-48d3-93a4-ef7a0a0edfad)
 
 ### Character Creation
-- Select a starting role: Fisherfolk, Peddler, or Sailor. [^1]
+- Select a starting role: Fisherfolk, Peddler, or Sailor. [^1] A brief description of the role each character has and the special perks or skill that comes with it.
 - Choose a character name and family name
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/3a96c1d2-c01e-43cc-adf4-d16c73a7d6ba)
   [^1]: Most of the lower ranked pirates came from poor backgrounds as fisherfolk and Sailors, 70 percent the 1800s. Typically young single men in 20s and rarely over 40. Poverty drove them to commit crimes as a way to survive and escape from the oppressive Qing government. (Antony 45 full citation needed here.)
@@ -18,7 +18,7 @@ This planning document provides a description of game mechanics with end notes t
 
 ### Historical Context
 - Overview of the 18th century South China Sea Coast and piracy in Chinese waters.
-- Characters will mention events like the Tay Son rebelliion and key figures, like Pirate Queen Cheng I Sao and Cui Zhi.
+- Characters will mention events like the Tay Son rebellion and key figures, like Pirate Queen Cheng I Sao and Cui Zhi.
 - Brief introduction to Macao where you will begin
 
 ### Game World
@@ -30,16 +30,16 @@ This planning document provides a description of game mechanics with end notes t
 ### beginning/intro
 ### Core Gameplay Loop
 - Starting in a port near a market with an inventory based on your chosen role. 
-- Daily activities of trading, acquiring food, and maintaining your crew. In order to progress, you must travel between key trading ports and pirate stashes, overcoming obstacles at sea with each journey and trading goods to increase your wealth, plundering ships, or doing missions for the Qing officials or Confederation of pirates.
+- Daily activities of trading, acquiring food, and maintaining your crew. In order to progress, you must travel between key trading ports and pirate stashes, overcoming obstacles at sea with each journey and trading goods to increase your wealth, plundering ships, or doing contractual missions for the Qing officials or the Confederation of pirates.
 
 ### Pirate Crew Interaction
-- You are given the opportunity to join a crew in the beginning, and the captain dies and you take his place.
-- Consequences of your choices, your ships identifiction may be checked by pirates or Qing officials and a  bounty may be placed on your head
+- You are given the opportunity to join a small crew of pirates in the beginning of the game. The captain dies and you take his place. People were desperate for an escape from poverty and harsh taxes and oppression imposed by the Qing government, so finding people who were willing to turn to piracy was not as difficult as one might expect.[^2]
+- Consequences of your choices, your ships identifiction may be checked by pirates or Qing officials and a  bounty may be placed on your head. Travelling without a safe conduct pass could lead to pirates attacking your ship and stealing your cargo. Travelling without registration with the Qing Government may lead to run ins with Qing navy and your arrest.
+[^2]: The pirate confederacy had established a structured protection racket. Even salt traders employed by the Qing state were compelled to purchase "safe conduct passes" at a cost of 200 Spanish silver dollars per vessel. These passes were obtainable at ports situated in significant trading hubs and villages, frequently in proximity to prominent political centers. This situation highlights the pervasive corruption within Qing officials and the considerable influence wielded by the confederacy. (Antony page 38 full Citation needed)
 
 ### Naval Combat
-- Top-Down 2d boat mode 
-- Realistic naval combat with cannons and historically accurate weapons.
-- Strategy and maneuverability are essential in battles.
+- Boat gameplay mode includes a top down view of your ship with full control of you ship using WASD keys or arrow keys, and the mouse.
+- Combat will be dictated by how you choose to control your ship, and the weapons you trade for and utilize from your inventory.
 - Weapons included in the game are wallpieces[^2], fowling pieces[^3] ...
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
 
