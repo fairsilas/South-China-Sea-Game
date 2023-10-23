@@ -12,26 +12,29 @@
 ### Character Creation
 - Select a starting role: Fisherfolk, Peddler, or Sailor.
 - Choose a character name and family name
+- ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/3a96c1d2-c01e-43cc-adf4-d16c73a7d6ba)
+
 
 ## II. Setting and Background
 
 ### Historical Context
-- Overview of the 18th century Canton region and piracy in Chinese waters.
-- Historical events and key figures, like Pirate Queen Cheng I Sao and Cui Zhi.
+- Overview of the 18th century South China Sea Coast and piracy in Chinese waters.
+- Historical events like the Tay Son rebelliion and key figures, like Pirate Queen Cheng I Sao and Cui Zhi.
+- Brief introduction to Macao where you will begin
 
 ### Game World
-- Detailed map of the South China Sea with Canton ports and surrounding areas.
-- Locations, including pirate strongholds, towns, and sea routes.
+- Map of the South China Sea with significant loacations for the game marked.
+- Locations, including pirate strongholds, towns, and sea routes and reasons for choosing each location for the game.
 
 ## III. Gameplay Mechanics
-
+### beginning/intro
 ### Core Gameplay Loop
-- Starting in a port near a market with an inventory based on your chosen role.
+- Starting in a port near a market with an inventory based on your chosen role. 
 - Daily activities of trading, acquiring food, and maintaining your crew. In order to progress, you must travel between key trading ports and pirate stashes, overcoming obstacles at sea with each journey and trading goods to increase your wealth, plundering ships, or doing missions for the Qing officials or Confederation of pirates.
 
 ### Pirate Crew Interaction
 - Opportunities to join or interact with different pirate crews.
-- Consequences of your choices, such as joining the Tayson Rebellion. Will lead to Qing officials being hostile toward you.
+- Consequences of your choices, starting a pirate crew will lead to Qing officials going after you if they know who you are.
 
 ### Naval Combat
 - Realistic naval combat with cannons and historically accurate weapons.
