@@ -10,9 +10,9 @@ Introduction
 As a player, your goal is to survive and accumulate as much wealth as possible and deposit it safely in the communal stash.
 
 2. **Gameplay Overview:**
-- Start by selecting a starting job. Fisherfolk (You can catch fish to feed your crew), Peddler (Get better deals on land), or Sailor (Less likely to be caught in storm).
-- You start in a port near a market with an inventory full of items depending on your chosen starter job.
-- Each day you go trade stuff and get enough food to buy hotel. But it isn't sustainable.
+- Start by selecting a starting job. Fisherfolk (You can catch fish to feed your crew), Peddler (Get better deals on land), or Sailor (Less likely to be caught in storm). These jobs have little effect on the game, just determine some starting items and perks.
+- You start in a port in Macao.
+- You try to trade your items or rent out your sailing service but Qing officials take your earnings as taxes and you are left with nothing.
 - If you talk to a Tay Son rebel he you to join his crew. Say no, go to death screen with message like "You got too cold and died in your sleep." Say yes, you meet him at his junk and set sail. The plan is to plunder a small merchant ship leaving for vietnam. The ship has cannons and doesn't surrender, and your leader gets killed. You must take control and lead the crew.
 - Before a sea event happens it will take you to a scene of a lookout shouting down a warning of what they see. This will let you know what to expect when you enter the boat gameplay mode.
 - If you die it will take you to a screen where it says what happened to you and your crew.
