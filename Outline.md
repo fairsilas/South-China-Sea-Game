@@ -39,6 +39,11 @@
 ### Naval Combat
 - Realistic naval combat with cannons and historically accurate weapons.
 - Strategy and maneuverability are essential in battles.
+- Pirates used cannons tha fired larger ammunition
+- Wallpiecs were small swivelling cannons mounted to the boat that could be used at close range. When equipped they allow full 360 swivel.[^1]
+- 
+  [^1]: MacKay, Joseph. "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): 551–73. [Link to Source](http://www.jstor.org/stable/24573942)
+
 
 ### Trading System
 - Dynamic trade system influenced by historical trends, supply, and demand.
