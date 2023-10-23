@@ -99,6 +99,8 @@ This planning document provides a description of game mechanics with historical 
 
 ### Leaderboards
 - Online leaderboards for accumulated wealth, implemented using the Easy Leaderboard extension.
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/ed5a3186-5059-47f5-9b51-0a7501e56f7d)
+
 
 ## VII. Devlog and Resources
 
