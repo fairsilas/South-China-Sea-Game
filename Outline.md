@@ -1,4 +1,4 @@
-# Game Outline: "South China Sea Game"
+# Junks & Riches: A game set in the south China Sea during 
 
 ## I. Introduction
 This planning document provides a description of game mechanics with end notes to give historical background.
@@ -7,8 +7,6 @@ This planning document provides a description of game mechanics with end notes t
 - Game title: "Junks & Riches"
 - Options to start a new game, or view leaderboards, or exit game.
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/91ea0d53-35b1-48d3-93a4-ef7a0a0edfad)
-
-
 
 ### Character Creation
 - Select a starting role: Fisherfolk, Peddler, or Sailor. [^1]
@@ -91,7 +89,7 @@ This planning document provides a description of game mechanics with end notes t
 - Integration of this historical figure as an example of piracy as an escape from Qing taxation. Introduced as a Sailors tale of a benevolant pirate who only took from the rich and only took half of their goods.
 
 ### Pirate Mo Guanfu
-- Encounters with this character in various ways, such as witnessing his trial or interacting with him as an NPC. his trial will be public and show the brutality of Qing policy for Piratacy in many cases.
+- Encounters with this character in various ways, such as witnessing his trial or interacting with him as an NPC. his trial will be public and show the brutality of the Qing governments punishment.
 
 ## V. Progression and Objectives
 
