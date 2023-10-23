@@ -12,7 +12,7 @@
 ### Character Creation
 - Select a starting role: Fisherfolk, Peddler, or Sailor.
 - Choose a character name and family name
-- ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/3a96c1d2-c01e-43cc-adf4-d16c73a7d6ba)
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/3a96c1d2-c01e-43cc-adf4-d16c73a7d6ba)
 
 
 ## II. Setting and Background
