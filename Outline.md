@@ -42,11 +42,12 @@ This planning document provides a description of game mechanics with end notes t
 - Top-Down 2d boat mode 
 - Realistic naval combat with cannons and historically accurate weapons.
 - Strategy and maneuverability are essential in battles.
-- Weapons included in the game are wallpieces[^2] or swivel cannons, 
+- Weapons included in the game are wallpieces[^2], fowling pieces [^3]
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
 
   [^2]: "Wallpieces" were swiveling cannons that were mounted to allow for a good range of motion. They were typically used at close ranges and were also known as swivel guns – small cannons affixed to boats.
  MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): page 117-118. [Link to Source](http://www.jstor.org/stable/24573942)
+[^3]: Fowling pieces were long shotguns originally used for hunting birds. The barrels were up to 6 feet long to optimize accuracy. They were adopted by the Chinese military and pirates for warfare.The Red Banner pirate fleet was reported to have over 1,300 fowling pieces around it's peak of power. Murray, Dian. “One Woman’s Rise to Power: Cheng I’s Wife and the Pirates.” Historical Reflections / Réflexions Historiques 8, no. 3 (1981): 147–61. http://www.jstor.org/stable/41298765.
 
 
 ### Trading System
@@ -113,16 +114,15 @@ This planning document provides a description of game mechanics with end notes t
 
 ## VII. Devlog and Resources
 
-### Kanban Progress Tracking
+### Trello Progress Tracking
 - Track development progress and planning on a Trello board.
+
 
 ### Video Devlog
 - Regular video updates on the game's development.
 
-### Concept Art
-- Incorporate concept art into the game's design to enhance the visual experience.
-
 ## VIII. Conclusion
 
 ### Closing Remarks
-- Summarize the immersive and historically rich experience offered by the "South China Sea Game."
+- Restate the purpose of the game and give very bief summery of plot
+- Any other comments or closing remarks
