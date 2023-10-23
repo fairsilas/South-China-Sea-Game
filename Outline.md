@@ -3,12 +3,12 @@
 ## I. Introduction
 
 ### Title Screen
-- Game title: "South China Sea Game - An 18th Century Canton Pirate Experience."
-- Options to start a new game, load a previous save, or access game settings.
+- Game title: "Junks & Riches"
+- Options to start a new game, or view leaderboards, or exit game.
 
 ### Character Creation
 - Select a starting role: Fisherfolk, Peddler, or Sailor.
-- Choose a character name and customize appearance.
+- Choose a character name and family name
 
 ## II. Setting and Background
 
@@ -24,11 +24,11 @@
 
 ### Core Gameplay Loop
 - Starting in a port near a market with an inventory based on your chosen role.
-- Daily activities of trading, acquiring food, and maintaining your crew.
+- Daily activities of trading, acquiring food, and maintaining your crew. In order to progress, you must travel between key trading ports and pirate stashes, overcoming obstacles at sea with each journey and trading goods to increase your wealth, plundering ships, or doing missions for the Qing officials or Confederation of pirates.
 
 ### Pirate Crew Interaction
 - Opportunities to join or interact with different pirate crews.
-- Consequences of your choices, such as joining the Tayson Rebellion.
+- Consequences of your choices, such as joining the Tayson Rebellion. Will lead to Qing officials being hostile toward you.
 
 ### Naval Combat
 - Realistic naval combat with cannons and historically accurate weapons.
@@ -36,7 +36,7 @@
 
 ### Trading System
 - Dynamic trade system influenced by historical trends, supply, and demand.
-- Players can sometimes force ships to sell their cargo at low prices through threats.
+- Players can sometimes force ships to sell their cargo at low prices through threats in the complex multiple choice dialogue system.
 
 ### Simulation Aspects
 - Engaging in port labor, trading, and hauling goods to simulate the life of a seafarer.
@@ -63,12 +63,13 @@
 
 ### Pirate Queen Cheng I Sao
 - In-depth exploration of her character, exploits, and influence in the game's narrative.
+- Discover the strange love triangle beteen Chang I, Cheng Pao, ang Chang I Sao.
 
 ### Cui Zhi 'the Benevolent Thief'
-- Integration of this historical figure as an example of piracy as an escape from Qing taxation.
+- Integration of this historical figure as an example of piracy as an escape from Qing taxation. Introduced as a Sailors tale of a benevolant pirate who only took from the rich and only took half of their goods.
 
 ### Pirate Mo Guanfu
-- Encounters with this character in various ways, such as witnessing his trial or interacting with him as an NPC.
+- Encounters with this character in various ways, such as witnessing his trial or interacting with him as an NPC. his trial will be public and show the brutality of Qing policy for Piratacy in many cases.
 
 ## V. Progression and Objectives
 
