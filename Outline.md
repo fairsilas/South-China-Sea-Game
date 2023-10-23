@@ -1,6 +1,7 @@
 # Game Outline: "South China Sea Game"
 
 ## I. Introduction
+This planning document provides a description of game mechanics with historical documents backing the claims
 
 ### Title Screen
 - Game title: "Junks & Riches"
@@ -42,7 +43,7 @@
 - Pirates used cannons tha fired larger ammunition
 - Wallpiecs were small swivelling cannons mounted to the boat that could be used at close range. When equipped they allow full 360 swivel.[^1]
 - 
-  [^1]: MacKay, Joseph. "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): 551–73. [Link to Source](http://www.jstor.org/stable/24573942)
+  [^1]: MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): 117-118. [Link to Source](http://www.jstor.org/stable/24573942)
 
 
 ### Trading System
