@@ -14,8 +14,7 @@ This planning document provides a description of game mechanics with end notes t
 - Select a starting role: Fisherfolk, Peddler, or Sailor. [^1]
 - Choose a character name and family name
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/3a96c1d2-c01e-43cc-adf4-d16c73a7d6ba)
-  [^1]: Most of the lower ranked pirates came from poor backgrounds as fisherfolk and Sailors, 70 percent the 1800s. Typically young single men in 20s and rarely over 40. Poverty drove them to commit crimes as a way to survive and escape from the oppressive Qing government. (Antony 45)
-Full Citation needed
+  [^1]: Most of the lower ranked pirates came from poor backgrounds as fisherfolk and Sailors, 70 percent the 1800s. Typically young single men in 20s and rarely over 40. Poverty drove them to commit crimes as a way to survive and escape from the oppressive Qing government. (Antony 45 full citation needed here.)
 
 ## II. Setting and Background
 
@@ -37,7 +36,7 @@ Full Citation needed
 
 ### Pirate Crew Interaction
 - You are given the opportunity to join a crew in the beginning, and the captain dies and you take his place.
-- Consequences of your choices, when you are in the pirate ship you may be stopped by Qing officials to have your identification number checked.
+- Consequences of your choices, your ships identifiction may be checked by pirates or Qing officials and a  bounty may be placed on your head
 
 ### Naval Combat
 - Top-Down 2d boat mode 
@@ -47,7 +46,7 @@ Full Citation needed
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
 
   [^2]: "Wallpieces" were swiveling cannons that were mounted to allow for a good range of motion. They were typically used at close ranges and were also known as swivel guns – small cannons affixed to boats.
- MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): 117-118. [Link to Source](http://www.jstor.org/stable/24573942)
+ MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): page 117-118. [Link to Source](http://www.jstor.org/stable/24573942)
 
 
 ### Trading System
