@@ -23,9 +23,10 @@ This planning document provides a description of game mechanics with end notes t
 - Characters will give historical background through dialogue with the player.
 
 ### Game World
-- Map of the South China Sea with significant loacations for the game marked.
+- Map of the South China Sea with significant loacations for the game marked.![South China Sea Map of Locations](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/7830f2d3-3e7c-4be0-86a2-3ac3b0cc69e1)
+
 - Locations, including pirate strongholds, towns, and sea routes and reasons for choosing each location for the game.
-- At sea, encounter storms, Qing naval vessels, merchants and fisherman. Controlling your ship.
+- At sea, encounter storms, Qing naval vessels, merchants and fisherman. 
 
 ## III. Gameplay Mechanics
 ### beginning/intro
@@ -35,8 +36,10 @@ This planning document provides a description of game mechanics with end notes t
 
 ### Pirate Crew Interaction
 - You are given the opportunity to join a small crew of pirates in the beginning of the game. The captain dies and you take his place. People were desperate for an escape from poverty and harsh taxes and oppression imposed by the Qing government, so finding people who were willing to turn to piracy was not as difficult as one might expect.[^2]
-- Consequences of your choices, your ships identifiction may be checked by pirates or Qing officials and a  bounty may be placed on your head. Travelling without a safe conduct pass could lead to pirates attacking your ship and stealing your cargo. Travelling without registration with the Qing Government may lead to run ins with Qing navy and your arrest.
-[^2]: The pirate confederacy had established a structured protection racket. Even salt traders employed by the Qing state were compelled to purchase "safe conduct passes" at a cost of 200 Spanish silver dollars per vessel. These passes were obtainable at ports situated in significant trading hubs and villages, frequently in proximity to prominent political centers. This situation highlights the pervasive corruption within Qing officials and the considerable influence wielded by the confederacy. (Antony page 38 full Citation needed)
+- Consequences of your choices, your ships identifiction may be checked by pirates or Qing officials and a  bounty may be placed on your head. Travelling without a safe conduct pass could lead to pirates attacking your ship and stealing your cargo. Travelling without registration with the Qing Government may lead to run ins with Qing navy and your arrest.[^3]
+
+[^2]: (Antony 102)
+[^3]: The pirate confederacy had established a structured protection racket. Even salt traders employed by the Qing state were compelled to purchase "safe conduct passes" at a cost of 200 Spanish silver dollars per vessel. These passes were obtainable at ports situated in significant trading hubs and villages, frequently in proximity to prominent political centers. This situation highlights the pervasive corruption within Qing officials and the considerable influence wielded by the confederacy. (Antony page 38 full Citation needed)
 
 ### Naval Combat
 - Boat gameplay mode includes a top down view of your ship with full control of you ship using WASD keys or arrow keys, and the mouse.
@@ -44,9 +47,10 @@ This planning document provides a description of game mechanics with end notes t
 - Weapons included in the game are wallpieces[^2], fowling pieces[^3] ...
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
 
-  [^2]: "Wallpieces" were swiveling cannons that were mounted to allow for a good range of motion. They were typically used at close ranges and were also known as swivel guns – small cannons affixed to boats.
+
+[^4]: "Wallpieces" were swiveling cannons that were mounted to allow for a good range of motion. They were typically used at close ranges and were also known as swivel guns – small cannons affixed to boats.
  MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): page 117-118. [Link to Source](http://www.jstor.org/stable/24573942)
-[^3]: Fowling pieces were long shotguns originally used for hunting birds. The barrels were up to 6 feet long to optimize accuracy. They were adopted by the Chinese military and pirates for warfare.The Red Banner pirate fleet was reported to have over 1,300 fowling pieces around it's peak of power. Murray, Dian. “One Woman’s Rise to Power: Cheng I’s Wife and the Pirates.” Historical Reflections / Réflexions Historiques 8, no. 3 (1981): 147–61. http://www.jstor.org/stable/41298765.
+[^5]: Fowling pieces were long shotguns originally used for hunting birds. The barrels were up to 6 feet long to optimize accuracy. They were adopted by the Chinese military and pirates for warfare.The Red Banner pirate fleet was reported to have over 1,300 fowling pieces around it's peak of power. Murray, Dian. “One Woman’s Rise to Power: Cheng I’s Wife and the Pirates.” Historical Reflections / Réflexions Historiques 8, no. 3 (1981): 147–61. http://www.jstor.org/stable/41298765.
 
 
 ### Trading System
