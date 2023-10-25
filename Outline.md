@@ -1,4 +1,4 @@
-# Junks & Riches: A game set in the south China Sea in the 1800s
+# Junks & Riches: An 1800s South China Sea Trading Game
 
 ## I. Introduction
 This planning document provides a description of game mechanics with end notes to give historical background for features in the game.
@@ -9,10 +9,10 @@ This planning document provides a description of game mechanics with end notes t
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/91ea0d53-35b1-48d3-93a4-ef7a0a0edfad)
 
 ### Character Creation
-- Select a starting role: Fisherfolk, Peddler, or Sailor. [^1] A brief description of the role each character has and the special perks or skill that comes with it.
+- Select a starting role: Fisherfolk, Peddler, or Sailor. [^1] Perks include easier time getting food for fichermen, less likely to be caught in a storm and sail to the wrong place for sailors, and better prices for peddlers. The items you start with will also be determined by which you choose, but will not effect the game in any other ways.
 - Choose a character name and family name
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/3a96c1d2-c01e-43cc-adf4-d16c73a7d6ba)
-  [^1]: Most of the lower ranked pirates came from poor backgrounds as fisherfolk and Sailors, 70 percent the 1800s. Typically young single men in 20s and rarely over 40. Poverty drove them to commit crimes as a way to survive and escape from the oppressive Qing government. (Antony 45 full citation needed here.)
+  [^1]: Most of the lower ranked pirates came from poor backgrounds such as fisherfolk and Sailors or unsuccessful traders. Pirates were typically young single men in 20s and rarely over 40. Poverty drove them to commit crimes as a way to survive and escape from the oppressive Qing government. (Antony 45 full citation needed here.)
 
 ## II. Setting and Background
 
@@ -20,6 +20,7 @@ This planning document provides a description of game mechanics with end notes t
 - Overview of the 18th century South China Sea Coast and piracy in Chinese waters.
 - Characters will mention events like the Tay Son rebellion and key figures, like Pirate Queen Cheng I Sao and Cui Zhi.
 - Brief introduction to Macao where you will begin
+- Characters will give historical background through dialogue with the player.
 
 ### Game World
 - Map of the South China Sea with significant loacations for the game marked.
