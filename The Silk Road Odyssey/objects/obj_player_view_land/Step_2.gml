@@ -9,7 +9,7 @@ y = global.player.y
 camera_set_view_speed(view_camera[0], distance_to_point(vx+(vw/2), y)/30,distance_to_point(x, vy+(vh/2))/30)
 
 	
-if global.player.object_index == obj_ship{
+if (global.player.object_index == obj_ship){
 
 if (mode = 0){
 vx = camera_get_view_x(view_camera[0])
