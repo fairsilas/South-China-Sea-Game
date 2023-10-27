@@ -5,6 +5,10 @@ var data = ds_map_find_value(dia_map, current_dia)
 var num_choices = array_length(data.choices)
 var c_len = array_length(data.choices)
 
+if data.scr != "Do nothing"{
+	//execute the script
+}
+
 if (num_choices >= 1){
 	if (q_showing = true){
 		for (i=0; i< num_choices; i++) {
@@ -26,9 +30,9 @@ if (num_choices >= 1){
 			
 			var str = data.choices[i][0]
 			var m = 3;
-			var l = 10;
+			var l = 1;
 			draw_text(xx, yy, data.choices[i][0])
-			draw_rectangle(xx - m, yy - m, xx + string_length(str)*l + m, yy + string_height(str) + m, true);
+			draw_rectangle(xx - m, yy - m, xx + string_width(str)*l + m, yy + string_height(str) + m, true);
 		
 			if (l_click) and (hover){
 				if (data.choices[i][1] == "end"){

@@ -21,7 +21,9 @@ ls = [
 		topic : "Greeting",
 		main_text: "Hello, how can I help you?",
 		choices: [["I want to trade.", "Trade"],["By order of Emperer Qianlong, you are under arrest.", "Arrest"],["You have violated codes of the Guangdong Pirate Confederation", "Codes"]],
-		scr: "do nothing",
+		scr: function(){
+			instance_create_depth(x,y,-1, obj_marker)
+		},
 	},
 	{
 		topic : "Trade",
@@ -47,8 +49,6 @@ ls = [
 		choices: [["Goodbye","end"]],
 		scr: "do nothing",
 	}
-	
-
 ]
 
 
