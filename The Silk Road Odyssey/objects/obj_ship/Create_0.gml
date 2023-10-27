@@ -1,5 +1,5 @@
 global.player = self
-audio_play_sound(snd_seaguls, 1, true,)
+audio_play_sound(snd_seaguls, 1, true)
 audio_listener_orientation(0,1,0,0,0,1);
 depth = 0
 
