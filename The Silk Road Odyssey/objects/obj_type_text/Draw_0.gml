@@ -1,6 +1,6 @@
 
 
-
+draw_set_color(c_white)
 draw_set_font(fnt_default)
 draw_text_ext(x,y,currentLetter, 25, (room_width-x*2));
 
