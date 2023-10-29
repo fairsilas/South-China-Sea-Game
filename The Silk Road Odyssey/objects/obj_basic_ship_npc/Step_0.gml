@@ -3,11 +3,7 @@ if audio_started = false {
 	audio_started = true
 	audio_play_sound_on(em, snd_sailboat_sound,false, 10)
 }
-
-//if place_meeting(x,y,obj_ship){
-//		instance_destroy()
-	
-//}
+scr_boat_physics()
 
 if scr_find_collision_point(obj_ship) != noone{
 	
@@ -36,6 +32,4 @@ if scr_find_collision_point(obj_ship) != noone{
 		}
 		move_towards_point(xy[0],xy[1],-0.5)
 	}
-	
-	
 }

@@ -1,3 +1,55 @@
+//DIALOGUE DATA
+ls = [
+	//dialog starting
+	{
+		topic : "Hi",
+		main_text: "WHo go there!",
+		choices: [["Hello", "Greeting"]],
+		scr: "do nothing",
+	},
+	{
+		topic : "Greeting",
+		main_text: "Hello, how can I help you?",
+		choices: [["I want to trade.", "Trade"],["By order of Emperer Qianlong, you are under arrest.", "Arrest"],["You have violated codes of the Guangdong Pirate Confederation", "Codes"]],
+		scr: function(){
+			instance_create_depth(x,y,-1, obj_marker)
+		},
+	},
+	{
+		topic : "Trade",
+		main_text: "Well, I don't want to.",
+		choices: [["Ok then.", "Goodbye"]],
+		scr: "do nothing",
+	},
+	{
+		topic : "Arrest",
+		main_text: "Nuh uh, you can't arrest me because I'm innocent.",
+		choices: [["Oh, I guess I was wrong.","Goodbye"], ["Erm... No you are guilty I think.","Arrest"]],
+		scr: "do nothing"
+	},
+	{
+		topic : "Codes",
+		main_text: "Nuh uh, I actually didn't violate any codes",
+		choices: [["Oh, I didn't realize you actually didn't violate any codes.","Goodbye"], ["Erm... yes you did.","Codes"]],
+		scr: "do nothing",
+	},
+	{
+		topic : "Goodbye",
+		main_text: "Ok well goodbye then.",
+		choices: [["Goodbye","end"]],
+		scr: "do nothing",
+	}
+]
+
+
+
+
+
+
+
+
+
+//INVENTORY DATA
 my_inventory = ds_list_create()
 
 // Create a DS map to store the trader's item prices

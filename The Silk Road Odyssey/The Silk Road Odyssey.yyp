@@ -43,6 +43,7 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"spr_island","path":"sprites/spr_island/spr_island.yy",},},
     {"id":{"name":"scr_add_items","path":"scripts/scr_add_items/scr_add_items.yy",},},
     {"id":{"name":"spr_map","path":"sprites/spr_map/spr_map.yy",},},
     {"id":{"name":"spr_trader_profile_template","path":"sprites/spr_trader_profile_template/spr_trader_profile_template.yy",},},
@@ -70,6 +71,7 @@
     {"id":{"name":"spr_solid_diagonal","path":"sprites/spr_solid_diagonal/spr_solid_diagonal.yy",},},
     {"id":{"name":"rm_map","path":"rooms/rm_map/rm_map.yy",},},
     {"id":{"name":"gui_controller","path":"objects/gui_controller/gui_controller.yy",},},
+    {"id":{"name":"rm_merchant_encounter","path":"rooms/rm_merchant_encounter/rm_merchant_encounter.yy",},},
     {"id":{"name":"obj_silver_ingot","path":"objects/obj_silver_ingot/obj_silver_ingot.yy",},},
     {"id":{"name":"spr_ripple","path":"sprites/spr_ripple/spr_ripple.yy",},},
     {"id":{"name":"spr_silver_ingot","path":"sprites/spr_silver_ingot/spr_silver_ingot.yy",},},
@@ -143,6 +145,7 @@
     {"roomId":{"name":"rm_test_land","path":"rooms/rm_test_land/rm_test_land.yy",},},
     {"roomId":{"name":"rm_test_boats","path":"rooms/rm_test_boats/rm_test_boats.yy",},},
     {"roomId":{"name":"rm_pearl_dive","path":"rooms/rm_pearl_dive/rm_pearl_dive.yy",},},
+    {"roomId":{"name":"rm_merchant_encounter","path":"rooms/rm_merchant_encounter/rm_merchant_encounter.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
