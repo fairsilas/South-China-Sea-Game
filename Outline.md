@@ -149,7 +149,8 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 ### Character Interaction
 - Dialogue with various characters featuring multiple response choices.
 - Choices reflecting the historical and social context.
-- ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/0b67b8c7-c653-4ab7-b1fc-1441989b178f)
+![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/7540ca0e-28a0-40db-a3cf-4380734cb506)
+
 
 ### Barter and Currency System
 - Barter system for trading items with traders.
