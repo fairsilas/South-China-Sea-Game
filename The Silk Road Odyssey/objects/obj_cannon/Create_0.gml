@@ -8,9 +8,9 @@ item_data =  {
 	scr : function()
         {
 			if mouse_check_button_pressed(mb_left){
-				var a = angle
-				with(instance_create_depth(x,y, depth, obj_cannonball_proj)){
-					direction = a+choose(-90, 90)
+				var p = obj_ship
+				with(instance_create_depth(p.x, p.y, p.depth, obj_cannonball_proj)){
+					direction = p.angle+choose(-90, 90)
 					speed = 10
 				}
 			}

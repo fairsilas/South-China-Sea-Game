@@ -16,7 +16,7 @@ var num_choices = array_length(data.choices)
 var c_len = array_length(data.choices)
 
 if data.scr != "do nothing"{
-	//execute the script
+	data.scr()
 }
 
 if (num_choices >= 1){

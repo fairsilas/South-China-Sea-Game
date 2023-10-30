@@ -1,3 +1,5 @@
+
+
 //DIALOGUE DATA
 //NPC profile
 profile = {
@@ -21,15 +23,15 @@ ls = [
 		topic : "Greeting",
 		main_text: "Hello, how can I help you?",
 		choices: [["I want to trade.", "Trade"],["By order of Emperer Qianlong, you are under arrest.", "Arrest"],["You have violated codes of the Guangdong Pirate Confederation", "Codes"]],
-		scr: function(){
-			instance_create_depth(x,y,-1, obj_marker)
-		},
+		scr: "do nothing",
 	},
 	{
 		topic : "Trade",
-		main_text: "Well, I don't want to.",
-		choices: [["Ok then.", "Goodbye"]],
-		scr: "do nothing",
+		main_text: "",
+		choices: [],
+		scr: function(){
+			obj_inventory.currentInvState = InvStates.trade
+		},
 	},
 	{
 		topic : "Arrest",

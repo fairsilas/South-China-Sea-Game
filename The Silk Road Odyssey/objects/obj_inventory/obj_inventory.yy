@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_trader_profile_template",
-    "path": "sprites/spr_trader_profile_template/spr_trader_profile_template.yy",
+    "name": "spr_ship_info_panel_talk",
+    "path": "sprites/spr_ship_info_panel_talk/spr_ship_info_panel_talk.yy",
   },
   "spriteMaskId": null,
   "visible": true,
