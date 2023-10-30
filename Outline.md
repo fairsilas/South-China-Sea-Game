@@ -93,7 +93,7 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 
 - **Smuggler's Dens:**
    - Secret locations where contraband trading takes place and players can acquire rare goods.
-   - Opportunities for undercover dealings and decision-making regarding trade routes.
+   - Opportunities for undercover dealings with other pirates.
 
 - **Vietnamese Coast:**
     - A nearby coast with connections to the Tay Son Rebellion and Vietnamese merchants.
@@ -104,8 +104,8 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
     - Players can choose to trade with them, escort them safely through dangerous waters, or seize them as pirates.
 
 - **Isolated Fishing Villages:**
-    - Small coastal communities with their own stories, vulnerabilities, and quests.
-    - Players can interact with locals, uncover secrets, and decide whether to aid or exploit these settlements.
+    - Small coastal communities that can be forced to pay a tax or be destroyed by pirates.
+    - The player can interact with the people, enforce taxes, or destroy the village.
 
 
 ## III. Gameplay Mechanics
@@ -122,7 +122,7 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 [^3]: The pirate confederacy had established a structured protection racket. Even salt traders employed by the Qing state were compelled to purchase "safe conduct passes" at a cost of 200 Spanish silver dollars per vessel. These passes were obtainable at ports situated in significant trading hubs and villages, frequently in proximity to prominent political centers. This situation highlights the pervasive corruption within Qing officials and the considerable influence wielded by the confederacy. (Antony page 38 full Citation needed)
 
 ### Naval Combat
-- engage in naval combat that faithfully mirrors the realities of the 18th century South China Sea. You'll take control of your ship, utilizing a top-down view and steering with WASD keys or arrow keys, complemented by precise mouse control.
+- engage in naval combat that faithfully mirrors the realities of the 18th century South China Sea. You'll take control of your ship, utilizing a top-down view and steering with WASD keys or arrow keys. Most of the controls will be point and click so a mouse is recommended for gameplay.
 
 - One such weapon is the 'wallpiece,' a swiveling cannon mounted to maximize its range of motion. Typically used at close range, these swivel guns allowed for formidable firepower in naval encounters[^2]. Another weapon featured is the 'fowling piece,' originally designed for bird hunting. With barrels reaching up to six feet for maximum accuracy, these long shotguns were adapted for warfare and wielded by the Chinese military and pirates alike[^3].
 
@@ -180,8 +180,33 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 
 ## V. Progression and Objectives
 
-### Accumulating Wealth
-- The primary goal is to amass wealth and deposit it in the communal stash.
+### Pirate Organizations and Communal Stash
+
+In the world of South China Pirates, pirate organizations were not just bands of lawless individuals but rather structured entities with their own rules, hierarchies, and a communal stash. Understanding this system is vital for players to thrive in the game.
+
+- **Pirate Hierarchy:**
+  - Pirate organizations had leaders, often referred to as "Pirate Chieftains." These leaders were responsible for making strategic decisions and assigning roles within the crew. Some pirate leaders came from merchant backgrounds, and their business acumen often made them successful.
+
+- **Communal Stash:**
+  - Pirate organizations maintained a communal stash where the plundered wealth was stored. This communal stash was a shared treasury accessible to all members, serving as a vital resource for the group's survival and expansion.
+
+- **Wealth Accumulation:**
+  - A key objective for players is to contribute to the communal stash. By accumulating wealth through various means, such as raiding ships, looting villages, or trading contraband, players strengthen their pirate organization and contribute to its growth.
+
+- **Leaderboard and Prestige:**
+  - The game features a leaderboard that displays the top contributors to the communal stash. The more wealth a player accumulates and deposits into the communal stash, the higher their score on the leaderboard. Achieving a high position in the rankings grants players prestige and recognition within the pirate organization.
+
+- **Rules and Regulations:**
+  - Pirate organizations operated under a set of rules and regulations. These rules could include the division of spoils, codes of conduct, and penalties for insubordination. Players must adhere to these rules to maintain their standing within the group.
+
+- **Decision-Making and Alliances:**
+  - The communal stash could be used to make crucial decisions. Players may vote on alliances with other pirate organizations, fortifying strongholds, or choosing new targets for raids. A portion of the communal stash might be allocated to negotiating alliances, diplomacy, and defense.
+
+- **Strategic Investments:**
+  - Players can use their accumulated wealth to invest in improving the organization's infrastructure, upgrading ships, and strengthening their position within the pirate hierarchy.
+
+In South China Pirates, the communal stash is not just a treasure chest; it's the lifeblood of the pirate organization. Players must strive to accumulate wealth, follow the rules, and work together to become legendary pirates and dominate the leaderboard.
+
 
 ### Exploration and Travel
 - Moving between areas using a Node-Based map.
