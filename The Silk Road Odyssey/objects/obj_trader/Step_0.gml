@@ -2,7 +2,8 @@
 var i = my_inventory
 var my_p = my_prices
 if place_meeting(x,y,obj_ship)and keyboard_check_pressed(ord("E")){
-	scr_start_dialogue(ls)
+	scr_start_dialogue(ls,profile)
+	
 	
 	/*
 	with(obj_inventory){

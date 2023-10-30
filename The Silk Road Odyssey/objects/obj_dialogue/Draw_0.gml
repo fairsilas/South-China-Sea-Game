@@ -1,3 +1,13 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+vx = camera_get_view_x(view_camera[0])
+vy = camera_get_view_y(view_camera[0])
+vw = camera_get_view_width(view_camera[0])
+vh = camera_get_view_height(view_camera[0])
+draw_set_font(fnt_text)
+
+depth = -14000
 l_click = mouse_check_button_pressed(mb_left)
 
 var data = ds_map_find_value(dia_map, current_dia)
@@ -5,27 +15,28 @@ var data = ds_map_find_value(dia_map, current_dia)
 var num_choices = array_length(data.choices)
 var c_len = array_length(data.choices)
 
-if data.scr != "Do nothing"{
+if data.scr != "do nothing"{
 	//execute the script
 }
 
 if (num_choices >= 1){
 	if (q_showing = true){
 		for (i=0; i< num_choices; i++) {
-			var q_sep = 35
-			yy = y+50+(i*q_sep)
-		
+			var q_sep = 30
+			
+			var xx = vx+385
+			var yy = vy+405+(i*q_sep);
+			
 			var w = 200
 			var h = 25
 	
-			var hover = (mouse_x > x) and (mouse_x < x+w)and(mouse_y > yy)and (mouse_y < yy+h)
-			var xx;
+			var hover = (mouse_x > xx) and (mouse_x < xx+w)and(mouse_y > yy)and (mouse_y < yy+h)
+			
 			if hover{
 				draw_set_color(c_white)
-				xx = x-2
+				xx = vx+385+1
 			}else{
 				draw_set_color(c_grey)	
-				xx = x
 			}
 			
 			var str = data.choices[i][0]
@@ -37,6 +48,7 @@ if (num_choices >= 1){
 			if (l_click) and (hover){
 				if (data.choices[i][1] == "end"){
 					instance_destroy()
+					with(obj_inventory){currentInvState = InvStates.def}
 				
 				}else{
 					current_dia = data.choices[i][1]
@@ -48,8 +60,6 @@ if (num_choices >= 1){
 		}
 	}
 }else{
-	instance_destroy()	
+	instance_destroy()
+	
 }
-
-
-

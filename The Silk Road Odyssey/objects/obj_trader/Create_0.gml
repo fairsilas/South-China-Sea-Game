@@ -1,4 +1,14 @@
 //DIALOGUE DATA
+//NPC profile
+profile = {
+	spr : spr_trader_profile_template,
+	title : "Salt Trader",
+	desc : "A registration number is shown on the stern under the vessel's name.",
+}
+
+
+
+
 ls = [
 	//dialog starting
 	{

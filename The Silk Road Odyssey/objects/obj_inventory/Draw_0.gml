@@ -6,6 +6,9 @@ if (active = true){
     case InvStates.def:
 		scr_inv()
         break;
+	case InvStates.talk:
+		scr_inv_dialogue()
+		break;
 
     case InvStates.trade:
 		scr_trade()

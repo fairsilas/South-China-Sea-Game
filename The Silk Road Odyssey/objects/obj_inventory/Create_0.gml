@@ -1,5 +1,10 @@
 //ship and player stats
-
+profile = {
+	spr : spr_trader_profile_template,
+	title : "Default Name",
+	desc : "Default Description blah blah blah",
+}
+image_speed = 1
 total_weight = 0;
 max_weight = 100*2000 // 100 tons
 global.player = obj_ship
@@ -13,13 +18,15 @@ scr_init_default_prices(current_prices, 0.1)
 
 
 
-
+depth = -1000
 
 
 
 enum InvStates {
     def,
-    trade
+	talk,
+    trade,
+	
 }
 
 // Initialize the current inventory state

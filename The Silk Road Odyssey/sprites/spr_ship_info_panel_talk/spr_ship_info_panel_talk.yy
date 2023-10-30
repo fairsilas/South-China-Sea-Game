@@ -14,6 +14,8 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"67445b7b-8698-4fcf-afe5-9482af883b77",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6b844d5b-88ea-4ca5-8fac-ce3bd6a68bda",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"33381b7b-19f0-435f-8741-d4f315a8f893",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -44,11 +46,11 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 4.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -56,6 +58,8 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"67445b7b-8698-4fcf-afe5-9482af883b77","path":"sprites/spr_ship_info_panel_talk/spr_ship_info_panel_talk.yy",},},},"Disabled":false,"id":"2fa07ba7-3e7e-4678-a557-cfc226aca497","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6b844d5b-88ea-4ca5-8fac-ce3bd6a68bda","path":"sprites/spr_ship_info_panel_talk/spr_ship_info_panel_talk.yy",},},},"Disabled":false,"id":"a2a39fb8-2aea-4176-b335-4295c2d430de","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"33381b7b-19f0-435f-8741-d4f315a8f893","path":"sprites/spr_ship_info_panel_talk/spr_ship_info_panel_talk.yy",},},},"Disabled":false,"id":"4845f7a9-6742-4e41-b5be-e2f70a936c84","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
