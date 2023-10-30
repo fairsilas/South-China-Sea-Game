@@ -1,11 +1,11 @@
 # Junks & Riches: An 1800s South China Sea Trading Game
 
 ## I. Introduction
-This planning document will go over everything included in my game project, and give historical context for the items, characters, and locatins, and events in the game. 
+This planning document will go over everything included in my game project, and give historical context for the items, characters, and locations, and events in the game. 
 **A few things to consider when reading this document:**
-1. Many of the locations and mechanics mentioned will not be added within the timeframe, but are guides for developement and future development.
+1. Many of the locations and mechanics mentioned will not be added within the timeframe, but are guides for development and future development.
 2. Images included will not appear in the final game.
-3. At the bottom of the document, I will create a log of what parts of the game have been implemented, and most recent update notes. I will also have a video of gameplay showing the last updated verision of the game.
+3. At the bottom of the document, I will create a log of what parts of the game have been implemented, and most recent update notes. I will also have a video of gameplay showing the last updated version of the game.
 
 ### Title Screen
 - Game title: "Junks & Riches"
@@ -13,7 +13,7 @@ This planning document will go over everything included in my game project, and 
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/91ea0d53-35b1-48d3-93a4-ef7a0a0edfad)
 
 ### Character Creation
-- In "Junks & Riches," you assume the role of a struggling fisherman, sailor, or peddler, each of whom faces unique challenges in the 18th century South China Sea. This screen will provide a small historical description of each coastal proffession.
+- In "Junks & Riches," you assume the role of a struggling fisherman, sailor, or peddler, each of whom faces unique challenges in the 18th century South China Sea. This screen will provide a small historical description of each coastal profession.
 
 - Fishermen, often born into impoverished coastal communities, found themselves grappling with dwindling fish stocks and increased competition for resources. The oppressive Qing government imposed heavy taxes and regulations on their trade, pushing many into poverty. Faced with few alternatives, some fishermen turned to piracy as a desperate bid for survival and a means to escape the shackles of poverty.
 
@@ -56,7 +56,7 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 
 
 ### Game World
-- Map of the South China Sea with significant loacations for the game marked.![South China Sea Map of Locations](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/7830f2d3-3e7c-4be0-86a2-3ac3b0cc69e1)
+- Map of the South China Sea with significant locations for the game marked.![South China Sea Map of Locations](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/7830f2d3-3e7c-4be0-86a2-3ac3b0cc69e1)
 
 #### Locations: 
 - **Macao:**
@@ -149,6 +149,7 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 ### Character Interaction
 - Dialogue with various characters featuring multiple response choices.
 - Choices reflecting the historical and social context.
+- ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/0b67b8c7-c653-4ab7-b1fc-1441989b178f)
 
 ### Barter and Currency System
 - Barter system for trading items with traders.
@@ -170,10 +171,10 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 
 ### Pirate Queen Cheng I Sao
 - In-depth exploration of her character, exploits, and influence in the game's narrative.
-- Discover the strange love triangle beteen Chang I, Cheng Pao, ang Chang I Sao.
+- Discover the strange love triangle between Chang I, Cheng Pao, ang Chang I Sao.
 
 ### Cui Zhi 'the Benevolent Thief'
-- Integration of this historical figure as an example of piracy as an escape from Qing taxation. Introduced as a Sailors tale of a benevolant pirate who only took from the rich and only took half of their goods.
+- Integration of this historical figure as an example of piracy as an escape from Qing taxation. Introduced as a Sailors tale of a benevolent pirate who only took from the rich and only took half of their goods.
 
 ### Pirate Mo Guanfu
 - Encounters with this character in various ways, such as witnessing his trial or interacting with him as an NPC. his trial will be public and show the brutality of the Qing governments punishment.
@@ -230,9 +231,4 @@ In South China Pirates, the communal stash is not just a treasure chest; it's th
 
 ### Video Devlog
 - Regular video updates on the game's development.
-
-## VIII. Conclusion
-
-### Closing Remarks
-- Restate the purpose of the game and give very bief summery of plot
-- Any other comments or closing remarks
+- Added dialogue system  - currently finishing setting that up.
