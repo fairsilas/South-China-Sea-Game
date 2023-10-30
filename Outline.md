@@ -1,7 +1,11 @@
 # Junks & Riches: An 1800s South China Sea Trading Game
 
 ## I. Introduction
-This planning document will go over everything included in my game project, and give historical context for the items, characters, and locatins, and events in the game. (Images included will not appear in the final game.)
+This planning document will go over everything included in my game project, and give historical context for the items, characters, and locatins, and events in the game. 
+**A few things to consider when reading this document:**
+1. Many of the locations and mechanics mentioned will not be added within the timeframe, but are guides for developement and future development.
+2. Images included will not appear in the final game.
+3. At the bottom of the document, I will create a log of what parts of the game have been implemented, and most recent update notes. I will also have a video of gameplay showing the last updated verision of the game.
 
 ### Title Screen
 - Game title: "Junks & Riches"
@@ -26,16 +30,83 @@ This planning document will go over everything included in my game project, and 
 ## II. Setting and Background
 
 ### Historical Context
-- Overview of the 18th century South China Sea Coast and piracy in Chinese waters.
-- Characters will mention events like the Tay Son rebellion and key figures, like Pirate Queen Cheng I Sao and Cui Zhi.
-- Brief introduction to Macao where you will begin
-- Characters will give historical background through dialogue with the player.
+
+The game is set against the backdrop of the 18th century South China Sea Coast, a period marked by the proliferation of piracy in Chinese waters. This era was defined by its complex socio-economic and political landscape, making it fertile ground for piracy to take root and flourish. Several key elements shape this historical context:
+
+**1. The Canton System:**
+   - The game world is deeply influenced by the Canton System, which was established by the Qing Dynasty. This system regulated foreign trade, primarily at the port of Canton (modern-day Guangzhou). Foreign merchants were restricted to conducting trade through a designated area, which was closely monitored by Qing officials. The tight control of trade created conditions conducive to smuggling, as people sought to circumvent these trade restrictions.
+
+**2. Ports of Significance:**
+   - **Macao:** Your journey begins in Macao, an essential hub for international trade. Macao's unique status as a Portuguese enclave in Chinese territory made it a haven for pirates and smugglers, operating with a degree of autonomy.
+   - **Guangzhou (Canton):** As one of the most prominent trading ports during the Qing Dynasty, Guangzhou played a central role in the game's world. It was a vital connection point for foreign merchants and served as a focal point for various historical events, including confrontations between the Qing authorities and pirates.
+
+**3. Hainan Island - Pirate Base:**
+   - Hainan Island serves as a key location in the game, housing one of the most notorious pirate bases in the region. The island's strategic position allowed pirates to operate in proximity to major trade routes. It was from this base that pirates launched their attacks on merchant ships and nearby coastal towns.
+
+**4. The Tay Son Rebellion:**
+   - The Tay Son Rebellion, a historical conflict taking place during the late 18th century, provides additional context to the game world. As the rebellion swept through parts of Vietnam, it influenced the rise of several prominent pirate leaders, who played a role in the conflict. Characters will reference this rebellion, offering insights into the interconnectedness of regional events and the emergence of pirates as significant players in the power struggle.
+
+**5. Pirate Queen Cheng I Sao and Cui Zhi:**
+   - Pirate Queen Cheng I Sao and her formidable confederation of pirates, as well as the cunning and ruthless Cui Zhi, who played a crucial role in orchestrating pirate operations, are historical figures that have left a lasting impact on the region. These characters, though not likely to be encountered in the game, will be mentioned by other NPCs, contributing to the authenticity of the historical setting.
+
+**6. The Gulf of Tonkin:**
+   - The Gulf of Tonkin, a significant geographical feature, had a critical role in the operations of the pirates as a result of the Tay Son rebellion. Situated in the northern part of the South China Sea, it provided a crucial maritime passage connecting the southern coast of China with the northeastern coast of Vietnam where Chinese Pirates who joined the Tay Son rebellion could stop and trade, or get provisions and support from the rebels. This proximity allowed pirates to establish a stronghold in the Gulf of Tonkin, from which they could launch their raids on passing merchant vessels. The Gulf of Tonkin acted as a strategic arena for piracy, with its intricate network of islands, bays, and open waters providing ample opportunities for pirate operations. Hainan island was one of those islands located in the Gulf of Tonkin.
+   - 
+Through  dialogue and interactions with NPCs, players will have the opportunity to immerse themselves in the  historical background of the 18th century South China Sea Coast, learning of the challenges and motivations that shaped the lives of Qing officials, and pirates during this era.
+
 
 ### Game World
 - Map of the South China Sea with significant loacations for the game marked.![South China Sea Map of Locations](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/7830f2d3-3e7c-4be0-86a2-3ac3b0cc69e1)
 
-- Locations, including pirate strongholds, towns, and sea routes and reasons for choosing each location for the game.
-- At sea, encounter storms, Qing naval vessels, merchants and fisherman. 
+#### Locations: 
+- **Macao:**
+   - Starting location for players, serving as an entry point into the game world.
+   - A bustling trade port with a mix of cultures and opportunities for various quests and activities.
+
+- **Guangzhou (Canton):**
+   - A major port city in the game world, central to many historical events.
+   - Offers diverse environments, from the bustling harbor to the busy markets, allowing for interactions with key NPCs and factions.
+
+- **Hainan Island - Pirate Base:**
+   - The primary base for pirates, home to formidable pirate fleets.
+   - Features hidden coves, pirate settlements, and fortresses with valuable loot and challenges.
+
+- **The Gulf of Tonkin:**
+   - A vast and treacherous sea area where much of the piracy takes place.
+   - Comprising open waters, islands, and is a hotbed for piracy and conflict between pirates and the Qing Navy.
+
+- **Xiamen (Amoy):**
+   - A historical center for pirates and smugglers, known for its black markets and pirate operations.
+   - An area that reflects the constant struggle between pirates, traders, and Qing officials.
+
+- **Gulf of Tonkin Islands:**
+   - A collection of islands that provide strategic points for pirates to plan and execute raids.
+   - Different islands may house hidden treasure, pirate strongholds, and exotic wildlife, presenting unique challenges.
+
+- **Pirate Strongholds:**
+   - Hidden pirate bases scattered throughout the game world, representing a variety of pirate factions.
+   - Each stronghold has its unique characteristics, ranging from hidden jungle outposts to fortified coastal fortresses.
+
+- **Qing Dynasty Outposts:**
+   - Coastal installations established by Qing officials to combat piracy.
+   - Locations where players can find quests or engage in naval battles against government forces.
+
+- **Smuggler's Dens:**
+   - Secret locations where contraband trading takes place and players can acquire rare goods.
+   - Opportunities for undercover dealings and decision-making regarding trade routes.
+
+- **Vietnamese Coast:**
+    - A nearby coast with connections to the Tay Son Rebellion and Vietnamese merchants.
+    - Offers a different cultural backdrop and potential quests related to regional conflicts and alliances.
+
+- **Foreign Trade Ships:**
+    - International vessels traveling through the South China Sea, each with its unique characteristics.
+    - Players can choose to trade with them, escort them safely through dangerous waters, or seize them as pirates.
+
+- **Isolated Fishing Villages:**
+    - Small coastal communities with their own stories, vulnerabilities, and quests.
+    - Players can interact with locals, uncover secrets, and decide whether to aid or exploit these settlements.
+
 
 ## III. Gameplay Mechanics
 ### beginning/intro
