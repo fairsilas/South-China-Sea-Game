@@ -1,7 +1,7 @@
 # Junks & Riches: An 1800s South China Sea Trading Game
 
 ## I. Introduction
-This planning document provides a description of game mechanics with end notes to give historical background for features in the game.
+This planning document will go over everything included in my game project, and give historical context for the items, characters, and locatins, and events in the game. (Images included will not appear in the final game.)
 
 ### Title Screen
 - Game title: "Junks & Riches"
@@ -9,8 +9,17 @@ This planning document provides a description of game mechanics with end notes t
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/91ea0d53-35b1-48d3-93a4-ef7a0a0edfad)
 
 ### Character Creation
-- Select a starting role: Fisherfolk, Peddler, or Sailor. [^1] Perks include easier time getting food for fichermen, less likely to be caught in a storm and sail to the wrong place for sailors, and better prices for peddlers. The items you start with will also be determined by which you choose, but will not effect the game in any other ways.
-- Choose a character name and family name
+- In "Junks & Riches," you assume the role of a struggling fisherman, sailor, or peddler, each of whom faces unique challenges in the 18th century South China Sea. This screen will provide a small historical description of each coastal proffession.
+
+- Fishermen, often born into impoverished coastal communities, found themselves grappling with dwindling fish stocks and increased competition for resources. The oppressive Qing government imposed heavy taxes and regulations on their trade, pushing many into poverty. Faced with few alternatives, some fishermen turned to piracy as a desperate bid for survival and a means to escape the shackles of poverty.
+
+- Sailors, whether on merchant vessels or imperial navy ships, contended with harsh living conditions, low wages, and the risk of encountering pirates on the high seas. Their lives were marred by the strict discipline imposed by Qing officials, and they too often found themselves ensnared in the cycle of oppression. This environment made some sailors susceptible to the allure of piracy, as it offered an opportunity for both wealth and rebellion against their oppressors.
+
+- Peddlers, engaged in the trade of goods and commodities, faced the complexities of the Canton System's strict regulations. Profit margins were thin, and the constant threat of pirate raids further imperiled their livelihoods. Frustration with the system and the desire for financial stability sometimes led peddlers to cross over to the pirate's life, where opportunities for greater wealth and autonomy could be found.
+
+- In "Junks & Riches," you'll experience the hardship of a working class citizen on China's coasts.
+
+- Choose a character name and family name (This will be used as an ID for saving your score on the leaderboard)
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/3a96c1d2-c01e-43cc-adf4-d16c73a7d6ba)
   [^1]: Most of the lower ranked pirates came from poor backgrounds such as fisherfolk and Sailors or unsuccessful traders. Pirates were typically young single men in 20s and rarely over 40. Poverty drove them to commit crimes as a way to survive and escape from the oppressive Qing government. (Antony 45 full citation needed here.)
 
@@ -35,16 +44,18 @@ This planning document provides a description of game mechanics with end notes t
 - Daily activities of trading, acquiring food, and maintaining your crew. In order to progress, you must travel between key trading ports and pirate stashes, overcoming obstacles at sea with each journey and trading goods to increase your wealth, plundering ships, or doing contractual missions for the Qing officials or the Confederation of pirates.
 
 ### Pirate Crew Interaction
-- You are given the opportunity to join a small crew of pirates in the beginning of the game. The captain dies and you take his place. People were desperate for an escape from poverty and harsh taxes and oppression imposed by the Qing government, so finding people who were willing to turn to piracy was not as difficult as one might expect.[^2]
-- Consequences of your choices, your ships identifiction may be checked by pirates or Qing officials and a  bounty may be placed on your head. Travelling without a safe conduct pass could lead to pirates attacking your ship and stealing your cargo. Travelling without registration with the Qing Government may lead to run ins with Qing navy and your arrest.[^3]
+- In "Junks & Riches," you'll get the chance to join a small pirate crew early in the game. The 18th-century South China Sea was rife with desperation due to poverty, heavy taxes, and Qing government oppression, making recruitment into piracy relatively easy[^2].
+- Your choices in the game have lasting consequences. If you're not careful, both pirate and Qing officials might scrutinize your ship's identity, putting a bounty on your head. Traveling without a safe conduct pass might result in pirate attacks and cargo theft, while sailing without Qing Government registration could lead to encounters with the Qing navy and potential arrest[^3]. This reflects the harsh reality of piracy in this historical setting.
 
 [^2]: (Antony 102)
 [^3]: The pirate confederacy had established a structured protection racket. Even salt traders employed by the Qing state were compelled to purchase "safe conduct passes" at a cost of 200 Spanish silver dollars per vessel. These passes were obtainable at ports situated in significant trading hubs and villages, frequently in proximity to prominent political centers. This situation highlights the pervasive corruption within Qing officials and the considerable influence wielded by the confederacy. (Antony page 38 full Citation needed)
 
 ### Naval Combat
-- Boat gameplay mode includes a top down view of your ship with full control of you ship using WASD keys or arrow keys, and the mouse.
-- Combat will be dictated by how you choose to control your ship, and the weapons you trade for and utilize from your inventory.
-- Weapons included in the game are wallpieces[^2], fowling pieces[^3] ...
+- engage in naval combat that faithfully mirrors the realities of the 18th century South China Sea. You'll take control of your ship, utilizing a top-down view and steering with WASD keys or arrow keys, complemented by precise mouse control.
+
+- One such weapon is the 'wallpiece,' a swiveling cannon mounted to maximize its range of motion. Typically used at close range, these swivel guns allowed for formidable firepower in naval encounters[^2]. Another weapon featured is the 'fowling piece,' originally designed for bird hunting. With barrels reaching up to six feet for maximum accuracy, these long shotguns were adapted for warfare and wielded by the Chinese military and pirates alike[^3].
+
+
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
 
 
