@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "minimap",
+    "path": "folders/Sprites/minimap.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

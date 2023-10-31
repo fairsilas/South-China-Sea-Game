@@ -20,13 +20,14 @@
   "height": 561,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"195196fc-7688-4239-9fd4-f445410c8d15","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6b33bf6b-308d-4690-aff2-47d6dce4eec1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "design outlines",
-    "path": "folders/Sprites/design outlines.yy",
+    "name": "minimap",
+    "path": "folders/Sprites/minimap.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
