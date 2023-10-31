@@ -11,10 +11,10 @@ draw_sprite_ext(sprite_index, image_index,x,y,image_xscale,image_yscale,angle,im
 var w = 64
 var h = 64
 var bx = x;
-var by = y-64;
+var by = y-100;
 
 //show button
-if  (distance_to_object(obj_ship) < 100){
+if  (distance_to_object(obj_player) < 100){
 	
 	
 	//open dialog of trade with trader

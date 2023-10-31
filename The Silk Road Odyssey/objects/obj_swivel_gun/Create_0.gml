@@ -1,8 +1,8 @@
 
 item_data =  {
-	title : "Large Cannon",
-	desc : "Good for long distance attacks but not very maneuverable.",
-	weight : 1000,
+	title : "Swivel Cannon",
+	desc : "Also called a wallpiece. This small cannon is good for maneuverablility and short range attack.",
+	weight : 100,
 	count : 1,
 	sprite : sprite_index,
 	scr : function()
@@ -10,7 +10,7 @@ item_data =  {
 			if mouse_check_button_pressed(mb_left) and instance_exists(obj_ship){
 				var p = obj_ship
 				with(instance_create_depth(p.x, p.y, p.depth, obj_cannonball_proj)){
-					direction = p.angle+choose(-90, 90)
+					direction = point_direction(p.x,p.y, mouse_x,mouse_y)
 					speed = 10
 				}
 			}

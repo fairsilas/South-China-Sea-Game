@@ -36,9 +36,9 @@ for (i=0;i<array_length(places);i++){
 			
 			//draw description and title of SELECTED location
 			draw_set_color(c_white)
-			draw_text(30, 30, p.title)
+			draw_text(30+room_width/2.6, 30, p.title)
 			draw_set_font(fnt_inv_desc)
-			draw_text(30, 50, p.desc)
+			draw_text(30+room_width/2.6, 50, p.desc)
 			draw_set_font(fnt_map)
 			draw_set_color(c_black)
 			
@@ -66,14 +66,26 @@ for (i=0;i<array_length(places);i++){
 	}
 }
 
-if hovered = false{
-	//draw description and title of SELECTED location
+{
+	//draw description and title of current location
 			draw_set_color(c_white)
+			draw_sprite(spr_map_junk, 0, 20, 30)
 			draw_text(30, 30, global.current_place.title)
 			draw_set_font(fnt_inv_desc)
-			draw_text(30, 50, global.current_place.desc)
+			draw_text(30, 50, "You are currently at "+global.current_place.title+". "+global.current_place.desc)
 			draw_set_font(fnt_map)
 			draw_set_color(c_black)
+			
+	//draw description and title of target location
+			if global.target_place != noone{
+			draw_set_color(c_white)
+			draw_sprite(spr_map_target, 0, 20, 130)
+			draw_text(30, 130, global.target_place.title)
+			draw_set_font(fnt_inv_desc)
+			draw_text(30, 150, global.target_place.desc)
+			draw_set_font(fnt_map)
+			draw_set_color(c_black)
+			}
 }
 
 	

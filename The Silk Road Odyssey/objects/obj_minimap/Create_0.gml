@@ -6,7 +6,7 @@ xx : 396,
 yy : 245,
 col: c_white,
 rm: rm_test_land,
-adj: ["Hainan","Xiamen"],
+adj: ["Hainan","Xiamen","Weizhou"],
 },
 {
 title : "Taiwan",
