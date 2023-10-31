@@ -124,7 +124,14 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 ### Naval Combat
 - engage in naval combat that faithfully mirrors the realities of the 18th century South China Sea. You'll take control of your ship, utilizing a top-down view and steering with WASD keys or arrow keys. Most of the controls will be point and click so a mouse is recommended for gameplay.
 
-- One such weapon is the 'wallpiece,' a swiveling cannon mounted to maximize its range of motion. Typically used at close range, these swivel guns allowed for formidable firepower in naval encounters[^2]. Another weapon featured is the 'fowling piece,' originally designed for bird hunting. With barrels reaching up to six feet for maximum accuracy, these long shotguns were adapted for warfare and wielded by the Chinese military and pirates alike[^3].
+- **Weapons used** is the **'wallpiece,'** a swiveling cannon mounted to maximize its range of motion. Typically used at close range, these swivel guns allowed for formidable firepower in naval encounters[^2]. Another weapon featured is the **'fowling piece,'** originally designed for bird hunting. With barrels reaching up to six feet for maximum accuracy, these long shotguns were adapted for warfare and wielded by the Chinese military and pirates alike[^3].
+
+There were several types of cannons, some fired larger cannonballs, some fired grapeshot, and some fired small cannonballs. The different types of cannons were used depending on the range, and the level of maneuverability needed.
+
+- **Qing Navy Cannonballs:** The cannonballs used by the Qing Navy were described as weighing "1 catty," which is approximately equivalent to 1.3 pounds. These cannonballs were used with the cannons on Qing Navy warships.
+
+- **Pirate Cannonballs:** On the other hand, pirate ships in the region were noted to use heavier cannonballs. Specifically, the notes mentioned that pirate cannonballs weighed "14 catty," which is approximately equivalent to 18 pounds. These larger cannonballs were used with the cannons on pirate junks.
+
 
 
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
