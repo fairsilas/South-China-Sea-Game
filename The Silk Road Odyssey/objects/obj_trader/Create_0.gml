@@ -15,7 +15,7 @@ ls = [
 	//dialog starting
 	{
 		topic : "Hi",
-		main_text: "WHo go there!",
+		main_text: "Hello",
 		choices: [["Hello", "Greeting"]],
 		scr: "do nothing",
 	},

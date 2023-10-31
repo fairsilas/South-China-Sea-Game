@@ -18,7 +18,7 @@ var down = keyboard_check(vk_down)or keyboard_check(ord("S"))
 
 
 if (left){
-	angle += turnspeed*speed/(speed+2)+0.1
+	angle += (turnspeed*speed/(speed+2)+0.1)
 }
 
 if (right){
