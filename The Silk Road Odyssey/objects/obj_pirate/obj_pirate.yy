@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "sea",
+    "path": "folders/Objects/sea.yy",
   },
   "parentObjectId": {
     "name": "obj_boat",
