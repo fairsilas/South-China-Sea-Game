@@ -1,3 +1,7 @@
+if global.can_move = false{
+	speed = 0	
+}
+
 //set audio
 audio_listener_position(x,y,0)
 //motion_add(180, 0.01)

@@ -1,4 +1,9 @@
-
+relationship = 50
+max_hp = 100
+hp = max_hp
+max_spd = 2
+turn_spd = 6
+current_state = states.wander
 
 //DIALOGUE DATA
 //NPC profile
@@ -9,9 +14,16 @@ profile = {
 }
 
 
-
-
-ls = [
+angry_ls = [
+	//dialog starting
+	{
+		topic : "Hi",
+		main_text: "I am angry at you now so I will not trade.",
+		choices: [["Okay.", "end"]],
+		scr: "do nothing",
+	},
+]
+default_ls = [
 	//dialog starting
 	{
 		topic : "Hi",

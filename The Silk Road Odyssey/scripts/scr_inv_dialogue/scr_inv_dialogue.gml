@@ -1,12 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_inv_dialogue(){
-		
-	
-	//switch to trade menu
-	if keyboard_check_pressed(vk_tab){
-		currentInvState = InvStates.trade
-	}
+	global.can_move =false
 
 
 	if (active = true){

@@ -1,13 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_inv(){
-	
-	
-	//switch to trade menu
-	if keyboard_check_pressed(vk_tab){
-		currentInvState = InvStates.trade
-	}
-
+	global.can_move = true
 
 	if (active = true){
 	draw_sprite(spr_ship_info_panel,0,vx,vy+vh)
@@ -70,4 +64,9 @@ function scr_inv(){
 		}
 	}
 }
+
+
+
+
+
 }

@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 function scr_trade(){
-	
+	global.can_move = false
 	
 //switch trade on and off
 if keyboard_check_pressed(vk_escape){
@@ -18,6 +18,11 @@ if (active = true){
 	equipped_item = noone
 	//draw basic GUI
 	draw_sprite(spr_ship_info_panel_trade,0,vx,vy+vh)
+	draw_sprite(profile.spr,sprite_index,vx+171,vy+116)
+	draw_set_color(c_white)
+	draw_set_font(fnt_inv_title)
+	draw_text(vx+180,vy+336,profile.title)
+	draw_set_font(fnt_inv_desc)
 	draw_text(vx-vw-43, vy+vh-40, "lbs:"+ string(total_weight)+" / MAX")
 	draw_set_font(fnt_inv_desc)
 	draw_set_color(c_ltgray)

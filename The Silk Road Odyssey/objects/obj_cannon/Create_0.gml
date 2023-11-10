@@ -9,12 +9,12 @@ item_data =  {
         {
 			if mouse_check_button_pressed(mb_left) and instance_exists(obj_ship){
 				var p = obj_ship
+				scr_shake_screen(4)
 				with(instance_create_depth(p.x, p.y, p.depth, obj_cannonball_proj)){
 					direction = p.angle+choose(-90, 90)
 					speed = 10
 				}
 			}
-			
         }
 }
 
