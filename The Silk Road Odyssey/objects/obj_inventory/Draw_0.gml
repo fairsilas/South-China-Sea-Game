@@ -1,5 +1,5 @@
 
-if (active = true)and room != rm_map{
+if (active = true)and (instance_exists(obj_player)or instance_exists(obj_ship)){
 	
 	switch (currentInvState) {
     case InvStates.def:

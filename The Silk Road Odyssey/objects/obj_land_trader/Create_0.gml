@@ -1,4 +1,4 @@
-
+depth = -y
 
 //DIALOGUE DATA
 //NPC profile
