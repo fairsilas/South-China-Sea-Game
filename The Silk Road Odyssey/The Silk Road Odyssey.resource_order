@@ -101,6 +101,7 @@
     {"name":"obj_edge_clouds","order":12,"path":"objects/obj_edge_clouds/obj_edge_clouds.yy",},
     {"name":"scr_add_commas","order":7,"path":"scripts/scr_add_commas/scr_add_commas.yy",},
     {"name":"inv_drop_items","order":8,"path":"scripts/inv_drop_items/inv_drop_items.yy",},
+    {"name":"obj_qing_official1","order":30,"path":"objects/obj_qing_official1/obj_qing_official1.yy",},
     {"name":"obj_cannon","order":4,"path":"objects/obj_cannon/obj_cannon.yy",},
     {"name":"spr_item_profile","order":2,"path":"sprites/spr_item_profile/spr_item_profile.yy",},
     {"name":"spr_small_explosion","order":21,"path":"sprites/spr_small_explosion/spr_small_explosion.yy",},

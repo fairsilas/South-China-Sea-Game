@@ -1,1 +1,1 @@
-txt = "Congradulation, you made it to "+global.current_place.title
+txt = "Congrats, you made it to "+global.current_place.title

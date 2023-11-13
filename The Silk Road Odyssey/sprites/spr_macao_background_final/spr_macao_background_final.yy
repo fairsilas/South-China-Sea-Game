@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_macao_background_final",
-  "bbox_bottom": 799,
+  "bbox_bottom": 999,
   "bbox_left": 0,
   "bbox_right": 1799,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 800,
+  "height": 1000,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ae3f825d-4972-4730-8329-835977001cd4","blendMode":0,"displayName":"beams","isLocked":false,"opacity":100.0,"visible":true,},
