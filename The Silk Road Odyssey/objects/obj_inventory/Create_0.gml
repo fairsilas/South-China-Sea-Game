@@ -1,3 +1,5 @@
+reload_timer = 0 
+
 //ship and player stats
 profile = {
 	spr : spr_trader_profile_template,
@@ -18,7 +20,7 @@ scr_init_default_prices(current_prices, 0.1)
 
 
 
-depth = -1000
+depth = -100000
 
 
 

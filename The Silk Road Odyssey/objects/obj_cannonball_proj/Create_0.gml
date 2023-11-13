@@ -12,5 +12,12 @@ audio_play_sound_on(em, snd_cannon_shot,false, 1, 100, 0,random_range(.6, 1.3))
 creator = instance_nearest(x,y,obj_boat) 
 
 
+alarm[1] = 3
+
+lifespan = 80
+
+alarm[0] = lifespan
+
+
 
 

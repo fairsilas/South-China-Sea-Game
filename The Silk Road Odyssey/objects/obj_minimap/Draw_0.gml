@@ -2,7 +2,11 @@ var rad_hover = 10
 var rad = 8
 var hovered = false
 
+
 if room==rm_map{
+	if keyboard_check_pressed(vk_escape){
+		room_goto(global.current_place.rm)
+	}
 	for (i=0;i<array_length(places);i++){
 		var p = places[i]
 		var hover = (mouse_x > p.xx-rad_hover)

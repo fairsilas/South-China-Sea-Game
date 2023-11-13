@@ -34,7 +34,7 @@ desc : "A small pirate base island.",
 xx : 349,
 yy : 267,
 col: c_white,
-rm: rm_test_land,
+rm: rm_weizhou,
 adj: ["Hainan","Macao"],
 },
 {

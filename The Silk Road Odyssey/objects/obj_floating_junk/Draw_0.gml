@@ -14,7 +14,7 @@ var bx = x;
 var by = y-64;
 
 //show button
-if  (distance_to_object(obj_player) < 100)and(obj_inventory.equipped_item == noone){
+if  (distance_to_object(obj_player) < 100){
 	if (can_board = true){
 			//open dialog of trade with trader
 			if (mouse_x < bx+(w/2))and (mouse_x > bx-(w/2)) and (mouse_y < by+(h/2))and (mouse_y > by-(h/2)){

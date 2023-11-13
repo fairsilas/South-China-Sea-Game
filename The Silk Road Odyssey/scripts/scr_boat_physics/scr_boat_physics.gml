@@ -6,7 +6,6 @@ function scr_boat_physics(){
 	var ship_reversing = true
 	
 	ship_reversing = abs(angle_difference(direction,angle)) > 90 
-	show_debug_message(angle_difference(direction,angle))
 
 
 	//max speed

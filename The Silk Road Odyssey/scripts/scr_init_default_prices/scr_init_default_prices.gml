@@ -9,8 +9,8 @@ function scr_init_default_prices(map, percent_variation=0){
 	map[? "Bundle of silk"] = 20;
 	map[? "Fine Gift Robes"] = 1400;
 	map[? "Tael of Silver"] = 1000;
-	map[? "Tael of Silver"] = 1000;
-	map[? "Tael of Silver"] = 1000;
+	map[? "Large Cannon"] = 1000;
+	map[? "Wallpiece"] = 1000;
 	map[? "Tael of Silver"] = 1000;
 	map[? "Tael of Silver"] = 1000;
 	

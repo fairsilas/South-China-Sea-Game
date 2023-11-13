@@ -30,7 +30,6 @@ function scr_player_robed(){
 		image_speed = 1	
 		if (footstep_printed != round(image_index))and round(image_index)!=0{
 			footstep_printed = round(image_index)
-			show_debug_message(footstep_printed)
 			if (round(image_index)%2 == 0){
 				var y_o = -3
 			}else{
