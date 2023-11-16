@@ -15,5 +15,5 @@ if (alarm[0] <= 0)and (currentIndex <= string_length(txt)){
 	currentIndex++;
 	currentLetter += string_char_at(txt, currentIndex);
     alarm[0] = room_speed * delay * random_range(0.9, 1.1);	
-	audio_play_sound(snd_blip,10, false, .1, 0, random_range(0.6, 1.2))
+	audio_play_sound(snd_blip,10, false, .1, 0, random_range(0.3, 0.7))
 }

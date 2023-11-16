@@ -1,4 +1,15 @@
 depth = -y
+walk_spd = 1
+
+
+enum land_npc_states{
+	idle,
+	wander,
+	flee,
+	chase,
+	attack,
+}
+current_state = land_npc_states.idle
 
 //DIALOGUE DATA
 //NPC profile
