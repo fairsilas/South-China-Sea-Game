@@ -10,7 +10,8 @@ item_data =  {
 			var i = obj_inventory
 			var yy = camera_get_view_y(view_camera[0])
 			var hh = camera_get_view_height(view_camera[0])
-			show_debug_message(scr_find_item("Large Cannonball"))
+			
+			//if player tries to shoot while on the ship
 			if (i.reload_timer <= 0) and mouse_check_button_pressed(mb_left) and instance_exists(obj_ship) and (mouse_y < yy+hh-100){
 				var p = obj_ship
 				//if you have ammo
