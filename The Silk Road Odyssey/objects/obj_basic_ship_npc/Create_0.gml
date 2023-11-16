@@ -1,11 +1,5 @@
 angle = 0
 
-enum states{
-	sit,
-	wander,
-	attack,
-	talk
-}
 
 cur_state = states.sit
 

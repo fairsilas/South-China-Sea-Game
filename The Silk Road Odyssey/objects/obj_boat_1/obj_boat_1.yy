@@ -1,16 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player_dust",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_boat_1",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "land",
-    "path": "folders/Objects/land.yy",
+    "name": "sea",
+    "path": "folders/Objects/sea.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_player_dust",
-    "path": "sprites/spr_player_dust/spr_player_dust.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

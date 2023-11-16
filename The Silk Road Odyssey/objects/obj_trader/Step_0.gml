@@ -1,3 +1,4 @@
+//die
 if hp < 0{
 	var a = angle
 	instance_destroy()
