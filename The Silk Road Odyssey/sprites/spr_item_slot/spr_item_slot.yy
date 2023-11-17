@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_item_slot",
-  "bbox_bottom": 34,
+  "bbox_bottom": 36,
   "bbox_left": 0,
-  "bbox_right": 34,
+  "bbox_right": 36,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 35,
+  "height": 37,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5c0860b8-157a-403a-aaaf-1e139a28b20f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 35,
+  "width": 37,
 }

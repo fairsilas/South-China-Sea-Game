@@ -1,10 +1,3 @@
-/* format for topics
-	{
-		topic : "Trade",
-		main_text: "Do you want to trade?",
-		choices: [("Yes", "name of topic to go to")]
-	}
-*/
 
 q_rate = 4
 

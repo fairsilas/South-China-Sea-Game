@@ -8,8 +8,6 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_FE9E875","path":"rooms/rm_intro_desk/rm_intro_desk.yy",},
-    {"name":"inst_4CC98999","path":"rooms/rm_intro_desk/rm_intro_desk.yy",},
-    {"name":"inst_1190E751","path":"rooms/rm_intro_desk/rm_intro_desk.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -19,8 +17,6 @@
       ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_FE9E875","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enter_name","path":"objects/obj_enter_name/obj_enter_name.yy",},"properties":[],"rotation":0.0,"scaleX":1.078125,"scaleY":0.203125,"x":234.0,"y":173.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CC98999","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enter_sex","path":"objects/obj_enter_sex/obj_enter_sex.yy",},"properties":[],"rotation":0.0,"scaleX":0.90625006,"scaleY":0.203125,"x":220.0,"y":195.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1190E751","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enter_why","path":"objects/obj_enter_why/obj_enter_why.yy",},"properties":[],"rotation":0.0,"scaleX":1.859375,"scaleY":0.203125,"x":190.0,"y":250.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":6.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_desktop","path":"sprites/spr_desktop/spr_desktop.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

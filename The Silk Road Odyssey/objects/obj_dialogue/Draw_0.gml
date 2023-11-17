@@ -20,16 +20,34 @@ if data.scr != "do nothing"{
 }
 
 if (num_choices >= 1){
+	//skip the wait
+	if keyboard_check(vk_space)or mouse_check_button_pressed(mb_left){
+		q_showing = true
+	}
 	if (q_showing = true){
+		push_down = 0
 		for (i=0; i< num_choices; i++) {
-			var q_sep = 30
+			var w = 400
+			//seperate long text with more space
+			var q_sep = 30+push_down
+			var str = data.choices[i][0]
+			var m = 3;
+			var l = 1;
+		
+			//make box bigger for long text
+			if string_width(str) > w{
+				var h = 30
+				box_len = w-20
+				push_down = 5
+			}else{
+				var h = 15
+				box_len = string_width(str)*l
+				push_down = 0
+			}
 			
 			var xx = vx+385
 			var yy = vy+405+(i*q_sep);
 			
-			var w = 200
-			var h = 25
-	
 			var hover = (mouse_x > xx) and (mouse_x < xx+w)and(mouse_y > yy)and (mouse_y < yy+h)
 			
 			if hover{
@@ -39,11 +57,10 @@ if (num_choices >= 1){
 				draw_set_color(c_grey)	
 			}
 			
-			var str = data.choices[i][0]
-			var m = 3;
-			var l = 1;
-			draw_text(xx, yy, data.choices[i][0])
-			draw_rectangle(xx - m, yy - m, xx + string_width(str)*l + m, yy + string_height(str) + m, true);
+			
+			
+			draw_text_ext(xx, yy, data.choices[i][0],15,w)
+			draw_rectangle(xx - m, yy - m, xx + box_len + m, yy + h + m, true);
 		
 			if (l_click) and (hover){
 				if (data.choices[i][1] == "end"){

@@ -1,0 +1,1 @@
+txt = "Congrats, you made it to "+global.current_place.title

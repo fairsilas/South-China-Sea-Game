@@ -6,3 +6,4 @@ if hp < 0{
 		angle = a
 	}
 }
+

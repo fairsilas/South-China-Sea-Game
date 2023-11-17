@@ -17,3 +17,7 @@ if (alarm[0] <= 0)and (currentIndex <= string_length(txt)){
     alarm[0] = room_speed * delay * random_range(0.9, 1.1);	
 	audio_play_sound(snd_blip,10, false, .1, 0, random_range(0.3, 0.7))
 }
+if keyboard_check(vk_space)or mouse_check_button_pressed(mb_left){
+		currentLetter = txt
+		currentIndex = string_length(txt)
+}

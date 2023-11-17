@@ -10,15 +10,14 @@ current_state = states.wander
 profile = {
 	spr : spr_trader_profile_template,
 	title : "Salt Trader",
-	desc : "A registration number is shown on the stern under the vessel's name.",
+	desc : "The registration number is printed on the hull. A legally registered trade vessel.",
 }
-
 
 angry_ls = [
 	//dialog starting
 	{
 		topic : "Hi",
-		main_text: "I am angry at you now so I will not trade.",
+		main_text: "You have damaged our ship! Back down now or we will destroy you.",
 		choices: [["Okay.", "end"]],
 		scr: "do nothing",
 	},
@@ -65,7 +64,7 @@ default_ls = [
 	}
 ]
 
-
+ls = default_ls
 
 
 
@@ -82,8 +81,9 @@ my_prices = ds_map_create();
 scr_init_default_prices(my_prices)
 // Define item prices for the trader
 my_prices[? "Tael of Silver"] = 1000;
-my_prices[? "Bundle of silk"] = 20;
+my_prices[? "Box of silk"] = 20;
 // Add more items and their prices
+
 
 
 item_data =  [{
