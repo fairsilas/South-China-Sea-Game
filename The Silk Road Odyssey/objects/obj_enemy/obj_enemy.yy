@@ -18,8 +18,8 @@
     "path": "folders/Objects/NPC AI.yy",
   },
   "parentObjectId": {
-    "name": "obj_other_item",
-    "path": "objects/obj_other_item/obj_other_item.yy",
+    "name": "obj_avoidable",
+    "path": "objects/obj_avoidable/obj_avoidable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -37,12 +37,12 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_enemy",
-    "path": "sprites/spr_enemy/spr_enemy.yy",
+    "name": "spr_player_down",
+    "path": "sprites/spr_player_down/spr_player_down.yy",
   },
   "spriteMaskId": {
-    "name": "spr_player_down_2",
-    "path": "sprites/spr_player_down_2/spr_player_down_2.yy",
+    "name": "spr_player_down",
+    "path": "sprites/spr_player_down/spr_player_down.yy",
   },
   "visible": true,
 }

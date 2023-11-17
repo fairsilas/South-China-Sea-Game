@@ -1,17 +1,15 @@
-spd = 2
-clamp(spd, 0.5, 1.2)
-slowed_spd = random_range(spd/3, spd/1.5)
+spd = 3
 
-//flag for whether enemy has been relocated
-relocated = false
+slowed_spd = random_range(spd/3, spd)
+
 
 //set up CHASE variables
 //rate at which the path will be updated
-path_update_rate = 30
+path_update_rate = 10
 //create a new path
 path = path_add()
 //set precision for sharpness of turns
-path_set_precision(path, 4);
+path_set_precision(path, 10);
 //set alarm to update path
 alarm[10] = path_update_rate
 //get player's x and y coordinates

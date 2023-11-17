@@ -4,26 +4,16 @@ var check_x = x
 var check_y = y
 
 
-if (relocated = false)and distance_to_object(obj_enemy < 32){
-	var rand_floor  = find_random_instance(obj_floor)
-	x= rand_floor.x+8
-	y= rand_floor.y+15
-	relocated = true
-}
 
 
-var see_player = !(collision_line(x,y, obj_player.x, obj_player.y, obj_solid, false,true))and(( 
-					(distance_to_object(obj_player)< 100/global.difficulty)and
-					((sprite_index = spr_player_up and obj_player.y < y-10/global.difficulty)or
-					(sprite_index = spr_player_down and obj_player.y > y+10*global.difficulty)or
-					(sprite_index = spr_player_left and obj_player.x < x-10/global.difficulty)or
-					(sprite_index = spr_player_right and obj_player.x > x+10*global.difficulty)))or((distance_to_object(obj_player)< 8/global.difficulty)))
+var see_player = true /*!(collision_line(x,y, obj_player.x, obj_player.y, obj_solid, false,true))and(( 
+					(distance_to_object(obj_player)< 100)and
+					((sprite_index = spr_player_up and obj_player.y < y-10)or
+					(sprite_index = spr_player_down and obj_player.y > y+10)or
+					(sprite_index = spr_player_left and obj_player.x < x-10)or
+					(sprite_index = spr_player_right and obj_player.x > x+10)))or((distance_to_object(obj_player)< 8)))
+*/
 randomize()
-if (speed >= path_speed){
-image_speed = speed
-}else{
-image_speed = path_speed
-}
 
 //if sees player then attack
 if (state = IDLE)or (state = RETURN){
@@ -51,9 +41,11 @@ if (state = IDLE){
 
 //follow the player
 if (state = CHASE){
-	
-	target_x = obj_player.x+((obj_player.x - obj_player.xprevious)*spd);
-	target_y = obj_player.y+((obj_player.x - obj_player.xprevious)*spd);
+	if speed = 0{
+		alarm[10] = 0	
+	}
+	target_x = obj_player.x;
+	target_y = obj_player.y;
 	//avoid other enemies
 	check_x = x
 	check_y = y
@@ -110,19 +102,50 @@ if (state = RETURN){
 }
 
 ///refresh paths 
-if alarm[10] <= 1{
+if alarm[10] <= 1{// or place_meeting(x+hspeed,y+vspeed,obj_avoidable){
+	
 	path_delete(path);
 	path = path_add();
 
 	if (state = CHASE){
-		mp_grid_path(obj_setup_pathfinding.grid, path, check_x, check_y, target_x, target_y, true)
+		mp_potential_path_object(path,target_x, target_y,spd,2,obj_avoidable)
 		path_start(path, spd, path_action_stop, true)
 	}
 	
 	//map out path to starting pos
 	if (state = RETURN){
-		mp_grid_path(obj_setup_pathfinding.grid, path, check_x, check_y, target_x, target_y, true)
-		path_start(path, spd, path_action_stop, true)
+		// Assuming this code is in the Step Event of your instance
+
+		// Set the maximum distance for pathfinding to be enabled
+		var maxPathDistance = 200;
+
+		// Check the distance between the instance and the target
+		var distanceToTarget = point_distance(x, y, target_x, target_y);
+
+		// Check if the distance is greater than the maximum allowed
+		if (distanceToTarget > maxPathDistance) {
+		    // Enable pathfinding
+		    //mp_potential_path_object(path, target_x, target_y, spd, 1, obj_avoidable);
+		} else {
+		    // Check if the path's final destination is near the player
+		    var pathEndX = path_get_point_x(path, path_get_number(path) - 1);
+		    var pathEndY = path_get_point_y(path, path_get_number(path) - 1);
+    
+		    var distanceToPathEnd = point_distance(x, y, pathEndX, pathEndY);
+    
+		    // Set a threshold distance for considering the path as reached
+		    var thresholdDistance = 20;
+
+		    if (distanceToPathEnd < thresholdDistance) {
+				path_start(path, spd, path_action_stop, true)
+		    } else {
+		        // Continue moving towards the path's final destination
+		        mp_potential_path_object(path, target_x, target_y, spd, 1, obj_avoidable);
+				path_start(path, spd, path_action_stop, true)
+		    }
+		}
+		
+		
 	}
 
 	//loop
@@ -134,34 +157,36 @@ if alarm[10] <= 1{
 
 
 
+while direction < 0{
+	direction = -direction
+}
+while direction > 360{
+	direction-=360
+}
 
 //up
-if  (direction >= 90-44 and direction <90+44){
-	sprite_index = spr_player_up
+if  (direction >= 90-45 and direction <90+45){
+	sprite_index = spr_player_up_sprint
 }
 //down
-if (direction >= 270-44 and direction <270+44){
-	sprite_index = spr_player_down
+if (direction >= 270-45 and direction <270+45){
+	sprite_index = spr_player_down_sprint
 }	
 //left
-if (direction >= 180-44 and direction <180+44){
-	sprite_index = spr_player_left
+if (direction >= 180-45 and direction <180+45){
+	sprite_index = spr_player_left_sprint
 }
 //right
-if(direction >= 0-44 and direction < 0+44){
-	sprite_index = spr_player_right
+if(direction >= 0-45 and direction < 0+45){
+	sprite_index = spr_player_right_sprint
+}
+var ne = instance_nearest(x,y,obj_avoidable)
+if place_meeting(x+hspeed,y+vspeed,ne){
+	move_towards_point(ne.x,ne.y, -slowed_spd)
+	direction = irandom(360)
+
 }
 
-if place_meeting(x,y,obj_player){
-	room_restart()
-	//adapt game for cross device players
-	global.lives--
-	global.key = false;
-}
 
-if place_meeting(x,y,obj_solid){
-	ne = instance_nearest(x,y,obj_floor)
-	move_towards_point(ne.x+8,ne.y+15,1)
-}
 
 
