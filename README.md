@@ -249,7 +249,7 @@ https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/4d3290c9-b720-
 
 **Postal Communication in 1800s China: Coordinating Through Letters**
 : In 1800s China, people communicated primarily through private letters. Letters were delivered by friends, messengers, or urban letter shops. The origins of this system remain uncertain, but it allowed for effective coordination despite regional variations and high illiteracy rates. This decentralized approach reflected the dynamic nature of communication during the era.
-==Cheng, Ying-wan. “THE LETTER AGENCIES.” In Postal Communication in China and Its Modernization, 1860–1896, 1st ed., 34:37–50. Harvard University Asia Center, 1970. https://doi.org/10.2307/j.ctt1tg5ksh.8==
+== Cheng, Ying-wan. “THE LETTER AGENCIES.” In Postal Communication in China and Its Modernization, 1860–1896, 1st ed., 34:37–50. Harvard University Asia Center, 1970. https://doi.org/10.2307/j.ctt1tg5ksh.8 ==
 
 ---
 
