@@ -1,5 +1,9 @@
 spd = 3
 
+if !instance_exists(obj_setup_pathfinding){
+	instance_create_depth(0,0,0,obj_setup_pathfinding)
+}
+
 slowed_spd = random_range(spd/3, spd)
 
 

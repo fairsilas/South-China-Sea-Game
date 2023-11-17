@@ -2,7 +2,7 @@
 global.score = 0
 
 game_set_speed(60, gamespeed_fps);
-room_speed = 60;
+room_speed = 60
 
 /* 
 	first create an account at https://gmscoreboard.com
@@ -12,7 +12,7 @@ room_speed = 60;
 */ 
 
 //this tag is for the Example scoreboard, replace with your tagid.
-setup_gmscoreboard("81ec7b0f2a52dfd68ec6f1350143bbd3");
+setup_gmscoreboard("0dc680cd49fda4dc0fc389894b1ff7d1");
 
 
 //feel free to edit this object or create your own object to process gmscoreboard api requests.

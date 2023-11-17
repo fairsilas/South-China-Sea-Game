@@ -1,6 +1,6 @@
 depth = -y
 
-leaving = false
+current_state = IDLE
 
 //DIALOGUE DATA
 //NPC profile
@@ -30,8 +30,8 @@ ls = [
 		main_text: "Your kind words are noted, esteemed merchant. I take pride in the quality of my salt, as it has been crafted with care and tradition. Before we proceed, tell me, what goods do you offer, and what brings you to consider a trade with my salt?",
 		choices: [
 		["Cut the pleasantries. What's your best offer?", "Offended"],
-		["Alright quit yapping. I don't want your salt you keep touching it.", "Greeting 3"],
-		["Let's discuss our potential partnership, honorable Salt Trader.", "Offended"],
+		["Alright quit yapping. I don't want your salt you keep touching it.", "Offended"],
+		["Let's discuss our potential partnership, honorable Salt Trader.",  "Greeting 3"],
 		["Excuse me, there is something that needs my attention. Farewell.", "end"]],
 		scr: "do nothing",
 	},
@@ -41,11 +41,11 @@ ls = [
 		choices: [
 		["Stop touching the salt with your dirty fingers!", "Offended"],
 		["let's discuss a mutually beneficial trade arrangement.", "Trade"],
-		["I would like to salt some meat please.", "Salting"],
+		["I would like to salt some meat please.", "Trade"],
 		["Excuse me, I must attend to something urgently. Farewell.", "end"]],
 		scr: function(){
-			obj_inventory.currentInvState = InvStates.trade
-		},
+		
+		}
 	},
 	{
 		topic : "Salting",
@@ -81,7 +81,7 @@ ls = [
 			//obj_salt_man.sprite_index =
 			obj_salt_man.hspeed =-1
 			obj_salt_man.image_xscale = -1
-			leaving = true
+			current_state = FLEE
 		},
 	}
 ]

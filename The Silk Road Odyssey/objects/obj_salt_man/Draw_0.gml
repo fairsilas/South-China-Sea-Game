@@ -9,7 +9,7 @@ var bx = x;
 var by = y-100;
 
 //show button
-if  (distance_to_object(obj_player) < 100)and(leaving = false){
+if  (distance_to_object(obj_player) < 100)and(current_state == IDLE){
 	
 	
 	//open dialog of trade with trader

@@ -15,4 +15,5 @@
 #macro HURT 5
 #macro ATTACK 6
 #macro RETURN 7
+#macro FLEE 8
 

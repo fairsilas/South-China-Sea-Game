@@ -8,3 +8,4 @@ sprint_spd = 3
 global.can_move = true
 spf = 01000
 steps = 0
+
