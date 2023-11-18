@@ -54,5 +54,4 @@ list = ds_priority_create()
 
 
 
-//states
-state = IDLE
+

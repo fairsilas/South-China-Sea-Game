@@ -81,7 +81,7 @@ ls = [
 			//obj_salt_man.sprite_index =
 			obj_salt_man.hspeed =-1
 			obj_salt_man.image_xscale = -1
-			current_state = FLEE
+			obj_salt_man.current_state = FLEE
 		},
 	}
 ]

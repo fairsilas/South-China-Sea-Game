@@ -1,0 +1,1 @@
+room_togoto = rm_weizhou_cave

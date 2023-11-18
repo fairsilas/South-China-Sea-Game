@@ -35,8 +35,8 @@ if (state = IDLE)or (state = RETURN){
 ///patrol around
 if (state = IDLE){
 	// move toward empty cell randomly
-	dir_x = lengthdir_x(spd/2, rand_dir)
-	dir_y = lengthdir_y(spd/2, rand_dir)
+	dir_x = lengthdir_x(spd, rand_dir)
+	dir_y = lengthdir_y(spd, rand_dir)
 	if(!place_meeting(x+dir_x, y+dir_y, obj_solid)){
 		direction = rand_dir
 		speed = spd/2
