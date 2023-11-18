@@ -271,11 +271,11 @@
     {"id":{"name":"spr_trade_button","path":"sprites/spr_trade_button/spr_trade_button.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_weizhou","path":"rooms/rm_weizhou/rm_weizhou.yy",},},
     {"roomId":{"name":"rm_macao_china","path":"rooms/rm_macao_china/rm_macao_china.yy",},},
     {"roomId":{"name":"rm_map","path":"rooms/rm_map/rm_map.yy",},},
     {"roomId":{"name":"rm_merchant_encounter","path":"rooms/rm_merchant_encounter/rm_merchant_encounter.yy",},},
     {"roomId":{"name":"rm_pearl_dive","path":"rooms/rm_pearl_dive/rm_pearl_dive.yy",},},
-    {"roomId":{"name":"rm_weizhou","path":"rooms/rm_weizhou/rm_weizhou.yy",},},
     {"roomId":{"name":"rm_show_message","path":"rooms/rm_show_message/rm_show_message.yy",},},
     {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"roomId":{"name":"rm_intro_desk","path":"rooms/rm_intro_desk/rm_intro_desk.yy",},},
