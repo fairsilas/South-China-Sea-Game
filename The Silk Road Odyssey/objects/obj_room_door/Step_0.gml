@@ -17,11 +17,9 @@ with (obj_player){
 }
 }
 
-var mov = 0
-while place_meeting(x,y,obj_player){
-	if place_empty(x, y-4)	
-	mov
-}
+
+
+
 
 
 
