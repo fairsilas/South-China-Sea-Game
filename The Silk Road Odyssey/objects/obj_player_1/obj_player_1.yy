@@ -30,13 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_player_down_1",
-    "path": "sprites/spr_player_down_1/spr_player_down_1.yy",
-  },
-  "spriteMaskId": {
-    "name": "spr_player_down_1",
-    "path": "sprites/spr_player_down_1/spr_player_down_1.yy",
-  },
+  "spriteId": null,
+  "spriteMaskId": null,
   "visible": true,
 }

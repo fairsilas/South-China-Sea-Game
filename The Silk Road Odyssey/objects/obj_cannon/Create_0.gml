@@ -15,9 +15,9 @@ item_data =  {
 			if (i.reload_timer <= 0) and mouse_check_button_pressed(mb_left) and instance_exists(obj_ship) and (mouse_y < yy+hh-100){
 				var p = obj_ship
 				//if you have ammo
-				var ammo_index = scr_find_item("Large Cannonball")
-				if (ammo_index != noone){
-					inv_drop_item(i.inv, ammo_index)
+				var ammo = scr_find_item("Large Cannonball")
+				if (ammo != noone){
+					inv_drop_item(ds_list_find_index(i.inv,ammo),i.inv)
 					i.reload_timer = 300/scr_find_item("Large Cannon").count
 					//fire from random hole in boat
 					shot_hole = choose(0,16, -8, 24, -16)
