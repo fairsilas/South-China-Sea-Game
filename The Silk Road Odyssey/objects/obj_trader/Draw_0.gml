@@ -29,11 +29,12 @@ if  (distance_to_object(obj_ship) < 100)and(obj_inventory.equipped_item == noone
 					}
 				}
 			}else{
-				draw_sprite(spr_dialogue_button,0,bx,by)	
+				draw_sprite(spr_dialogue_button,0,bx,by)
 			}
 	}else{
 	//no dialogue if trader is angry
-		draw_sprite(spr_dialogue_button_angry,0,bx,by)	
+		draw_sprite(spr_dialogue_button_angry,0,bx,by)
+		current_state = ship_states.flee
 	}
 }
 

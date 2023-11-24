@@ -6,5 +6,5 @@ if (global.can_move = true){
 }
 
 
-show_debug_message("fps: "+ string(fps))
+
 

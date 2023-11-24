@@ -1,9 +1,20 @@
+enum ship_states {
+	idle,
+	wander,
+	flee,
+	attack,
+	
+}
+
 relationship = 50
 max_hp = 100
 hp = max_hp
 max_spd = 2
 turn_spd = 6
-current_state = states.wander
+
+angle = 0
+max_speed = 3
+current_state = ship_states.wander
 
 //DIALOGUE DATA
 //NPC profile
