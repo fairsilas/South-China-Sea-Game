@@ -1,18 +1,9 @@
 // Define a struct for less saturated pastel colors
 // Define a struct for less saturated pastel colors
-pastelColors = {
-    pink: make_color_rgb(255, 200, 210),
-    blue: make_color_rgb(190, 220, 230),
-    green: make_color_rgb(170, 230, 170),
-    yellow: make_color_rgb(255, 245, 200),
-    purple: make_color_rgb(200, 160, 200),
-    orange: make_color_rgb(255, 220, 180),
-    mint: make_color_rgb(200, 250, 210),
-    peach: make_color_rgb(255, 230, 200),
-    lavender: make_color_rgb(220, 220, 250),
-    coral: make_color_rgb(255, 160, 130)
-};
-global.shirt_color = pastelColors.mint
+
+if keyboard_check_pressed(ord("T")){
+	global.shirt_color = choose(pastelColors.peach, pastelColors.coral, pastelColors.mint, pastelColors.green, pastelColors.lavender, pastelColors.orange)
+}
 
 
 draw_self()
