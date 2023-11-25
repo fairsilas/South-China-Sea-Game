@@ -9,7 +9,7 @@ var bx = x;
 var by = y-100;
 
 //show button
-if  (distance_to_object(obj_player) < 100){
+if  (distance_to_object(obj_player) < 100)and (current_state = land_npc_states.idle){
 	
 	
 	//open dialog of trade with trader
@@ -29,5 +29,6 @@ if  (distance_to_object(obj_player) < 100){
 	}
 }
 
-
+scr_draw_shadow()
+depth = -y
 

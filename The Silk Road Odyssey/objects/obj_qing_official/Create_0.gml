@@ -1,5 +1,6 @@
 depth = -y
 walk_spd = 1
+spd = 1
 scr_init_pathfinding(2,obj_player.x, obj_player.y)
 
 

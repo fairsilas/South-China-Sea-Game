@@ -28,6 +28,7 @@ if  (distance_to_object(obj_player) < 100)and(current_state == IDLE){
 		draw_sprite(spr_dialogue_button,0,bx,by)	
 	}
 }
+scr_draw_shadow(sprite_height/3)
 
 
 

@@ -9,5 +9,5 @@ draw_set_alpha(0.2)
 //draw_path(path, x, y, 1)
 draw_set_alpha(1)
 
-
+scr_draw_shadow()
 

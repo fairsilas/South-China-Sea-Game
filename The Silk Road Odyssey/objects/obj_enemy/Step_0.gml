@@ -101,7 +101,7 @@ if (state = RETURN){
 	}
 }
 
-
+/*
 var ne = instance_nearest(x, y, object_index);
 
 // update paths
@@ -109,10 +109,10 @@ if (alarm[10] <= 1) {
     var endX = path_get_x(path, path_get_number(path) - 1);
     var endY = path_get_y(path, path_get_number(path) - 1);
     
-	if !collision_line(target_x, target_y, x, y, obj_solid, false, true){
+	if !collision_line(target_x, target_y, x, y, obj_avoidable, false, true){
 		move_towards_point(target_x,target_y,spd)	
 	}
-	else if (point_distance(endX, endY, target_x, target_y) > 10) {
+	else if (!path_exists(path)) or (point_distance(endX, endY, target_x, target_y) > 10) {
 		path_clear_points(path);
 		mp_potential_path_object(path, target_x, target_y, spd, 2, obj_avoidable);
 		path_start(path, spd, path_action_stop, true)
@@ -135,42 +135,18 @@ if (alarm[10] <= 1) {
 		}
 		
 	} 
-        
+	
         
 
 
 	//loop
 	alarm[10] = path_update_rate
 }
+*/
+scr_follow_target(target_x, target_y)
 
 
-
-
-
-
-while direction < 0{
-	direction = -direction
-}
-while direction > 360{
-	direction-=360
-}
-
-//up
-if  (direction >= 90-45 and direction <90+45){
-	sprite_index = spr_player_up_sprint
-}
-//down
-if (direction >= 270-45 and direction <270+45){
-	sprite_index = spr_player_down_sprint
-}	
-//left
-if (direction >= 180-45 and direction <180+45){
-	sprite_index = spr_player_left_sprint
-}
-//right
-if(direction >= 0-45 and direction < 0+45){
-	sprite_index = spr_player_right_sprint
-}
+scr_four_direction_sprite(spr_player_up_sprint, spr_player_down_sprint, spr_player_left_sprint, spr_player_right_sprint)
 
 
 if place_meeting(x+hspeed,y+vspeed,ne){
