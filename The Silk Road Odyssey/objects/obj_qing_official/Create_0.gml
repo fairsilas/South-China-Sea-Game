@@ -15,8 +15,8 @@ current_state = land_npc_states.idle
 //NPC profile
 profile = {
 	spr : spr_trader_profile_template,
-	title : "Qing Official",
-	desc : "A lower ranked official for the Qing Government.",
+	title : "Tax Collector",
+	desc : "A Tax collector for the Qing Dynasty, known for over-extracting taxes from the hardworking people on the docks of Macao.",
 }
 
 
@@ -26,40 +26,50 @@ ls = [
 	//dialog starting
 	{
 		topic : "Hi",
-		main_text: "Hello, what is it?",
-		choices: [["Hi", "Greeting"]],
+		main_text: "It's time for tax collection. Hand over the taels owed to the Imperial Treasury.",
+		choices: [["I don't have enough to pay.", "Fight Talk"],["No.", "Fight Talk"],["Your Excellency, this is all I have from my week's earnings.", "Tax"]],
 		scr: "do nothing",
 	},
 	{
-		topic : "Greeting",
-		main_text: "What are you doing down here?",
-		choices: [["I am selling some goods. Would you like to trade?", "Trade"],["I am looking for a ship for a crew of 8 people to sail.", "Ship"],["Uhh.. Just walking around.", "Walk"]],
+		topic : "Fight Talk",
+		main_text: " The Imperial Treasury demands its due, and you will pay. Refusal will result in punishment.",
+		choices: [],
 		scr: "do nothing",
 	},
 	{
-		topic : "Trade",
-		main_text: "I am working. I don't trade with people on the docks.",
-		choices: [["Ok.","end"]],
+		topic : "Fight",
+		main_text: "",
+		choices: [],
+		scr: function(){
+			//fight
+		}
+	},
+	{
+		topic : "Tax",
+		main_text: "The magistrate needs his share, and you best not be holding back.",
+		choices: [["I can't afford more, Your Excellency. ", "Tax Poor"], ["Of course. Here you go.", "Tax Rich"]],
 		scr: "do nothing",
 	},
 	{
-		topic : "Ship",
-		main_text: "Looking for a ship? Visit a Qing extension office for that.",
-		choices: [["How about I trade you something for that ship right there?","Trade"], ["Ok, thank you.","end"]],
-		scr: "do nothing"
-	},
-	{
-		topic : "Walk",
-		main_text: "No. You can't walk down here.",
-		choices: [["I got special permission","Goodbye"], ["Yes I can.","Walk"]],
+		topic : "Tax Poor",
+		main_text: "The Imperial Treasury cares not for your plight. Consider this a penalty for your insolence. The Emperor's justice may be harsh, but it is my discretion that decides your fate.",
+		choices: [],
 		scr: "do nothing",
 	},
 	{
-		topic : "Goodbye",
-		main_text: "Ok then I didn't know.",
-		choices: [["Goodbye","end"]],
+		topic : "Tax Rich",
+		main_text: "Next time you better have more.",
+		choices: ["Ok.", "end"],
 		scr: "do nothing",
-	}
+	},
+	{
+		topic : "Rob",
+		main_text: "If you aren't paying your dues, then I am taking this!",
+		choices: [],
+		scr: function(){
+			//rob random item
+		}
+	},
 ]
 
 
