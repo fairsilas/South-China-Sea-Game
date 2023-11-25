@@ -1,13 +1,13 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_test_dialogue",
+  "name": "rm_location_reached",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_769EE0B3","path":"rooms/rm_test_dialogue/rm_test_dialogue.yy",},
+    {"name":"inst_769EE0B3","path":"rooms/rm_location_reached/rm_location_reached.yy",},
   ],
   "isDnd": false,
   "layers": [
