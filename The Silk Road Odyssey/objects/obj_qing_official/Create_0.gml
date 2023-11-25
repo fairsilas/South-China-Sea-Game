@@ -1,7 +1,7 @@
 depth = -y
 walk_spd = 1
-spd = 1
-scr_init_pathfinding(2,obj_player.x, obj_player.y)
+spd = 3
+scr_init_pathfinding(spd)
 
 
 enum land_npc_states{
@@ -11,7 +11,8 @@ enum land_npc_states{
 	chase,
 	attack,
 }
-current_state = land_npc_states.idle
+current_state = land_npc_states.flee
+
 
 //DIALOGUE DATA
 //NPC profile
@@ -29,7 +30,7 @@ ls = [
 	{
 		topic : "Hi",
 		main_text: "It's time for tax collection. Hand over the taels owed to the Imperial Treasury.",
-		choices: [["I don't have enough to pay.", "Fight Talk"],["No.", "Fight Talk"],["Your Excellency, this is all I have from my week's earnings.", "Tax"]],
+		choices: [["Run away from me now.", "Flee"],["No.", "Fight Talk"],["Your Excellency, this is all I have from my week's earnings.", "Tax"]],
 		scr: "do nothing",
 	},
 	{
@@ -74,6 +75,15 @@ ls = [
 		choices: [],
 		scr: function(){
 			//rob random item
+		}
+	},
+	{
+		topic : "Flee",
+		main_text: "",
+		choices: [],
+		scr: function(){
+			obj_inventory.currentInvState = InvStates.def
+			obj_qing_official.current_state = land_npc_states.flee
 		}
 	},
 ]

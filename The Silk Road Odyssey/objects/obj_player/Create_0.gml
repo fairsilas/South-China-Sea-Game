@@ -8,6 +8,13 @@ sprint_spd = 3
 global.can_move = true
 spf = 01000
 steps = 0
+enum player_state{
+	stab,
+	move,
+	talk,
+	die
+}
+current_state = player_state.move
 
 
 pastelColors = {

@@ -1,21 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_init_pathfinding(targ_x, targ_y, spd = 2, path_refresh = 10){
+function scr_init_pathfinding(spd = 2, path_refresh = 10){
 	if !instance_exists(obj_setup_pathfinding){
 		instance_create_depth(0,0,0,obj_setup_pathfinding)
 	}
-
-	slowed_spd = random_range(spd/3, spd)
-
-	//set up CHASE variables
-	//rate at which the path will be updated
-	path_update_rate = path_refresh
-	//get player's x and y coordinates
-	target_x = targ_x
-	target_y = targ_y
-	//calculate distance to player
-	dto_p = distance_to_point(target_x, target_y)
-
+	
 	//create grid
 	grid = obj_setup_pathfinding.grid
 	//create a priority queue
@@ -23,7 +12,8 @@ function scr_init_pathfinding(targ_x, targ_y, spd = 2, path_refresh = 10){
 
 	path = path_add()
 	path_set_precision(path, 4);// how sharp should turns be?
-	alarm[10] = path_update_rate
+	alarm[10] = path_refresh
+	path_update_rate = path_refresh
 }
 
 function scr_prevent_inside_solid(object_to_avoid = obj_solid){

@@ -1,5 +1,3 @@
-angle = image_angle
-
 draw_self()
 
 //create button
