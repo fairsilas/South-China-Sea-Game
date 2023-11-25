@@ -7,7 +7,7 @@ fall_off_rate = 1
 audio_falloff_set_model(audio_falloff_linear_distance)
 audio_emitter_position(em, x,y,0)
 audio_emitter_falloff(em, audio_starts_to_drop_at, audio_max_distance_to_be_heard, fall_off_rate); // Set the range (how far the sound can be heard)
-audio_play_sound_on(em, snd_cannon_shot,false, 1, .5, 0,random_range(.6, 1.3))
+audio_play_sound_on(em, snd_cannon_shot,false, 1, 1, 0,random_range(.6, 1.3))
 
 creator = instance_nearest(x,y,obj_boat) 
 

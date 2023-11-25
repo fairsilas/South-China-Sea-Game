@@ -10,7 +10,10 @@ function scr_draw_items(xx, yy, list, target_list, row_n=5, col_n=2){
 				draw_text(w*cell_size+vx+xx+3, h*cell_size+vy+yy, string(ds_list_find_value(list, i).count));
 				draw_set_color(c_white)
 				draw_set_font(fnt_inv_price)
-				draw_text(w*cell_size+vx+xx+3, h*cell_size+vy+yy+price_y, string(ds_map_find_value(current_prices,ds_list_find_value(list, i).title)));
+				if ds_map_find_value(current_prices,ds_list_find_value(list, i).title) != undefined{
+					draw_text(w*cell_size+vx+xx+3, h*cell_size+vy+yy+price_y, string(ds_map_find_value(current_prices,ds_list_find_value(list, i).title)));
+				}
+				
 				draw_set_font(fnt_inv_desc)
 				
 				

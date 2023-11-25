@@ -11,7 +11,7 @@ function scr_trade_button(xx, yy){
 				
 				
 		
-	if ds_list_size(inv_trade) > 0 and ds_list_size(trader_trade) > 0{
+	if ds_list_size(inv_trade) >= 0 and ds_list_size(trader_trade) >= 0{
 		var yours = scr_get_total_value(inv_trade)
 		var traders = scr_get_total_value(trader_trade)
 		

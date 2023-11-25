@@ -12,7 +12,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "inventory",
-    "path": "folders/Objects/inventory.yy",
+    "path": "folders/Objects/GUI/inventory.yy",
   },
   "parentObjectId": null,
   "persistent": true,
