@@ -1,5 +1,6 @@
 depth = -y
 walk_spd = 1
+scr_init_pathfinding(2,obj_player.x, obj_player.y)
 
 
 enum land_npc_states{
@@ -34,14 +35,18 @@ ls = [
 		topic : "Fight Talk",
 		main_text: " The Imperial Treasury demands its due, and you will pay. Refusal will result in punishment.",
 		choices: [],
-		scr: "do nothing",
+		scr: function(){
+			obj_inventory.currentInvState = InvStates.def
+			obj_qing_official.current_state = land_npc_states.chase
+		}
 	},
 	{
 		topic : "Fight",
 		main_text: "",
 		choices: [],
 		scr: function(){
-			//fight
+			obj_inventory.currentInvState = InvStates.def
+			obj_qing_official.current_state = land_npc_states.chase
 		}
 	},
 	{

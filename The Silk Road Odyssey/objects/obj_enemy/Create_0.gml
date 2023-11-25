@@ -36,8 +36,6 @@ grid = obj_setup_pathfinding.grid
 //create a priority queue
 list = ds_priority_create()
 
-//set initial state to IDLE
-state = IDLE
 path_update_rate = 30
 path = path_add()
 path_set_precision(path, 4);// how sharp should turns be?

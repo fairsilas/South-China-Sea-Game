@@ -101,16 +101,15 @@ if (state = RETURN){
 	}
 }
 
-var ne = instance_nearest(x,y,object_index)
 
 var ne = instance_nearest(x, y, object_index);
 
-// Refresh paths
+// update paths
 if (alarm[10] <= 1) {
     var endX = path_get_x(path, path_get_number(path) - 1);
     var endY = path_get_y(path, path_get_number(path) - 1);
     
-	if collision_line(target_x, target_y, x, y, obj_avoidable, false, true)and !place_meeting(x,y,obj_solid){
+	if !collision_line(target_x, target_y, x, y, obj_solid, false, true){
 		move_towards_point(target_x,target_y,spd)	
 	}
 	else if (point_distance(endX, endY, target_x, target_y) > 10) {
