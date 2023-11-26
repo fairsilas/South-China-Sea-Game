@@ -1,13 +1,20 @@
+//set base stats
 hp = 100
 max_hp = 100
-
-global.player = self
 spd = 1.5
 walk_spd = 1.5
 sprint_spd = 3
+
+//start with no bounty
+global.qing_bounty = 0
+global.pirate_bounty = 0
+
+global.player = self
 global.can_move = true
 spf = 01000
 steps = 0
+
+//set up states
 enum player_state{
 	stab,
 	move,

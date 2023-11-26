@@ -3,7 +3,17 @@ walk_spd = 1
 spd = 3
 scr_init_pathfinding(spd)
 
-current_state = land_npc_states.follow
+
+enum land_npc_states{
+	idle,
+	wander,
+	flee,
+	chase,
+	follow,
+	attack,
+}
+current_state = land_npc_states.chase
+hostile = false
 
 
 //DIALOGUE DATA
@@ -22,14 +32,16 @@ ls = [
 	{
 		topic : "Hi",
 		main_text: "It's time for tax collection. Hand over the taels owed to the Imperial Treasury.",
-		choices: [["Over my dead body!", "Fight"],["Yes, here you go.", "Tax"]],
+		choices: [["", "Flee"],["No.", "Fight Talk"],["Your Excellency, this is all I have from my week's earnings.", "Tax"]],
 		scr: "do nothing",
 	},
 	{
 		topic : "Fight Talk",
-		main_text: "You have disobayed the divine authority of Emperor Qianlong! You are under arrest!",
+		main_text: " The Imperial Treasury demands its due, and you will pay. Refusal will result in punishment.",
 		choices: [],
 		scr: function(){
+			obj_inventory.currentInvState = InvStates.def
+			obj_qing_official.current_state = land_npc_states.chase
 		}
 	},
 	{
@@ -50,14 +62,22 @@ ls = [
 	{
 		topic : "Tax Poor",
 		main_text: "The Imperial Treasury cares not for your plight. Consider this a penalty for your insolence. The Emperor's justice may be harsh, but it is my discretion that decides your fate.",
-		choices: [["Times are tough I can't pay.","Fight"]],
+		choices: [],
 		scr: "do nothing",
 	},
 	{
 		topic : "Tax Rich",
-		main_text: "You better not be hiding more.",
-		choices: [["That's everything I swear.", "Flee"],["I paid my taxes, that's all I need to pay.", "Fight"]],
+		main_text: "Next time you better have more.",
+		choices: ["Ok.", "end"],
 		scr: "do nothing",
+	},
+	{
+		topic : "Rob",
+		main_text: "If you aren't paying your dues, then I am taking this!",
+		choices: [],
+		scr: function(){
+			//rob random item
+		}
 	},
 	{
 		topic : "Flee",

@@ -8,6 +8,7 @@ if hp < 0{
 }
 
 scr_boat_physics()
+if place_meeting(x+hspeed,y+vspeed,obj_avoidable)
 
 
 if (current_state == ship_states.flee){

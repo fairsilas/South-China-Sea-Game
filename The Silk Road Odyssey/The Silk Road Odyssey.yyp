@@ -62,6 +62,7 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"obj_tax_man","path":"objects/obj_tax_man/obj_tax_man.yy",},},
     {"id":{"name":"spr_island","path":"sprites/spr_island/spr_island.yy",},},
     {"id":{"name":"scr_add_items","path":"scripts/scr_add_items/scr_add_items.yy",},},
     {"id":{"name":"spr_map","path":"sprites/spr_map/spr_map.yy",},},

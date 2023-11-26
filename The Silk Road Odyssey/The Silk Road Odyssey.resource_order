@@ -43,6 +43,7 @@
     {"name":"Navigation","order":15,"path":"folders/Scripts/Navigation.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_tax_man","order":11,"path":"objects/obj_tax_man/obj_tax_man.yy",},
     {"name":"spr_island","order":5,"path":"sprites/spr_island/spr_island.yy",},
     {"name":"scr_add_items","order":7,"path":"scripts/scr_add_items/scr_add_items.yy",},
     {"name":"spr_map","order":1,"path":"sprites/spr_map/spr_map.yy",},

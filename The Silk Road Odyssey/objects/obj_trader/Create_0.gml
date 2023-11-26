@@ -7,7 +7,7 @@ enum ship_states {
 }
 
 relationship = 50
-max_hp = 100
+max_hp = 30
 hp = max_hp
 max_spd = 2
 turn_spd = 6

@@ -11,7 +11,10 @@
     "name": "sea",
     "path": "folders/Objects/sea.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_avoidable",
+    "path": "objects/obj_avoidable/obj_avoidable.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

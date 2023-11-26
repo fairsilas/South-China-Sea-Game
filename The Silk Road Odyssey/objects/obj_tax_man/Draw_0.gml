@@ -8,6 +8,8 @@ var by = y-100;
 
 //show button
 if  (distance_to_object(obj_player) < 100)and (current_state = land_npc_states.idle){
+	
+	
 	//open dialog of trade with trader
 	var i = my_inventory
 	var my_p = my_prices
