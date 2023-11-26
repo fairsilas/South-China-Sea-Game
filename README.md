@@ -1,6 +1,7 @@
+
 # Junks & Riches: An 1800s South China Sea Trading Game
 
-## I. Introduction
+## Introduction
 This planning document will go over everything included in my game project, and give historical context for the items, characters, and locations, and events in the game. 
 **A few things to consider when reading this document:**
 1. Many of the locations and mechanics mentioned will not be added within the timeframe, but are guides for development and future development.
@@ -27,42 +28,31 @@ This planning document will go over everything included in my game project, and 
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/3a96c1d2-c01e-43cc-adf4-d16c73a7d6ba)
   [^1]: Most of the lower ranked pirates came from poor backgrounds such as fisherfolk and Sailors or unsuccessful traders. Pirates were typically young single men in 20s and rarely over 40. Poverty drove them to commit crimes as a way to survive and escape from the oppressive Qing government. (Antony 45 full citation needed here.)
 
-## II. Setting and Background
-
+## Setting and Background
 ### Historical Context
 
 The game is set against the backdrop of the 18th century South China Sea Coast, a period marked by the proliferation of piracy in Chinese waters. The locations added to the game are the places most mentioned in sources talking about piracy at that time.
 
-**1. The Canton System:**
-   - The game world is deeply influenced by the Canton System, which was established by the Qing Dynasty. This system regulated foreign trade, primarily at the port of Canton (modern-day Guangzhou). Foreign merchants were restricted to conducting trade through a designated area, which was closely monitored by Qing officials. The tight control of trade created conditions conducive to smuggling, as people sought to circumvent these trade restrictions.
+**The Canton System:**
+   - The game world is influenced by the Canton System, which was established by the Qing Dynasty. This system regulated foreign trade, primarily at the port of Canton (modern-day Guangzhou). Foreign merchants were restricted to conducting trade through a designated area, which was closely monitored by Qing officials. The tight control of trade created conditions conducive to smuggling, as people sought to circumvent these trade restrictions.
 
-**2. Ports of Significance:**
-   - **Macao:** Your journey begins in Macao, an essential hub for international trade. Macao's unique status as a Portuguese enclave in Chinese territory made it a haven for pirates and smugglers, operating with a degree of autonomy.
-   - **Guangzhou (Canton):** This location will not be accessable in the game, because it was closed off to trade by the time the game takes place. However, macoa is the closest thing to it and acted as a place for foreigners to trade with China. Canton will be mentioned in Macao frequently.
-   - **Xiamen** This port was on the coast near Taiwan and was a major trade hub for Taiwan and China. It was also somewhat near the Capitol of the Qing Dynasty, Beijing.
-
-**3. Hainan Island - Pirate Base:**
-   - Hainan Island serves as a key location in the game, housing one of the most notorious pirate bases in the region. The island's strategic position allowed pirates to operate in proximity to major trade routes. It was from this base that pirates launched their attacks on merchant ships and nearby coastal towns.
-**4:**
-   - Hainan Island serves as a key location in the game, housing one of the most notorious pirate bases in the region. The island's strategic position allowed pirates to operate in proximity to major trade routes. It was from this base that pirates launched their attacks on merchant ships and nearby coastal towns.
-
-**5. The Tay Son Rebellion:**
+**The Tay Son Rebellion:**
    - The Tay Son Rebellion, a historical conflict taking place during the late 18th century, provides additional context to the game world. As the rebellion swept through parts of Vietnam, it influenced the rise of several prominent pirate leaders, who played a role in the conflict. Characters will reference this rebellion, offering insights into the interconnectedness of regional events and the emergence of pirates as significant players in the power struggle.
 
-**6. Pirate Queen Cheng I Sao and Cui Zhi:**
+**Pirate Queen Cheng I Sao and Cui Zhi:**
    - Pirate Queen Cheng I Sao and her formidable confederation of pirates, as well as the cunning and ruthless Cui Zhi, who played a crucial role in orchestrating pirate operations, are historical figures that have left a lasting impact on the region. These characters, though not likely to be encountered in the game, will be mentioned by other NPCs, contributing to the authenticity of the historical setting.
 
-**7. The Gulf of Tonkin:**
+**The Gulf of Tonkin:**
    - The Gulf of Tonkin, a significant geographical feature, had a critical role in the operations of the pirates as a result of the Tay Son rebellion. Situated in the northern part of the South China Sea, it provided a crucial maritime passage connecting the southern coast of China with the northeastern coast of Vietnam where Chinese Pirates who joined the Tay Son rebellion could stop and trade, or get provisions and support from the rebels. This proximity allowed pirates to establish a stronghold in the Gulf of Tonkin, from which they could launch their raids on passing merchant vessels. The Gulf of Tonkin acted as a strategic arena for piracy, with its intricate network of islands, bays, and open waters providing ample opportunities for pirate operations. Hainan island was one of those islands located in the Gulf of Tonkin.
    - 
 Through  dialogue and interactions with NPCs, players will have the opportunity to immerse themselves in the  historical background of the 18th century South China Sea Coast, learning of the challenges and motivations that shaped the lives of Qing officials, and pirates during this era.
 
-
+---
 ### Game World
 - The world of the game can be viewed on the map when travelling between locations. This is a current snapshot of the map, although it will hopefully be expanded and include more locations, like Beijing, and somewhere in Vietnam.
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/f534ad16-c3f9-437c-ae83-e52c34f5c1c6)
 
-#### Locations: 
+#### Locations:
 - **Macao:**
    - Starting location for players, serving as an entry point into the game world.
    - A bustling trade port with a mix of cultures and opportunities for various quests and activities.
@@ -113,7 +103,8 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 
 
 ## III. Gameplay Mechanics
-### beginning/intro
+### Beginning
+ - Start the game by selecting a starting character. Sailor, fisherman, or 
 ### Core Gameplay Loop
 - Starting in a port near a market with an inventory based on your chosen role. 
 - Daily activities of trading, acquiring food, and maintaining your crew. In order to progress, you must travel between key trading ports and pirate stashes, overcoming obstacles at sea with each journey and trading goods to increase your wealth, plundering ships, or doing contractual missions for the Qing officials or the Confederation of pirates.
@@ -161,12 +152,11 @@ There were several types of cannons, some fired larger cannonballs, some fired g
 
 ### Relationship/Trade Meter
 - Building and maintaining relationships with characters to enable trading or avoid hostility.
-- This is currently an invisable feature that is just used to keep track of relationships for single encounters with a merchant.
+- This is currently an invisible feature that is just used to keep track of relationships for single encounters with a merchant.
 - This has been changed to specifically be relationship rating with the Qing government, and relationship with the Guangdong Pirate Confederacy.
 
 ### Navigate Qing Dynasty's Policies
-- Adapt to the Qing Dynasty's strict regulation of international trade.
-- Engage with the Qing navy and influence towns' allegiances.
+- Interact with Qing officials and tax collectors. 
 
 ### Pirate Taxation Systems
 - Choices to enforce or evade pirate taxation, impacting relationships with pirate organizations and the Qing Dynasty.
@@ -208,7 +198,7 @@ In the 1800s South China Sea, pirate organizations were not just bands of lawles
   - The communal stash could be used to make crucial decisions. Players may vote on alliances with other pirate organizations, fortifying strongholds, or choosing new targets for raids. A portion of the communal stash might be allocated to negotiating alliances, diplomacy, and defense.
 
 - **Strategic Investments:**
-  - Players can use their accumulated wealth to invest in improving the organization's infrastructure, upgrading ships, and strengthening their position within the pirate hierarchy.
+  - Players can use their accumulated wealth to invest in improving weapons or items for trade, and can upgrade their ship to carry more cargo.
 
 In South China Pirates, the communal stash is not just a treasure chest; it's the lifeblood of the pirate organization. Players must strive to accumulate wealth, follow the rules, and work together to become legendary pirates and dominate the leaderboard.
 
@@ -234,6 +224,7 @@ In South China Pirates, the communal stash is not just a treasure chest; it's th
 - Track development progress and planning on a Trello board.
 
 
+
 ### Video Devlog
 https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/4d3290c9-b720-40f7-aee9-e596a4097959
 
@@ -243,13 +234,13 @@ https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/4d3290c9-b720-
 
 **Safe Conduct Passes**
 : The pirate confederacy had established a structured protection racket. Even salt traders employed by the Qing state were compelled to purchase "safe conduct passes" at a cost of 200 Spanish silver dollars per vessel. These passes were obtainable at ports situated in significant trading hubs and villages, frequently in proximity to prominent political centers. This situation highlights the pervasive corruption within Qing officials and the considerable influence wielded by the confederacy. 
-==(Antony page 38 needs full citation)==
+==Antony, Robert J. _The Golden Age of Piracy in China, 1520-1810: A Short History with Documents. 38-39. Lanham, Maryland: Rowman & Littlefield, 2022.==
 
 ---
 
 **Postal Communication in 1800s China: Coordinating Through Letters**
 : In 1800s China, people communicated primarily through private letters. Letters were delivered by friends, messengers, or urban letter shops. The origins of this system remain uncertain, but it allowed for effective coordination despite regional variations and high illiteracy rates. This decentralized approach reflected the dynamic nature of communication during the era.
-== Cheng, Ying-wan. “THE LETTER AGENCIES.” In Postal Communication in China and Its Modernization, 1860–1896, 1st ed., 34:37–50. Harvard University Asia Center, 1970. https://doi.org/10.2307/j.ctt1tg5ksh.8 ==
+==Cheng, Ying-wan. “THE LETTER AGENCIES.” In Postal Communication in China and Its Modernization, 1860–1896, 1st ed., 34:37–50. Harvard University Asia Center, 1970. https://doi.org/10.2307/j.ctt1tg5ksh.8==
 
 ---
 
@@ -259,7 +250,7 @@ https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/4d3290c9-b720-
 
 ---
 
-**Trade items Macao**
+**Trade items in American Ship returning from Macao**
 | Quantity | Description                                 | Unit Price Range   |
 |----------|---------------------------------------------|--------------------|
 | 150 pcs. | Black India Taffeta, 15 yds. each           | $10 - $12           |
@@ -335,7 +326,7 @@ In a letter to Messrs McT. F. & Co., it is revealed that Messrs. Seton, Maitland
 
 **Wallpieces**
 : "Wallpieces" were swiveling cannons that were mounted to allow for a good range of motion. They were typically used at close ranges and were also known as swivel guns small cannons affixed to boats.
- MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): page 117-118. [Link to Source](http://www.jstor.org/stable/24573942)
+ ==MacKay, Joseph.  "Pirate Nations: Maritime Pirates as Escape Societies in Late Imperial China." *Social Science History* 37, no. 4 (2013): page 117-118. [Link to Source](http://www.jstor.org/stable/24573942)==
 
 ---
 
