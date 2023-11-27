@@ -1,3 +1,15 @@
+enum land_npc_states{
+	idle,
+	wander,
+	flee,
+	chase,
+	follow,
+	attack,
+	hurt,
+	die,
+}
+
+
 depth = -y
 walk_spd = 1
 spd = 3
