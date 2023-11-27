@@ -341,4 +341,7 @@ In a letter to Messrs McT. F. & Co., it is revealed that Messrs. Seton, Maitland
  ==Duan, Lei. “Between Social Control and Popular Power: The Circulation of Private Guns and Control Policies during the Mid to Late Qing, 1781-1911.” American Journal of Chinese Studies 24, no. 2 (2017): 121–39. http://www.jstor.org/stable/44759213.==
 
  ---
- 
+** Black-tailed Gull**
+ : This is the type of seagul found in the South China Sea Coasts, which is why I added it. 
+
+---
