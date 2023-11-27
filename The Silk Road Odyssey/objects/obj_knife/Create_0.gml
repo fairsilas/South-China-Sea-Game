@@ -11,7 +11,7 @@ item_data =  {
 	    var p = obj_player;
     
 	    //if try to stabAs
-	    if (p.current_state == player_state.move and mouse_check_button_pressed(mb_left) and instance_exists(obj_player) and (mouse_y < yy+hh-100)){
+	    if instance_exists(obj_player) and(p.current_state == player_state.move and mouse_check_button_pressed(mb_left)  and (mouse_y < yy+hh-100)){
         
 	        p.image_index = 0;
 	        p.image_speed = 1;
