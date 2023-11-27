@@ -4,7 +4,7 @@ var n = instance_nearest(x,y,obj_entity)
 if (state = "sit"){
 	depth = -y
 	speed = 0
-	scr_draw_shadow()
+	scr_draw_shadow(10)
 	sprite_index = spr_seagul_sit	
 	if distance_to_object(obj_entity) < walk_distance{
 		state = "walk"
@@ -24,7 +24,7 @@ if (state = "walk"){
 	if place_meeting(x, y+vspeed, obj_solid){
 		vspeed = 0	
 	}
-	scr_draw_shadow()
+	scr_draw_shadow(10)
 	sprite_index = spr_seagul_walk
 	if distance_to_object(obj_entity) < fly_distance{
 		state = "fly"

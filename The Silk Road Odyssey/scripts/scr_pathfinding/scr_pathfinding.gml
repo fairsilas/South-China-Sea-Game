@@ -30,7 +30,7 @@ function scr_prevent_inside_solid(object_to_avoid = obj_solid){
 	}
 }
 
-function scr_follow_target(target_x, target_y){
+function scr_follow_target(target_x, target_y, sp = spd){
 	
 	//avoid other enemies
 	var check_x = x
@@ -48,15 +48,15 @@ function scr_follow_target(target_x, target_y){
 	//avoid bunching up
 	if (place_meeting(x,y,ne))and speed !=0{
 		    var angle = point_direction(x, y, ne.x, ne.y);
-		    var new_x = x + lengthdir_x(-spd / 1 + (dto_ne / 800), angle);
-		    var new_y = y + lengthdir_y(-spd / 1 + (dto_ne / 800), angle);
+		    var new_x = x + lengthdir_x(-sp / 1 + (dto_ne / 800), angle);
+		    var new_y = y + lengthdir_y(-sp / 1 + (dto_ne / 800), angle);
 			if !place_meeting(new_x+hspeed,new_y+vspeed,obj_solid){
 			    x = new_x;
 			    y = new_y;	
 			}
 	}else
 	if !collision_line(target_x, target_y, x, y, obj_solid, false, true){
-			move_towards_point(target_x,target_y,spd)
+			move_towards_point(target_x,target_y,sp)
 	}else
 	
 	if (alarm[10] <= 1){
@@ -68,8 +68,8 @@ function scr_follow_target(target_x, target_y){
 			
 			//refresh path
 			path_clear_points(path);
-			mp_potential_path_object(path, target_x, target_y, spd, 2, obj_solid);
-			path_start(path, spd, path_action_stop, true)
+			mp_potential_path_object(path, target_x, target_y, sp, 2, obj_solid);
+			path_start(path, sp, path_action_stop, true)
 			endX = path_get_x(path, path_get_number(path) - 1);
 			endY = path_get_y(path, path_get_number(path) - 1);
 			
@@ -80,14 +80,14 @@ function scr_follow_target(target_x, target_y){
 				path = path_add();
 	            // Switch to grid-based pathfinding
 	            mp_grid_path(obj_setup_pathfinding.grid, path, x, y, target_x, target_y, true)
-				path_start(path, spd, path_action_stop, true)
+				path_start(path, sp, path_action_stop, true)
 			}
 			endX = path_get_x(path, path_get_number(path) - 1);
 			endY = path_get_y(path, path_get_number(path) - 1);
 			//edge case
 			if (point_distance(endX, endY, target_x, target_y) > 10) {
-				mp_potential_path_object(path, target_x, target_y, spd, 2, obj_solid);
-				path_start(path, spd, path_action_stop, true)
+				mp_potential_path_object(path, target_x, target_y, sp, 2, obj_solid);
+				path_start(path, sp, path_action_stop, true)
 			}
 		} 
 	}

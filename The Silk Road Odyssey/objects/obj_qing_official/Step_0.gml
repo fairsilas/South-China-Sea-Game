@@ -11,7 +11,7 @@ if (current_state = land_npc_states.idle){
 		image_xscale = -1	
 	}
 	
-//run to nearest exit
+//walk to nearest exit
 }else if (current_state = land_npc_states.flee){
 	
 	if (place_meeting(x,y,obj_room_door)){
@@ -23,11 +23,24 @@ if (current_state = land_npc_states.idle){
 	}
 	var nearest_door = instance_nearest(x,y, obj_room_door)
 	scr_follow_target(nearest_door.x, nearest_door.y)
-	scr_two_direction_sprite(spr_qing_official_charge)
-	
+	scr_two_direction_sprite(spr_qing_official_walk)
 }
 
 //chase the player
+else if (current_state = land_npc_states.chase){
+	if (place_meeting(x,y,obj_room_door)){
+		image_alpha-=0.05
+		speed = 0
+	}
+	if (image_alpha < 0){
+		instance_destroy()
+	}
+	scr_follow_target(obj_player.x, obj_player.y)
+	scr_two_direction_sprite(spr_giant_chest_profile)
+	
+}
+
+//follow the player
 else if (current_state = land_npc_states.chase){
 	if (place_meeting(x,y,obj_room_door)){
 		image_alpha-=0.05

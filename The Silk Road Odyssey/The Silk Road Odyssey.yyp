@@ -66,6 +66,7 @@
     {"id":{"name":"scr_add_items","path":"scripts/scr_add_items/scr_add_items.yy",},},
     {"id":{"name":"spr_map","path":"sprites/spr_map/spr_map.yy",},},
     {"id":{"name":"spr_trader_profile_template","path":"sprites/spr_trader_profile_template/spr_trader_profile_template.yy",},},
+    {"id":{"name":"spr_qing_official_walk","path":"sprites/spr_qing_official_walk/spr_qing_official_walk.yy",},},
     {"id":{"name":"fnt_map","path":"fonts/fnt_map/fnt_map.yy",},},
     {"id":{"name":"rm_weizhou_cave","path":"rooms/rm_weizhou_cave/rm_weizhou_cave.yy",},},
     {"id":{"name":"spr_player_up_sprint","path":"sprites/spr_player_up_sprint/spr_player_up_sprint.yy",},},

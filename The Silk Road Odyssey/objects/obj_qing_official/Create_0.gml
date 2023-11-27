@@ -10,8 +10,10 @@ enum land_npc_states{
 	flee,
 	chase,
 	attack,
+	follow,
+	hurt,
 }
-current_state = land_npc_states.flee
+current_state = land_npc_states.follow
 
 
 //DIALOGUE DATA

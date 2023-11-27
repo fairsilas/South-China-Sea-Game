@@ -33,6 +33,9 @@
     "name": "spr_seagul_sit",
     "path": "sprites/spr_seagul_sit/spr_seagul_sit.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_seagul_sit",
+    "path": "sprites/spr_seagul_sit/spr_seagul_sit.yy",
+  },
   "visible": true,
 }
