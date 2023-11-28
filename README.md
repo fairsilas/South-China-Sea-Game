@@ -1,7 +1,7 @@
 
 # Junks & Riches: An 1800s South China Sea Trading Game
 
-## Introduction
+## About This Document
 This planning document will go over everything included in my game project, and give historical context for the items, characters, and locations, and events in the game. 
 The first half of the document goes over the design of the game, and the second half goes over historical information used to come to the decision to add each aspect of the game.
 
