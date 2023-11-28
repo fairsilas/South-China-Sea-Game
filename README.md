@@ -3,6 +3,7 @@
 
 ## Introduction
 This planning document will go over everything included in my game project, and give historical context for the items, characters, and locations, and events in the game. 
+The first half of the document goes over the design of the game, and the second half goes over historical information used to come to the decision to add each aspect of the game.
 **A few things to consider when reading this document:**
 1. Many of the locations and mechanics mentioned will not be added within the timeframe, but are guides for development and future development.
 2. Images included will not appear in the final game.
@@ -107,7 +108,7 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
  - Start the game by selecting a starting character. Sailor, fisherman, or 
 ### Core Gameplay Loop
 - Starting in a port near a market with an inventory based on your chosen role. 
-- Daily activities of trading, acquiring food, and maintaining your crew. In order to progress, you must travel between key trading ports and pirate stashes, overcoming obstacles at sea with each journey and trading goods to increase your wealth, plundering ships, or doing contractual missions for the Qing officials or the Confederation of pirates.
+- Daily activities of trading, acquiring food, and maintaining your crew. In order to progress, you must travel between key trading ports and stash, overcoming obstacles at sea with each journey and trading goods to increase your wealth, plundering ships, or doing contractual missions for the Qing officials or the Confederation of pirates.
 
 ### Pirate Crew Interaction
 - In "Junks & Riches," you'll get the chance to join a small pirate crew early in the game. The 18th-century South China Sea was rife with desperation due to poverty, heavy taxes, and Qing government oppression, making recruitment into piracy relatively easy.
@@ -120,9 +121,12 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 
 There were several types of cannons, some fired larger cannonballs, some fired grapeshot, and some fired small cannonballs. The different types of cannons were used depending on the range, and the level of maneuverability needed and can each be traded for and used in combat in the game.
 
+John Turner, an English sailor, describes his experience being kidnapped and ransomed. He was taken captive by Zheng Yi's crew from a British ship sailing from India in 1806. He wrote a 20-page account of his experience in 1809 including a section on the weapons used at the time.
+
 - **Qing Navy Cannonballs:** The cannonballs used by the Qing Navy were described as weighing "1 catty," which is approximately equivalent to 1.3 pounds. These cannonballs were used with the cannons on Qing Navy warships.
 
 - **Pirate Cannonballs:** On the other hand, pirate ships in the region were noted to use heavier cannonballs. Specifically, the notes mentioned that pirate cannonballs weighed "14 catty," which is approximately equivalent to 18 pounds. These larger cannonballs were used with the cannons on pirate junks.
+
 
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/c42a666f-e308-43d1-b6ff-0f1e0057974c)
 
@@ -320,7 +324,10 @@ In a letter to Messrs McT. F. & Co., it is revealed that Messrs. Seton, Maitland
 ---
 
 ### Weapons
+---
 
+**Cannons and Ammunition**
+: 
 
 ---
 
