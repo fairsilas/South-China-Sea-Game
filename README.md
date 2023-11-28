@@ -7,7 +7,7 @@ The first half of the document goes over the design of the game, and the second 
 
 **A few things to consider when reading this document:**
 1. Many of the locations and mechanics mentioned will not be added within the timeframe, but are guides for development and future development.
-2. Images included will not appear in the final game.
+2. Many of the images are not included in the game. They are just designs to take inspiration from for development.
 3. At the bottom of the document, I will create a log of what parts of the game have been implemented, and most recent update notes. I will also have a video of gameplay showing the last updated version of the game.
 
 ### Title Screen
