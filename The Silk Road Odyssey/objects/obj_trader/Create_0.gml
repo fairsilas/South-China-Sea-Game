@@ -9,12 +9,23 @@ enum ship_states {
 relationship = 50
 max_hp = 30
 hp = max_hp
-max_spd = 2
-turn_spd = 3
+max_spd = 100
 
-momentum = 0.
+
 angle = 0
-max_speed = 3
+turnspeed = 2
+max_speed = 2
+
+acc = 0.01
+rev_acc = 0.01
+momentum = 0.085
+frict = 0.09
+
+ripple_timer = 0
+ripple_freq = 20
+ripple_rand = 10
+
+
 current_state = ship_states.wander
 
 //DIALOGUE DATA

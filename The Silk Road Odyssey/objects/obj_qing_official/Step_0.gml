@@ -11,7 +11,7 @@ if (current_state = land_npc_states.idle){
 		image_xscale = -1	
 	}
 	
-//walk to nearest exit
+//flee
 }else if (current_state = land_npc_states.flee){
 	
 	if (place_meeting(x,y,obj_room_door)){
@@ -26,32 +26,35 @@ if (current_state = land_npc_states.idle){
 	scr_two_direction_sprite(spr_qing_official_walk)
 }
 
-//chase the player
+//chase
 else if (current_state = land_npc_states.chase){
-	if (place_meeting(x,y,obj_room_door)){
-		image_alpha-=0.05
-		speed = 0
-	}
-	if (image_alpha < 0){
-		instance_destroy()
-	}
-	scr_follow_target(obj_player.x, obj_player.y)
-	scr_two_direction_sprite(spr_giant_chest_profile)
+	scr_follow_target(obj_player.x, obj_player.y, spd)
+	scr_two_direction_sprite(spr_qing_official_charge)
 	
 }
 
-//follow the player
-else if (current_state = land_npc_states.chase){
-	if (place_meeting(x,y,obj_room_door)){
-		image_alpha-=0.05
-		speed = 0
+//follow 
+else if (current_state = land_npc_states.follow){
+	scr_follow_target(obj_player.x, obj_player.y,)
+	scr_two_direction_sprite(spr_qing_official_walk)
+	if (distance_to_object(obj_player) < 20){
+			scr_start_dialogue(ls,profile)
+			speed = 0
 	}
-	if (image_alpha < 0){
-		instance_destroy()
-	}
-	scr_follow_target(obj_player.x, obj_player.y)
-	scr_two_direction_sprite(spr_giant_chest_profile)
 	
+}
+
+//attack 
+else if (current_state = land_npc_states.attack){
+	sprite_index = spr_qing_official_slash
+	if image_index >= image_number-1{
+			
+	}
+	current_state = land_npc_states.chase
+	image_xscale = 1
+	if obj_player.x < x {
+		image_xscale = -1	
+	}
 }
 
 
