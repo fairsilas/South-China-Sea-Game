@@ -216,6 +216,7 @@
     {"id":{"name":"snd_location_reached","path":"sounds/snd_location_reached/snd_location_reached.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"spr_white_square","path":"sprites/spr_white_square/spr_white_square.yy",},},
+    {"id":{"name":"spr_qing_official_hurt","path":"sprites/spr_qing_official_hurt/spr_qing_official_hurt.yy",},},
     {"id":{"name":"obj_minimap_travel_button","path":"objects/obj_minimap_travel_button/obj_minimap_travel_button.yy",},},
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},},
     {"id":{"name":"obj_message","path":"objects/obj_message/obj_message.yy",},},

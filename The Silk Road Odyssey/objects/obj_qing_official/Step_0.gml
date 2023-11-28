@@ -28,8 +28,14 @@ if (current_state = land_npc_states.idle){
 
 //chase
 else if (current_state = land_npc_states.chase){
+	if distance_to_object(obj_player) < 30{
+		current_state = land_npc_states.attack
+		image_index = 0
+		speed = 0
+	}else{
 	scr_follow_target(obj_player.x, obj_player.y, spd)
 	scr_two_direction_sprite(spr_qing_official_charge)
+	}
 	
 }
 
@@ -48,13 +54,38 @@ else if (current_state = land_npc_states.follow){
 else if (current_state = land_npc_states.attack){
 	sprite_index = spr_qing_official_slash
 	if image_index >= image_number-1{
-			
+		current_state = land_npc_states.chase
 	}
-	current_state = land_npc_states.chase
+	speed = 0
 	image_xscale = 1
 	if obj_player.x < x {
 		image_xscale = -1	
 	}
+}
+
+//hurt
+else if (current_state = land_npc_states.hurt){
+	sprite_index = spr_qing_official_hurt
+	if image_index >= image_number-1{
+		current_state = land_npc_states.chase
+	}
+	speed = 0
+	image_xscale = 1
+	if obj_player.x < x {
+		image_xscale = -1	
+	}
+}
+
+if distance_to_object(obj_player) < 30 and obj_player.sprite_index = spr_player_left_stab and current_state != land_npc_states.hurt{
+		current_state = land_npc_states.hurt
+		image_index = 1
+}
+
+if place_meeting(x+hspeed,y,obj_solid){
+	hspeed = 0	
+}
+if place_meeting(x,y+vspeed,obj_solid){
+	vspeed = 0	
 }
 
 
