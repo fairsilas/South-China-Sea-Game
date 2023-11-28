@@ -4,6 +4,7 @@
 ## Introduction
 This planning document will go over everything included in my game project, and give historical context for the items, characters, and locations, and events in the game. 
 The first half of the document goes over the design of the game, and the second half goes over historical information used to come to the decision to add each aspect of the game.
+
 **A few things to consider when reading this document:**
 1. Many of the locations and mechanics mentioned will not be added within the timeframe, but are guides for development and future development.
 2. Images included will not appear in the final game.
