@@ -1,4 +1,4 @@
-delay = 100
+delay = 200
 blink_speed = 20
 alarm[0] = delay;
 alarm[1] = blink_speed;

@@ -2,6 +2,16 @@
 var n = instance_nearest(x,y,obj_entity)
 
 if (state = "sit"){
+	if alarm[0] < 0{
+		if choose(0, 1) == 0{
+			state = "wander"
+			direction = irandom(360)
+		}
+		else{
+			image_xscale = -image_xscale
+		}
+		alarm[0] = random_range(50,220)
+	}
 	depth = -y
 	speed = 0
 	scr_draw_shadow(10)
@@ -9,9 +19,30 @@ if (state = "sit"){
 	if distance_to_object(obj_entity) < walk_distance{
 		state = "walk"
 	}
-	if distance_to_object(obj_entity) < fly_distance{
-		state = "fly"
+
+}
+
+//walk away
+if (state = "wander"){
+	if alarm[0] < 0{
+		if choose(0, 1) == 0{
+			state = "sit"
+			direction = irandom(360)
+		}
+		else{
+			direction = irandom(360)
+		}
+		alarm[0] = random_range(50,220)
 	}
+	depth = -y
+	speed = 1
+	if place_meeting(x+hspeed, y, obj_solid){
+		hspeed = 0	
+	}
+	if place_meeting(x, y+vspeed, obj_solid){
+		vspeed = 0	
+	}
+	sprite_index = spr_seagul_walk
 }
 
 //walk away
@@ -24,7 +55,6 @@ if (state = "walk"){
 	if place_meeting(x, y+vspeed, obj_solid){
 		vspeed = 0	
 	}
-	scr_draw_shadow(10)
 	sprite_index = spr_seagul_walk
 	if distance_to_object(obj_entity) < fly_distance{
 		state = "fly"
@@ -34,6 +64,10 @@ if (state = "walk"){
 	}
 }
 
+//get 
+if distance_to_object(obj_entity) < fly_distance{
+	state = "fly"
+}
 
 //fly away
 if (state = "fly"){
@@ -41,6 +75,8 @@ if (state = "fly"){
 	sprite_index = spr_seagul_fly
 	move_towards_point(randx, -100, spd)
 	
+}else{
+	scr_draw_shadow(10)
 }
 
 //animation and depth

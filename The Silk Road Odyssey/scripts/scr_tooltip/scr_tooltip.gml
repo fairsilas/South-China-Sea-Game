@@ -6,5 +6,7 @@ function scr_tooltip(text){
 		with(instance_create_depth(0,0, obj_inventory.depth-1, obj_tooltip)){
 			txt = t
 		}
+	}else{
+		obj_tooltip.txt = t
 	}
 }

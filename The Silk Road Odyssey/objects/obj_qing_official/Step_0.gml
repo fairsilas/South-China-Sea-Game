@@ -36,12 +36,11 @@ else if (current_state = land_npc_states.chase){
 	scr_follow_target(obj_player.x, obj_player.y, spd)
 	scr_two_direction_sprite(spr_qing_official_charge)
 	}
-	
 }
 
 //follow 
 else if (current_state = land_npc_states.follow){
-	scr_follow_target(obj_player.x, obj_player.y,)
+	scr_follow_target(obj_player.x, obj_player.y,walk_spd)
 	scr_two_direction_sprite(spr_qing_official_walk)
 	if (distance_to_object(obj_player) < 20){
 			scr_start_dialogue(ls,profile)
@@ -76,7 +75,8 @@ else if (current_state = land_npc_states.hurt){
 	}
 }
 
-if distance_to_object(obj_player) < 30 and obj_player.sprite_index = spr_player_left_stab and current_state != land_npc_states.hurt{
+//get hit
+if (current_state != land_npc_states.hurt) and (current_state != land_npc_states.attack) and place_meeting(x,y,obj_hitbox) {
 		current_state = land_npc_states.hurt
 		image_index = 1
 }

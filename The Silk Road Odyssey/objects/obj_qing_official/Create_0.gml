@@ -1,4 +1,5 @@
 depth = -y
+
 walk_spd = 1
 spd = 3
 scr_init_pathfinding(spd)
