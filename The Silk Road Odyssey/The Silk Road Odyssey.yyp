@@ -119,6 +119,7 @@
     {"id":{"name":"spr_salt_man_profile","path":"sprites/spr_salt_man_profile/spr_salt_man_profile.yy",},},
     {"id":{"name":"spr_macao_background","path":"sprites/spr_macao_background/spr_macao_background.yy",},},
     {"id":{"name":"spr_player_up_shirt","path":"sprites/spr_player_up_shirt/spr_player_up_shirt.yy",},},
+    {"id":{"name":"pixel_canton","path":"sprites/pixel_canton/pixel_canton.yy",},},
     {"id":{"name":"spr_player_right_stab","path":"sprites/spr_player_right_stab/spr_player_right_stab.yy",},},
     {"id":{"name":"obj_swivel_gun","path":"objects/obj_swivel_gun/obj_swivel_gun.yy",},},
     {"id":{"name":"spr_player_right86","path":"sprites/spr_player_right86/spr_player_right86.yy",},},

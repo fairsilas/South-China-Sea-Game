@@ -91,6 +91,7 @@
     {"name":"spr_salt_man_profile","order":11,"path":"sprites/spr_salt_man_profile/spr_salt_man_profile.yy",},
     {"name":"spr_macao_background","order":1,"path":"sprites/spr_macao_background/spr_macao_background.yy",},
     {"name":"spr_player_up_shirt","order":26,"path":"sprites/spr_player_up_shirt/spr_player_up_shirt.yy",},
+    {"name":"pixel_canton","order":22,"path":"sprites/pixel_canton/pixel_canton.yy",},
     {"name":"spr_player_right_stab","order":16,"path":"sprites/spr_player_right_stab/spr_player_right_stab.yy",},
     {"name":"obj_swivel_gun","order":7,"path":"objects/obj_swivel_gun/obj_swivel_gun.yy",},
     {"name":"spr_player_right86","order":23,"path":"sprites/spr_player_right86/spr_player_right86.yy",},
