@@ -110,6 +110,7 @@
     {"id":{"name":"spr_player_right_shirt","path":"sprites/spr_player_right_shirt/spr_player_right_shirt.yy",},},
     {"id":{"name":"setting up a trader","path":"notes/setting up a trader/setting up a trader.yy",},},
     {"id":{"name":"spr_cannon_ball_small","path":"sprites/spr_cannon_ball_small/spr_cannon_ball_small.yy",},},
+    {"id":{"name":"curve_1","path":"animcurves/curve_1/curve_1.yy",},},
     {"id":{"name":"spr_map_travel","path":"sprites/spr_map_travel/spr_map_travel.yy",},},
     {"id":{"name":"spr_player_left_sprint","path":"sprites/spr_player_left_sprint/spr_player_left_sprint.yy",},},
     {"id":{"name":"obj_ripple2","path":"objects/obj_ripple2/obj_ripple2.yy",},},
