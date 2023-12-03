@@ -16,7 +16,7 @@ angle = 0
 turnspeed = 2
 max_speed = 2
 
-acc = 0.01
+acc = 0.02
 rev_acc = 0.01
 momentum = 0.085
 frict = 0.09
@@ -64,7 +64,7 @@ default_ls = [
 		main_text: "",
 		choices: [],
 		scr: function(){
-			obj_inventory.currentInvState = InvStates.trade
+			obj_inventory.state = InvStates.trade
 		},
 	},
 	{

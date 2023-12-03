@@ -32,7 +32,7 @@ enum InvStates {
 }
 
 // Initialize the current inventory state
-currentInvState = InvStates.def;
+state = InvStates.def;
 
 active = true
 

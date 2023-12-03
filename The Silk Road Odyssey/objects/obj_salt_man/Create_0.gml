@@ -69,7 +69,7 @@ ls = [
 		main_text: "",
 		choices: [],
 		scr: function(){
-			obj_inventory.currentInvState = InvStates.trade
+			obj_inventory.state = InvStates.trade
 		},
 	},
 	{
@@ -77,7 +77,7 @@ ls = [
 		main_text: "",
 		choices: [],
 		scr: function(){
-			obj_inventory.currentInvState = state.idle
+			obj_inventory.state = state.idle
 			//obj_salt_man.sprite_index =
 			obj_salt_man.hspeed =-1
 			obj_salt_man.image_xscale = -1

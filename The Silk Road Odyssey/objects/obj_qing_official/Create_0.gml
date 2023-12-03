@@ -1,7 +1,9 @@
 depth = -y
-
+hit = false
 walk_spd = 1
 spd = 3
+hp = 30
+max_hp = hp
 scr_init_pathfinding(spd)
 
 
@@ -13,6 +15,7 @@ enum land_npc_states{
 	attack,
 	follow,
 	hurt,
+	leave,
 }
 current_state = land_npc_states.follow
 
@@ -33,24 +36,15 @@ ls = [
 	{
 		topic : "Hi",
 		main_text: "It's time for tax collection. Hand over the taels owed to the Imperial Treasury.",
-		choices: [["Run away from me now.", "Flee"],["No.", "Fight Talk"],["Your Excellency, this is all I have from my week's earnings.", "Tax"]],
+		choices: [["I am with the Red Banner Fleet.", "leave"],["No.", "Fight"],["Your Excellency, this is all I have from my week's earnings.", "Tax"]],
 		scr: "do nothing",
-	},
-	{
-		topic : "Fight Talk",
-		main_text: " The Imperial Treasury demands its due, and you will pay. Refusal will result in punishment.",
-		choices: [],
-		scr: function(){
-			obj_inventory.currentInvState = InvStates.def
-			obj_qing_official.current_state = land_npc_states.chase
-		}
 	},
 	{
 		topic : "Fight",
 		main_text: "",
 		choices: [],
 		scr: function(){
-			obj_inventory.currentInvState = InvStates.def
+			obj_inventory.state = InvStates.def
 			obj_qing_official.current_state = land_npc_states.chase
 		}
 	},
@@ -80,13 +74,14 @@ ls = [
 			//rob random item
 		}
 	},
+	
 	{
-		topic : "Flee",
+		topic : "leave",
 		main_text: "",
 		choices: [],
 		scr: function(){
-			obj_inventory.currentInvState = InvStates.def
-			obj_qing_official.current_state = land_npc_states.flee
+			obj_inventory.state = InvStates.def
+			obj_qing_official.current_state = land_npc_states.leave
 		}
 	},
 ]

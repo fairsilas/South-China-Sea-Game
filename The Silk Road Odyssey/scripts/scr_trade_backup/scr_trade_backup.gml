@@ -6,7 +6,7 @@ function scr_traded(){
 	
 //switch trade on and off
 if keyboard_check_pressed(vk_tab){
-	currentInvState = InvStates.def
+	state = InvStates.def
 	scr_move_all_items(inv_trade, inv)
 	scr_move_all_items(trader_trade, trader_inv)
 }

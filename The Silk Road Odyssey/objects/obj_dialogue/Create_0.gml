@@ -19,7 +19,7 @@ ls = [
 
 
 with(obj_inventory){
-	currentInvState = InvStates.talk
+	state = InvStates.talk
 }
 
 

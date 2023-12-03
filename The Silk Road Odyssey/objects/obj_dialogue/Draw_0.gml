@@ -65,7 +65,7 @@ if (num_choices >= 1){
 			if (l_click) and (hover){
 				if (data.choices[i][1] == "end"){
 					instance_destroy()
-					with(obj_inventory){currentInvState = InvStates.def}
+					with(obj_inventory){state = InvStates.def}
 				
 				}else{
 					current_dia = data.choices[i][1]

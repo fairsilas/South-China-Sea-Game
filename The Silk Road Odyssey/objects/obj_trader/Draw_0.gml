@@ -14,7 +14,7 @@ var bx = x;
 var by = y-64;
 
 //show button
-if  (distance_to_object(obj_ship) < 100)and(obj_inventory.equipped_item == noone)and(obj_inventory.currentInvState == state.idle){
+if  (distance_to_object(obj_ship) < 100)and(obj_inventory.equipped_item == noone)and(obj_inventory.state == state.idle){
 	if (relationship >= 50){
 			//open dialog of trade with trader
 			var i = my_inventory

@@ -64,7 +64,7 @@ if (state = "wander"){
 	}
 	sprite_index = spr_rat
 }
-
+scr_draw_shadow(10)
 
 //animation and depth
 depth = -y

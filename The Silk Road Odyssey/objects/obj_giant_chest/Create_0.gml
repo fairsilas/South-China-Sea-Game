@@ -24,7 +24,7 @@ ls = [
 		main_text: "",
 		choices: [],
 		scr: function(){
-			obj_inventory.currentInvState = InvStates.trade
+			obj_inventory.state = InvStates.trade
 		}
 	}
 ]
