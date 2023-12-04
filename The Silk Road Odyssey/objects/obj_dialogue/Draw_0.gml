@@ -20,11 +20,7 @@ if data.scr != "do nothing"{
 }
 
 if (num_choices >= 1){
-	//skip the wait
-	if keyboard_check(vk_space)or mouse_check_button_pressed(mb_left){
-		q_showing = true
-	}
-	if (q_showing = true){
+		if (q_showing = true){
 		push_down = 0
 		for (i=0; i< num_choices; i++) {
 			var w = 400
@@ -75,7 +71,12 @@ if (num_choices >= 1){
 				}		
 			}
 		}
+	}else
+	//skip the wait
+	if keyboard_check(vk_space)or mouse_check_button_pressed(mb_left){
+		q_showing = true
 	}
+
 }else{
 	instance_destroy()
 	

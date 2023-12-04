@@ -16,7 +16,8 @@ if  (distance_to_object(obj_player) < 100){
 	var my_p = my_prices
 	
 	//if mouse hover show button
-	if (mouse_x < bx+(w/2))and (mouse_x > bx-(w/2)) and (mouse_y < by+(h/2))and (mouse_y > by-(h/2)){
+	if (mouse_x < bx+(w/2))and (mouse_x > bx-(w/2)) and (mouse_y < by+(h/2))and (mouse_y > by-(h/2))
+	and obj_inventory.state = InvStates.def{
 		draw_sprite(spr_dialogue_button,1,bx,by)
 		
 		//if mouse click open dialogue

@@ -1,4 +1,5 @@
-//
+
+
 if (current_state = land_npc_states.idle){
 	image_xscale = 1
 	if obj_player.x < x {
@@ -114,6 +115,11 @@ if (hp <= 0){
 	var dead_me = instance_create_depth(x,y,0,obj_qing_official_die)
 	dead_me.image_xscale = image_xscale
 	instance_destroy()
+}
+
+//don't move if talking
+if (obj_inventory.state != InvStates.def){
+	speed = 0
 }
 
 

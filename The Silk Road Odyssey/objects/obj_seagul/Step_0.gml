@@ -73,7 +73,8 @@ if distance_to_object(obj_entity) < fly_distance{
 if (state = "fly"){
 	depth = -y-200
 	sprite_index = spr_seagul_fly
-	move_towards_point(n.x, n.y+20, -spd)
+	move_towards_point(n.x, n.y+40, -spd)
+
 	
 }else{
 	scr_draw_shadow(10)

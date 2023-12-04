@@ -13,7 +13,7 @@ function scr_init_default_prices(map, percent_variation=0,price_multiplier=1){
 	map[? "Small Cannonball"] = 1000*price_multiplier;
 	map[? "Wallpiece"] = 1000*price_multiplier;
 	map[? "Tael of Silver"] = 1000*price_multiplier;
-	map[? "cano"] = 1000*price_multiplier;
+	map[? "History Book"] = 1000*price_multiplier;
 	
 	
 }

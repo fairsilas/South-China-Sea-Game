@@ -21,7 +21,7 @@ angle = 0
 //momentum = 0.085
 //frict = 0.09
 turnspeed = 1
-max_speed = 2
+max_speed = 1.5
 
 acc = 0.01
 rev_acc = 0.01
