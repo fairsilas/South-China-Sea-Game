@@ -15,7 +15,7 @@ if hp < max_hp/2{
 }
 
 if (hp < max_hp){
-	relationship -= 0
+	relationship = 0
 }
 
 if (current_state == ship_states.flee){
@@ -28,7 +28,7 @@ if (current_state == ship_states.flee){
 
 
 
-if (get_collision_distance(obj_edge_clouds, angle, 200 < 200)){
+if (get_collision_distance(obj_edge_clouds, angle, 200) < 200){
 	angle += turnspeed
 }else{
 	motion_add(angle, acc)	

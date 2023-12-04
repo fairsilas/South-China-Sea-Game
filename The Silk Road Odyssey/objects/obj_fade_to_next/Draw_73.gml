@@ -18,6 +18,7 @@ if (trans_done = false){
 if (trans_val >= 1 and trans_done = false){
 	trans_done = true
 	room_goto_next()
+	instance_destroy()
 }
 
 

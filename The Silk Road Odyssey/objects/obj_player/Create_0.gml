@@ -35,3 +35,8 @@ global.shirt_color = pastelColors.peach
 if ! instance_exists(obj_inventory){
 	instance_create_depth(x,y, -10000, obj_inventory)	
 }
+
+var fish = scr_create_item("Fresh Fish", spr_fresh_fish, 1, 50, "Need preservatives to make it keep on a long journey.")
+scr_add_items(fish, obj_inventory.inv)
+var fish = scr_create_item("Copper Coin", spr_copper_coin, 1, 234, "Worth about one copper coin.", function(){scr_tooltip(choose("Heads!", "Tails"))})
+scr_add_items(fish, obj_inventory.inv)

@@ -1,4 +1,3 @@
-
 relationship = 50
 max_hp = 30
 hp = max_hp
@@ -42,20 +41,20 @@ default_ls = [
 	//dialog starting
 	{
 		topic : "Hi",
-		main_text: "Hello, I am Fob Roster, the captain of this ship and fine crew. Why did you decide to open communication with us?",
-		choices: [["Uh, I don't know.", "end"],["Hello, I would like to propose a trade.", "Trade Talk1"], []],
+		main_text: "Hello, I am Fob Roster. Why did you decide to open communication with us?",
+		choices: [["Uh, I don't know.", "In Office"],["I would like to propose a trade.", "Trade Talk1"]],
 		scr: "do nothing",
 	},
 	{
 		topic : "Trade Talk1",
-		main_text: "Ok, well I will be down in my office. But my crew will work that out with you. Tell them to let me know if you need anything.",
-		choices: [["Ok.","Trade Talk2"]],
+		main_text: "Transactions are already carefully planned out, so unfutunately we can't not. However, You may take a look in my office for anything you find interesting.",
+		choices: [["Ok.","Trade"], ["Thank you for the offer but I am not interested.","In Office"]],
 		scr: "do nothing",
 	},
 	{
-		topic : "Trade Talk2",
-		main_text: "Uh, I guess we can talk about trading now.",
-		choices: [["",""]],
+		topic : "In Office",
+		main_text: "Ok, well I will be down in my office if you need anything.",
+		choices: [["Ok.","end"]],
 		scr: "do nothing",
 	},
 	
@@ -66,24 +65,6 @@ default_ls = [
 		scr: function(){
 			obj_inventory.state = InvStates.trade
 		},
-	},
-	{
-		topic : "Arrest",
-		main_text: "Nuh uh, you can't arrest me because I'm innocent.",
-		choices: [["Oh, I guess I was wrong.","Goodbye"], ["Erm... No you are guilty I think.","Arrest"]],
-		scr: "do nothing"
-	},
-	{
-		topic : "Codes",
-		main_text: "Nuh uh, I actually didn't violate any codes",
-		choices: [["Oh, I didn't realize you actually didn't violate any codes.","Goodbye"], ["Erm... yes you did.","Codes"]],
-		scr: "do nothing",
-	},
-	{
-		topic : "Goodbye",
-		main_text: "Ok well goodbye then.",
-		choices: [["Goodbye","end"]],
-		scr: "do nothing",
 	}
 ]
 
@@ -142,4 +123,3 @@ item_data =  [{
 for (i=0; i<array_length(item_data); i++){
 	scr_add_items(item_data[i], my_inventory)
 }
-

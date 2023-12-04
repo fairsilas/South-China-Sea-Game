@@ -31,7 +31,7 @@ ls = [
 		choices: [
 		["It usually only costs me 3. However I hear you are good. Could you go down to 5?", "Trade Good"],
 		["Are you insane! That's way to expensive!", "Offended"],
-		["Times are tough so I can't afford it. Would you go any lower?", "Trade bad"],
+		["Times are tough so I can't afford it. Would you go any lower?", "Trade Bad"],
 		["I'm sorry that is too expensive. I'm not interested.", "Trade bad"]],
 		scr: "do nothing",
 	},
@@ -39,9 +39,9 @@ ls = [
 		topic : "Trade Bad",
 		main_text: "Tell you what, I want to give you a good deal. So I can do 10 copper per fish. but that's as low as I'll go.",
 		choices: [
-		["That's still super expensive", "Offended"],
-		["let's discuss a mutually beneficial trade arrangement.", "Trade"],
-		["Sorry I still can't afford it", "end"]],
+		["That works for me.", "Trade"],
+		["That's still unreasonably expensive. How hard can it be to cut up and put salt on a fish?", "Offended"],
+		["Sorry for the bother, I just can't afford.", "end"]],
 		scr: function(){
 			//bad prices
 			obj_salt_man.my_prices[? "Salted Fish"] = 100010;
@@ -52,9 +52,9 @@ ls = [
 		topic : "Trade Good",
 		main_text: "Fine, I can go down to 6 copper per fish but past that and I am cutting my own throat.",
 		choices: [
-		["That is reasonable. Thank you for lowering your price.", "Trade"],
+		["Thank you. I am ready to propose a trade.", "Trade"],
 		["You damned Mumpsimus! I said 5 was as high as I would go!", "Offended"],
-		["That's still too expensive. Sorry I will look elsewhere.", "end"]],
+		["Thank you for your time, but I will look elsewhere.", "end"]],
 		scr: function(){
 			//good prices
 			obj_salt_man.my_prices[? "Salted Fish"] = 100006;
@@ -64,8 +64,8 @@ ls = [
 	},
 	{
 		topic : "Offended",
-		main_text: "That was uncalled for.",
-		choices: [["Sorry, I didn't mean any disrespect.","Leave"],["Ok whatever.","Leave"], ["I think it was pretty called for.","Leave"]],
+		main_text: "Watch your tone buddy.",
+		choices: [["Sorry, I didn't mean any disrespect.","Leave"],["Ok whatever.","Leave"]],
 		scr: "do nothing"
 	},
 	{
@@ -81,7 +81,7 @@ ls = [
 		main_text: "",
 		choices: [],
 		scr: function(){
-			obj_inventory.state = state.idle
+			obj_inventory.state = InvStates.def
 			//obj_salt_man.sprite_index =
 			obj_salt_man.hspeed =-1
 			obj_salt_man.image_xscale = -1
@@ -126,4 +126,3 @@ scr_create_item("Fresh Fish", spr_fresh_fish, 1, 5, "Raw fish will spoil on you 
 for (i=0; i<array_length(item_data); i++){
 	scr_add_items(item_data[i], my_inventory)
 }
-

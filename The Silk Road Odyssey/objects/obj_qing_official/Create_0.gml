@@ -25,7 +25,7 @@ current_state = land_npc_states.follow
 profile = {
 	spr : spr_trader_profile_template,
 	title : "Tax Collector",
-	desc : "A Tax collector for the Qing Dynasty, known for over-extracting taxes from the hardworking people on the docks of Macao.",
+	desc : "A Tax collector for the Qing Dynasty.",
 }
 
 
@@ -36,7 +36,7 @@ ls = [
 	{
 		topic : "Hi",
 		main_text: "It's time for tax collection. Hand over the taels owed to the Imperial Treasury.",
-		choices: [["I am with the Red Banner Fleet.", "leave"],["No.", "Fight"],["Your Excellency, this is all I have from my week's earnings.", "Tax"]],
+		choices: [["I already paid them.", "Tax"],["I don't have it right now.", "Fight Talk"],["This is all I have. Here you go.", "Tax"]],
 		scr: "do nothing",
 	},
 	{
@@ -49,30 +49,17 @@ ls = [
 		}
 	},
 	{
-		topic : "Tax",
-		main_text: "The magistrate needs his share, and you best not be holding back.",
-		choices: [["I can't afford more, Your Excellency. ", "Tax Poor"], ["Of course. Here you go.", "Tax Rich"]],
-		scr: "do nothing",
-	},
-	{
-		topic : "Tax Poor",
-		main_text: "The Imperial Treasury cares not for your plight. Consider this a penalty for your insolence. The Emperor's justice may be harsh, but it is my discretion that decides your fate.",
-		choices: [],
-		scr: "do nothing",
-	},
-	{
-		topic : "Tax Rich",
-		main_text: "Next time you better have more.",
-		choices: ["Ok.", "end"],
-		scr: "do nothing",
-	},
-	{
-		topic : "Rob",
-		main_text: "If you aren't paying your dues, then I am taking this!",
-		choices: [],
+		topic : "Fight Talk",
+		main_text: "You will pay in blood for your acts against the divine authority.",
+		choices: [["*Fight*", "Fight"]],
 		scr: function(){
-			//rob random item
 		}
+	},
+	{
+		topic : "Tax",
+		main_text: "You better not be holding anything back. ",
+		choices: [["That's everything.", "Leave"], ["I gave you the money. Get off my case!", "Fight Talk"]],
+		scr: "do nothing",
 	},
 	
 	{

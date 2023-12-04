@@ -194,6 +194,7 @@
     {"id":{"name":"obj_ship_view","path":"objects/obj_ship_view/obj_ship_view.yy",},},
     {"id":{"name":"scr_start_dialogue","path":"scripts/scr_start_dialogue/scr_start_dialogue.yy",},},
     {"id":{"name":"get_scores","path":"scripts/get_scores/get_scores.yy",},},
+    {"id":{"name":"snd_knife_stab","path":"sounds/snd_knife_stab/snd_knife_stab.yy",},},
     {"id":{"name":"spr_player_up_sprint_shirt","path":"sprites/spr_player_up_sprint_shirt/spr_player_up_sprint_shirt.yy",},},
     {"id":{"name":"fnt_inv_desc","path":"fonts/fnt_inv_desc/fnt_inv_desc.yy",},},
     {"id":{"name":"spr_cannon","path":"sprites/spr_cannon/spr_cannon.yy",},},
