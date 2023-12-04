@@ -42,7 +42,7 @@ The game is set against the backdrop of the 18th century South China Sea Coast, 
    - The Tay Son Rebellion, a historical conflict taking place during the late 18th century, provides additional context to the game world. As the rebellion swept through parts of Vietnam, it influenced the rise of several prominent pirate leaders, who played a role in the conflict. Characters will reference this rebellion, offering insights into the interconnectedness of regional events and the emergence of pirates as significant players in the power struggle.
 
 **Pirate Queen Cheng I Sao and Cui Zhi:**
-   - Pirate Queen Cheng I Sao and her formidable confederation of pirates, as well as the cunning and ruthless Cui Zhi, who played a crucial role in orchestrating pirate operations, are historical figures that have left a lasting impact on the region. These characters, though not likely to be encountered in the game, will be mentioned by other NPCs, contributing to the authenticity of the historical setting.
+   - Pirate Queen Cheng I Sao and her formidable confederation of pirates, as well as the benevolant Cui Zhi, who played a crucial role in orchestrating pirate operations, are historical figures that have left a lasting impact on the region. These characters, though not likely to be encountered in the game, will be mentioned by other NPCs, contributing to the authenticity of the historical setting.
 
 **The Gulf of Tonkin:**
    - The Gulf of Tonkin, a significant geographical feature, had a critical role in the operations of the pirates as a result of the Tay Son rebellion. Situated in the northern part of the South China Sea, it provided a crucial maritime passage connecting the southern coast of China with the northeastern coast of Vietnam where Chinese Pirates who joined the Tay Son rebellion could stop and trade, or get provisions and support from the rebels. This proximity allowed pirates to establish a stronghold in the Gulf of Tonkin, from which they could launch their raids on passing merchant vessels. The Gulf of Tonkin acted as a strategic arena for piracy, with its intricate network of islands, bays, and open waters providing ample opportunities for pirate operations. Hainan island was one of those islands located in the Gulf of Tonkin.
@@ -86,10 +86,6 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 - **Qing Dynasty Outposts:**
    - Coastal installations established by Qing officials to combat piracy.
    - Locations where players can find quests or engage in naval battles against government forces.
-
-- **Smuggler's Dens:**
-   - Secret locations where contraband trading takes place and players can acquire rare goods.
-   - Opportunities for undercover dealings with other pirates.
 
 - **Vietnamese Coast:**
     - A nearby coast with connections to the Tay Son Rebellion and Vietnamese merchants.
