@@ -25,7 +25,7 @@ if (num_choices >= 1){
 		for (i=0; i< num_choices; i++) {
 			var w = 400
 			//seperate long text with more space
-			var q_sep = 30+push_down
+			var q_sep = 32+push_down
 			var str = data.choices[i][0]
 			var m = 3;
 			var l = 1;

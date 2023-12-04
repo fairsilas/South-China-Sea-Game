@@ -1,5 +1,5 @@
 depth = -y
-
+var s = self
 current_state = IDLE
 
 //DIALOGUE DATA
@@ -7,7 +7,7 @@ current_state = IDLE
 profile = {
 	spr : spr_salt_man_profile,
 	title : "Salt Man",
-	desc : "This man can salt your meat so it lasts longer. He has salt.",
+	desc : "He sells salt, a good preservative for meat at sea.",
 }
 
 
@@ -17,51 +17,55 @@ ls = [
 	//dialog starting
 	{
 		topic : "Greeting 1",
-		main_text: "Greetings, esteemed merchant. I am Zhang Wei, a humble salt trader known for the purity and quality of my salt. I understand you seek trade discussions. What brings you to my domain, and what is it that you are looking for?",
+		main_text: "Greetings, esteemed merchant. I am Zhang Wei, the salt man. What are you looking for?",
 		choices: [
-			["Cut to the chase. What do you want for some salt?", "Offended"],
-			["Look, I don't have all day. What's so special about your salt?", "Offended"],
-			["Honored Salt Trader, I appreciate the opportunity to engage in trade discussions with someone of your esteemed reputation.", "Greeting 2"],
-			["Excuse me, urgent matters require my immediate attention. Farewell.", "end"]],
+			["What's up Wei-doggie-dog. How about you give me some salt?", "Offended"],
+			["Your salt looks low quality.", "Offended"],
+			["Honorable Zhang,  your salt is the best quality, I have heard. May I discuss trade with you?", "Haggle1"],
+			["Sorry, I have to go actually.", "end"]],
 		scr: "do nothing",
 	},
 	{
-		topic : "Greeting 2",
-		main_text: "Your kind words are noted, esteemed merchant. I take pride in the quality of my salt, as it has been crafted with care and tradition. Before we proceed, tell me, what goods do you offer, and what brings you to consider a trade with my salt?",
+		topic : "Haggle1",
+		main_text: "Your kind words are noted, esteemed merchant. I take pride in the quality of my salt and salting process. However, a service like mine is not cheap. It will be around 12 copper per fish.",
 		choices: [
-		["Cut the pleasantries. What's your best offer?", "Offended"],
-		["Alright quit yapping. I don't want your salt you keep touching it.", "Offended"],
-		["Let's discuss our potential partnership, honorable Salt Trader.",  "Greeting 3"],
-		["Excuse me, there is something that needs my attention. Farewell.", "end"]],
+		["It usually only costs me 3. However I hear you are good. Could you go down to 5?", "Trade Good"],
+		["Are you insane! That's way to expensive!", "Offended"],
+		["Times are tough so I can't afford it. Would you go any lower?", "Trade bad"],
+		["I'm sorry that is too expensive. I'm not interested.", "Trade bad"]],
 		scr: "do nothing",
 	},
 	{
-		topic : "Greeting 3",
-		main_text: "In the spirit of collaboration, I propose a fair barter. Your goods for my salt. Additionally, if you have raw meat, I can enhance its preservation through the age-old art of salting. What say you, esteemed merchant?",
+		topic : "Trade Bad",
+		main_text: "Tell you what, I want to give you a good deal. So I can do 10 copper per fish. but that's as low as I'll go.",
 		choices: [
-		["Stop touching the salt with your dirty fingers!", "Offended"],
+		["That's still super expensive", "Offended"],
 		["let's discuss a mutually beneficial trade arrangement.", "Trade"],
-		["I would like to salt some meat please.", "Trade"],
-		["Excuse me, I must attend to something urgently. Farewell.", "end"]],
+		["Sorry I still can't afford it", "end"]],
 		scr: function(){
-		
+			//bad prices
+			obj_salt_man.my_prices[? "Salted Fish"] = 100010;
+			obj_salt_man.my_prices[? "Fresh Fish"] = 100000;
 		}
 	},
-	{
-		topic : "Salting",
-		main_text: "",
-		choices: [],
-		scr: function()
 		{
-		//salt the meat here
-		
-		
+		topic : "Trade Good",
+		main_text: "Fine, I can go down to 6 copper per fish but past that and I am cutting my own throat.",
+		choices: [
+		["That is reasonable. Thank you for lowering your price.", "Trade"],
+		["You damned Mumpsimus! I said 5 was as high as I would go!", "Offended"],
+		["That's still too expensive. Sorry I will look elsewhere.", "end"]],
+		scr: function(){
+			//good prices
+			obj_salt_man.my_prices[? "Salted Fish"] = 100006;
+			obj_salt_man.my_prices[? "Fresh Fish"] = 100000;
+
 		}
 	},
 	{
 		topic : "Offended",
-		main_text: "Your disrespect is unwarranted. Our paths diverge.",
-		choices: [["I am sorry, I didn't mean any disrespect.","Leave"],["Ok whatever.","Leave"], ["Wait, don't go I want to trade!","Leave"]],
+		main_text: "That was uncalled for.",
+		choices: [["Sorry, I didn't mean any disrespect.","Leave"],["Ok whatever.","Leave"], ["I think it was pretty called for.","Leave"]],
 		scr: "do nothing"
 	},
 	{
@@ -100,44 +104,24 @@ my_inventory = ds_list_create()
 // Create a DS map to store the trader's item prices
 my_prices = ds_map_create();
 
-scr_init_default_prices(my_prices)
+
 // Define item prices for the trader
-my_prices[? "Tael of Silver"] = 1000;
-my_prices[? "Bundle of silk"] = 20;
+my_prices[? "Salt"] = 1;
+my_prices[? "Copper Coin"] = 1;
+//good prices
+my_prices[? "Salted Fish"] = 100006;
+my_prices[? "Fresh Fish"] = 100000;
+
+//bad prices
+my_prices[? "Salted Fish"] = 100010;
+my_prices[? "Fresh Fish"] = 100000;
 // Add more items and their prices
 
 
-item_data =  [{
-	title : "Salt",
-	desc : "Salt is a great tool for preserving meat.",
-	weight : 1,
-	idn : 1,
-	count : 500,
-	sprite : spr_silver_ingot,
-	scr : function()
-        {
-        }
-},{
-	title : "Bundle of silk",
-	desc : "Beutiful cloth material",
-	weight : 1,
-	count : 1,
-	idn : 2,
-	sprite : spr_copper_coin,
-	scr : function()
-        {
-        }
-},{
-	title : "Fine Gift Robes",
-	desc : "Beautiful silk robes for the high class folks.",
-	weight : 1,
-	count : 1,
-	idn : 3,
-	sprite : spr_copper_coin,
-	scr : function()
-        {
-        }
-}]
+item_data =  [
+scr_create_item("Salted Fish", spr_salted_fish, 1, 600, "Keeps a lot longer with added salt as a preservative."),
+scr_create_item("Fresh Fish", spr_fresh_fish, 1, 5, "Raw fish will spoil on you journey at sea. Add a preservative to keep it longer."),
+]
 
 for (i=0; i<array_length(item_data); i++){
 	scr_add_items(item_data[i], my_inventory)
