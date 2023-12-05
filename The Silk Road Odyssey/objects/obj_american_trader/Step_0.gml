@@ -15,14 +15,14 @@ if hp < max_hp/2{
 }
 
 if (hp < max_hp){
-	relationship = 0
+
 }
 
 if (current_state == ship_states.flee){
 	
 	var ad = angle_difference(angle, point_direction(x,y,obj_ship.x,obj_ship.y))
 		show_debug_message(ad)
-		motion_add(angle, acc)
+		//motion_add(angle, acc)
 	
 }
 
@@ -31,5 +31,5 @@ if (current_state == ship_states.flee){
 if (get_collision_distance(obj_edge_clouds, angle, 200) < 200){
 	angle += turnspeed
 }else{
-	motion_add(angle, acc)	
+	//motion_add(angle, acc)	
 }
