@@ -58,45 +58,45 @@ Through  dialogue and interactions with NPCs, players will have the opportunity 
 - The world of the game can be viewed on the map when travelling between locations. This is a current snapshot of the map, although it will hopefully be expanded and include more locations, like Beijing, and somewhere in Vietnam.
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/f534ad16-c3f9-437c-ae83-e52c34f5c1c6)
 
-#### Locations:
-
-
-
-- **Macao:**
+#### Locations and Settings:
+1. **Macao:**
    - Starting location for players, serving as an entry point into the game world.
    - A bustling trade port with a mix of cultures and opportunities for various quests and activities.
 
-- **Guangzhou (Canton):**
+2.  **Guangzhou (Canton):**
    - A major port city in the game world, central to many historical events.
    - Offers diverse environments, from the bustling harbor to the busy markets, allowing for interactions with key NPCs and factions.
 
-- **Hainan Island - Pirate Base:**
+3.  **Hainan Island - Pirate Base:**
    - The primary base for pirates, home to formidable pirate fleets.
    - Features hidden coves, pirate settlements, and fortresses with valuable loot and challenges.
 
-- **The Gulf of Tonkin:**
+4. **The Gulf of Tonkin:**
    - A vast and treacherous sea area where much of the piracy takes place.
    - Comprising open waters, islands, and is a hotbed for piracy and conflict between pirates and the Qing Navy.
+   - When travelling through these waters you are more likely to encounter formidable pirates or Qing navel vessels.
 
 - **Xiamen (Amoy):**
    - A historical center for pirates and smugglers, known for its black markets and pirate operations.
-   - An area that reflects the constant struggle between pirates, traders, and Qing officials.
+   - An area that reflects the constant struggle between pirates, traders, and Qing officials. This trade hub is China, geographically near Taiwan.
 
 - **Gulf of Tonkin Islands:**
    - A collection of islands that provide strategic points for pirates to plan and execute raids.
-   - Different islands may house hidden treasure, pirate strongholds, and exotic wildlife, presenting unique challenges.
+   - Different islands may house hidden treasure, pirate strongholds, and exotic wildlife, presenting unique challenges and a chance to explore.
 
 - **Pirate Strongholds:**
    - Hidden pirate bases scattered throughout the game world, representing a variety of pirate factions.
-   - Each stronghold has its unique characteristics, ranging from hidden jungle outposts to fortified coastal fortresses.
+   - Each stronghold has its unique characteristics, ranging from hidden jungle outposts to fortified coastal fortresses, many of them were located on islands in the Gulf of Tonkin.
 
 - **Qing Dynasty Outposts:**
    - Coastal installations established by Qing officials to combat piracy.
    - Locations where players can find quests or engage in naval battles against government forces.
+   - Salt trade was sponsored by the Qing government, so you will be able to get sponsorship for the trade of salt.
 
 - **Vietnamese Coast:**
     - A nearby coast with connections to the Tay Son Rebellion and Vietnamese merchants.
     - Offers a different cultural backdrop and potential quests related to regional conflicts and alliances.
+    - Not yet featured in the game.
 
 - **Foreign Trade Ships:**
     - International vessels traveling through the South China Sea, each with its unique characteristics.
