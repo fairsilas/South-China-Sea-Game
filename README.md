@@ -1,5 +1,3 @@
-
-
 # Junks & Riches: An 1800s South China Sea Trading Game
 
 ## About This Document
@@ -8,6 +6,7 @@ The first half of the document goes over the design of the game, and the second 
 
 **A few things to consider when reading this document:**
 1. Many of the locations and mechanics mentioned will not be added within the timeframe, but are guides for development and future development.
+2. The images used are taken from gameplay and all graphics are my own drawings, except for the temporary title screen background which as AI generated.
 3. At the end there will be a development log with a walkthrough of the latest features added.
 
 ### Title Screen
