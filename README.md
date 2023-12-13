@@ -51,8 +51,7 @@ The game is set against the backdrop of the 18th century South China Sea Coast, 
 
 **The Gulf of Tonkin:**
    - The Gulf of Tonkin, a significant geographical feature, had a critical role in the operations of the pirates as a result of the Tay Son rebellion. Situated in the northern part of the South China Sea, it provided a crucial maritime passage connecting the southern coast of China with the northeastern coast of Vietnam where Chinese Pirates who joined the Tay Son rebellion could stop and trade, or get provisions and support from the rebels. This proximity allowed pirates to establish a stronghold in the Gulf of Tonkin, from which they could launch their raids on passing merchant vessels. The Gulf of Tonkin acted as a strategic arena for piracy, with its intricate network of islands, bays, and open waters providing ample opportunities for pirate operations. Hainan island was one of those islands located in the Gulf of Tonkin.
-   - 
-Through  dialogue and interactions with NPCs, players will have the opportunity to immerse themselves in the  historical background of the 18th century South China Sea Coast, learning of the challenges and motivations that shaped the lives of Qing officials, and pirates during this era.
+- Through  dialogue and interactions with NPCs, players will have the opportunity to immerse themselves in the  historical background of the 18th century South China Sea Coast, learning of the challenges and motivations that shaped the lives of Qing officials, and pirates during this era.
 
 ---
 ### Game World
