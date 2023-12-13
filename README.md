@@ -1,3 +1,5 @@
+
+
 # Junks & Riches: An 1800s South China Sea Trading Game
 
 ## About This Document
@@ -347,7 +349,7 @@ This document is also used to establish pricing in the game, and the table was b
  ==Duan, Lei. “Between Social Control and Popular Power: The Circulation of Private Guns and Control Policies during the Mid to Late Qing, 1781-1911.” American Journal of Chinese Studies 24, no. 2 (2017): 121–39. http://www.jstor.org/stable/44759213.==
 
  ---
-** Black-tailed Gull**
+** Saunders's gull**
 
  : This is the type of seagull found in the South China Sea Coasts, according to google.
 ![image](https://github.com/fairsilas/South-China-Sea-Game/assets/78548914/a42f5a0c-7cc0-4031-be40-22fecb8d51f9)
