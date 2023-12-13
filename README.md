@@ -32,7 +32,7 @@ Based what I read in "Pirate Nations: Maritime Pirates as Escape Societies in La
 - In "Junks & Riches," you'll experience the hardship of a working class citizen on China's coasts.
 
 - Choose a character name (This will be used as an ID for saving your score on the leaderboard)
-- 
+  
   [^1]: Most of the lower ranked pirates came from poor backgrounds such as fishermen and Sailors or merchants. Pirates were typically young single men in 20s and rarely over 40. Poverty drove them to commit crimes as a way to survive and escape from the oppressive Qing government. **Antony, Robert J. _The Golden Age of Piracy in China, 1520-1810: A Short History with Documents. 38-39. Lanham, Maryland: Rowman & Littlefield, 2022.**
 
 ## Setting and Background
